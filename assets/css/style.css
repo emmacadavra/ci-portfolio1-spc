@@ -12,11 +12,10 @@ body {
 
 .flex-container {
     display: flex;
+    justify-content: space-between;
 }
 
-.flex-item {
-    
-}
+.flex-item {}
 
 .section {
     height: 100vh;
@@ -49,6 +48,7 @@ header a {
 nav li {
     list-style-type: none;
     display: inline-block;
+    margin: 20px;
 }
 
 #section-one {
