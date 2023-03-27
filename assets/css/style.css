@@ -11,6 +11,7 @@ body {
 
 header {
     font-family: "Playfair Display", serif;
+    background-color: #202020;
 }
 
 #logo {
@@ -27,4 +28,18 @@ nav li {
     display: inline-block;
 }
 
+.section-one {
+    background-color: #505050;
+}
 
+.section-two {
+    background-color: #808080;
+}
+
+.section-three {
+    background-color: #A9A9A9;
+}
+
+footer {
+    background-color: #202020;
+}
