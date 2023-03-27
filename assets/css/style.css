@@ -13,9 +13,10 @@ body {
 
 /* header */
 
-.flex-container {
+.header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-family: "Playfair Display", serif;
     width: 100%;
     height: 70px;
@@ -25,7 +26,7 @@ body {
 
 .flex-item {}
 
-.flex-container a {
+.header a {
     text-decoration: none;
     color: #eee;
 }
