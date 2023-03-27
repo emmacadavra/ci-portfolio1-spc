@@ -10,8 +10,12 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-.container {
+.flex-container {
     display: flex;
+}
+
+.flex-item {
+    
 }
 
 .section {
