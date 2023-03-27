@@ -22,3 +22,9 @@ header {
     font-family: "Playfair Display";
 }
 
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
