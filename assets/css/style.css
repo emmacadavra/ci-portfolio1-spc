@@ -47,7 +47,7 @@ nav li {
 
 .section {
     height: calc(100vh - 63px);
-    width: 100vw;
+    width: 100%;
     position: relative;
 }
 
@@ -72,6 +72,7 @@ nav li {
 
 .section-three {
     background-color: #A9A9A9;
+    height: calc(100vh - 126px);
 }
 
 /* footer */
