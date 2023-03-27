@@ -72,11 +72,12 @@ nav li {
 
 .section-three {
     background-color: #A9A9A9;
-    height: calc(100vh - 126px);
+    height: calc(100vh - 200px);
 }
 
 /* footer */
 
 footer {
     background-color: #202020;
+    height: 137px;
 }
