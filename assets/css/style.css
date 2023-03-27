@@ -62,11 +62,6 @@ nav li {
     font-family: "Playfair Display", serif;
 }
 
-.section {
-    height: 100vh;
-    width: 100vw;
-}
-
 .section-one {
     background-color: #505050;
 }
