@@ -44,6 +44,11 @@ nav li {
     height: 63px;
 }
 
+.section-placeholder {
+    width: 100%;
+    height: 63px;
+    bottom: 0
+}
 
 .section-heading {
     font-family: "Playfair Display", serif;
@@ -54,17 +59,19 @@ nav li {
     width: 100vw;
 }
 
-#section-one {
+.section-one {
     background-color: #505050;
 }
 
-#section-two {
+.section-two {
     background-color: #808080;
 }
 
-#section-three {
+.section-three {
     background-color: #A9A9A9;
 }
+
+/* footer */
 
 footer {
     background-color: #202020;
