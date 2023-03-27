@@ -35,20 +35,18 @@ header a {
 }
 
 #logo {
-    font-family: "Playfair Display", serif;
     font-style: italic;
-    text-decoration: none;
-    color: #eee;
-}
-
-.section-heading {
-    font-family: "Playfair Display", serif;
+    padding: 20px;
 }
 
 nav li {
     list-style-type: none;
     display: inline-block;
-    margin: 20px;
+    padding: 20px;
+}
+
+.section-heading {
+    font-family: "Playfair Display", serif;
 }
 
 #section-one {
