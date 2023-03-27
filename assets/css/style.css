@@ -21,14 +21,21 @@ body {
 
 header {
     font-family: "Playfair Display", serif;
-    background-color: #202020;
     width: 100%;
     position: fixed;
+    background-color: #202020;
+}
+
+header a {
+    text-decoration: none;
+    color: #eee;
 }
 
 #logo {
     font-family: "Playfair Display", serif;
     font-style: italic;
+    text-decoration: none;
+    color: #eee;
 }
 
 .section-heading {
@@ -40,15 +47,15 @@ nav li {
     display: inline-block;
 }
 
-.section-one {
+#section-one {
     background-color: #505050;
 }
 
-.section-two {
+#section-two {
     background-color: #808080;
 }
 
-.section-three {
+#section-three {
     background-color: #A9A9A9;
 }
 
