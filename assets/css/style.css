@@ -10,14 +10,12 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+
+/* header */
+
 .flex-container {
     display: flex;
     justify-content: space-between;
-}
-
-.flex-item {}
-
-header {
     font-family: "Playfair Display", serif;
     width: 100%;
     height: 70px;
@@ -25,7 +23,9 @@ header {
     background-color: #202020;
 }
 
-header a {
+.flex-item {}
+
+.flex-container a {
     text-decoration: none;
     color: #eee;
 }
