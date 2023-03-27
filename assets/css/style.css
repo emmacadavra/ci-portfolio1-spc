@@ -46,7 +46,7 @@ nav li {
 }
 
 .section {
-    height: 100vh;
+    height: calc(100vh - 63px);
     width: 100vw;
     position: relative;
 }
