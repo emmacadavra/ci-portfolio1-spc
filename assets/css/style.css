@@ -29,13 +29,13 @@ body {
 .logo-container {
     height: 200px;
     width: 200px;
-    margin: 10px;
+    margin: 10px 10px 10px 15%;
     border-style: solid 1px;
 }
 
 .logo {
-    height: 100%;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
 }
 
