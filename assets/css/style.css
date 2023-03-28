@@ -43,11 +43,13 @@ nav li {
     list-style-type: none;
     display: inline-block;
     margin: 20px;
+    margin-left: 40px;
 }
 
 nav a {
     text-decoration: none;
     color: #c0aa3c;
+    font-size: 150%;
 }
 
 nav a:hover {
@@ -56,20 +58,20 @@ nav a:hover {
 
 .nav-placeholder {
     width: 100%;
-    height: 63px;
+    height: 220px;
 }
 
 /* Sections */
 
 .section {
-    height: calc(100vh - 63px);
+    height: calc(100vh - 220px);
     width: 100%;
     position: relative;
 }
 
 .section-placeholder {
     width: 100%;
-    height: 63px;
+    height: 220px;
     position: absolute;
     bottom: 0
 }
@@ -94,12 +96,12 @@ nav a:hover {
 
 .section-three {
     background-color: #A9A9A9;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 370px);
 }
 
 /* Footer (with social media links) */
 
 footer {
     background-color: #202020;
-    height: 137px;
+    height: 150px;
 }
