@@ -69,6 +69,7 @@ nav a:hover {
     height: calc(100vh - 220px);
     width: 100%;
     position: relative;
+    display: flex;
 }
 
 .section-placeholder {
@@ -80,6 +81,17 @@ nav a:hover {
 
 .section-heading {
     font-family: "Playfair Display", serif;
+}
+
+.section-image {
+    width: 50%;
+    overflow: hidden;
+}
+
+.section-image img {
+    max-height: 100%;
+    width: auto;
+    /* overflow: hidden; */
 }
 
 /* Section 1 (Home) */
