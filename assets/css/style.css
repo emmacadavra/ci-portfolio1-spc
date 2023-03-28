@@ -11,7 +11,7 @@ body {
 }
 
 
-/* header */
+/* Header (logo & nav bar) */
 
 .header {
     display: flex;
@@ -22,11 +22,6 @@ body {
     width: 100%;
     position: fixed;
     background-color: #202020;
-}
-
-.header a {
-    text-decoration: none;
-    color: #eee;
 }
 
 .logo {
@@ -40,10 +35,21 @@ nav li {
     margin: 20px;
 }
 
+nav a {
+    text-decoration: none;
+    color: #eee;
+}
+
+nav a:hover {
+    color: goldenrod;
+}
+
 .nav-placeholder {
     width: 100%;
     height: 63px;
 }
+
+/* Sections */
 
 .section {
     height: calc(100vh - 63px);
@@ -62,20 +68,26 @@ nav li {
     font-family: "Playfair Display", serif;
 }
 
+/* Section 1 (Home) */
+
 .section-one {
     background-color: #505050;
 }
 
+/* Section 2 (Upcoming Concerts) */
+
 .section-two {
     background-color: #808080;
 }
+
+/* Section 3 (Join the Choir) */
 
 .section-three {
     background-color: #A9A9A9;
     height: calc(100vh - 200px);
 }
 
-/* footer */
+/* Footer (with social media links) */
 
 footer {
     background-color: #202020;
