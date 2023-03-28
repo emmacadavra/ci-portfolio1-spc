@@ -24,9 +24,16 @@ body {
     background-color: #202020;
 }
 
+.logo-container {
+    width: 200px;
+    height: 200px;
+    border-style: solid 1px;
+}
+
 .logo {
-    font-style: italic;
-    margin: 10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
 }
 
 nav li {
