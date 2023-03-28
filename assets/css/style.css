@@ -15,18 +15,21 @@ body {
 
 .header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     z-index: 1;
     font-family: "Playfair Display", serif;
     width: 100%;
     position: fixed;
-    background-color: #202020;
+    background-color: #101010;
+    color: #DAA520;
 }
 
 .logo-container {
-    width: 200px;
     height: 200px;
+    width: 200px;
+    margin: 10px;
     border-style: solid 1px;
 }
 
@@ -44,11 +47,11 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #eee;
+    color: #c0aa3c;
 }
 
 nav a:hover {
-    color: goldenrod;
+    color: #eee;
 }
 
 .nav-placeholder {
