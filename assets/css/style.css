@@ -26,6 +26,12 @@ body {
     color: #ccaf1f;
 }
 
+.site-logo-container {}
+
+.site-logo {
+    margin-left: 10px;
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
