@@ -145,7 +145,10 @@ nav li {
     padding: 10px;
     background-color: rgba(192, 170, 60, 0.75);
     border-radius: 10px;
+}
 
+.signup-form hr {
+    border-top: solid 1px #c0aa3c;
 }
 
 fieldset {
