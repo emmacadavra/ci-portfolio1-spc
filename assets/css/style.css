@@ -111,6 +111,7 @@ nav li {
 .section-three {
     background-color: #202020;
     height: calc(100vh - 250px);
+    justify-content: space-evenly;
 }
 
 .logo-container {
