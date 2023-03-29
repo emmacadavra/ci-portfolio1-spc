@@ -111,13 +111,9 @@ nav li {
     height: calc(100vh - 370px);
 }
 
-fieldset {
-    border: solid 2px #c0aa3c;
-}
-
 .logo-container {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     margin: 10px 10px 10px 15%;
     border-style: solid 1px;
 }
@@ -127,6 +123,12 @@ fieldset {
     height: auto;
     border-radius: 50%;
 }
+
+fieldset {
+    border: solid 2px #c0aa3c;
+}
+
+
 
 /* Footer (with social media links) */
 
