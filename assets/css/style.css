@@ -98,6 +98,10 @@ nav li {
     width: auto;
 }
 
+.section-content {
+    width: 50%;
+}
+
 /* Section 1 (Home) */
 
 .section-one {
