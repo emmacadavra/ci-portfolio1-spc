@@ -26,19 +26,6 @@ body {
     color: #ccaf1f;
 }
 
-.logo-container {
-    height: 200px;
-    width: 200px;
-    margin: 10px 10px 10px 15%;
-    border-style: solid 1px;
-}
-
-.logo {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-}
-
 nav ul {
     display: flex;
     list-style-type: none;
@@ -114,6 +101,19 @@ nav a:hover {
 
 fieldset {
     border: solid 2px #c0aa3c;
+}
+
+.logo-container {
+    height: 200px;
+    width: 200px;
+    margin: 10px 10px 10px 15%;
+    border-style: solid 1px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
 }
 
 /* Footer (with social media links) */
