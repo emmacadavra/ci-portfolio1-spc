@@ -84,9 +84,9 @@ nav li {
     bottom: 0;
 }
 
-.section-heading {
+/* .section-heading {
     font-family: "Playfair Display", serif;
-}
+} */
 
 .section-image {
     width: 50%;
@@ -140,8 +140,7 @@ nav li {
 }
 
 .signup-form {
-    width: 50%;
-    margin: 10px;
+    width: 33%;
     padding: 10px;
     background-color: rgba(192, 170, 60, 0.75);
     border-radius: 10px;
