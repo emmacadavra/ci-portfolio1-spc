@@ -9,6 +9,7 @@
 body {
     font-family: "Lato", sans-serif;
     color: #101010;
+    font-weight: 700;
 }
 
 
@@ -163,6 +164,11 @@ fieldset {
 .voicepart {
     width: 120px;
     display: inline-block;
+}
+
+.if-unsure {
+    font-weight: bold;
+    font-style: italic;
 }
 
 .submit {
