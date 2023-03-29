@@ -112,6 +112,10 @@ nav a:hover {
     height: calc(100vh - 370px);
 }
 
+fieldset {
+    border: solid 2px #c0aa3c;
+}
+
 /* Footer (with social media links) */
 
 footer {
