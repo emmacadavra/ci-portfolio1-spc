@@ -159,4 +159,11 @@ fieldset {
 footer {
     background-color: #101010;
     height: 150px;
+    color: #c0aa3c;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
 }
