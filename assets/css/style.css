@@ -108,7 +108,7 @@ nav a:hover {
 /* Section 3 (Join the Choir) */
 
 .section-three {
-    background-color: #A9A9A9;
+    background-color: #202020;
     height: calc(100vh - 370px);
 }
 
@@ -119,6 +119,6 @@ fieldset {
 /* Footer (with social media links) */
 
 footer {
-    background-color: #202020;
+    background-color: #101010;
     height: 150px;
 }
