@@ -104,6 +104,7 @@ nav li {
 
 .section-two {
     background-color: #808080;
+    flex-direction: row-reverse;
 }
 
 /* Section 3 (Join the Choir) */
