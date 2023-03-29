@@ -25,12 +25,12 @@ body {
     height: 100px;
     position: fixed;
     background-color: #101010;
-    color: #ccaf1f;
+    color: #c0aa3c;
 }
 
 .site-logo-container {
     margin: 1%;
-    width: 33%;
+    width: 40%;
 }
 
 .site-logo {
