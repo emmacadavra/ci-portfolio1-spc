@@ -26,10 +26,13 @@ body {
     color: #ccaf1f;
 }
 
-.site-logo-container {}
+.site-logo-container {
+    margin-left: 10px;
+}
 
 .site-logo {
-    margin-left: 10px;
+    max-width: 100%;
+    height: auto;
 }
 
 nav ul {
