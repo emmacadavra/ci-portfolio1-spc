@@ -157,6 +157,7 @@ nav li {
 
 fieldset {
     border: solid 1px #202020;
+    padding: 10px;
 }
 
 .voicepart {
