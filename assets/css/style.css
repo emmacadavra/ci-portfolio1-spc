@@ -100,18 +100,20 @@ nav li {
 
 .section-content {
     width: 50%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 /* Section 1 (Home) */
 
 .section-one {
-    background-color: #505050;
+    background-color: antiquewhite;
 }
 
 /* Section 2 (Upcoming Concerts) */
 
 .section-two {
-    background-color: #808080;
+    background-color: antiquewhite;
     flex-direction: row-reverse;
 }
 
