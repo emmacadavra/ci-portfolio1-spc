@@ -98,18 +98,24 @@
                         <legend>
                             <h4>Your Details</h4>
                         </legend>
-                        <label for="firstname">First Name:</label>
-                        <input id="firstname" type="text" name="first-name" required>
-                        <label for="lastname">Last Name:</label>
-                        <input id="lastname" type="text" name="last-name" required>
-                        <label for="email">Email Address:</label>
-                        <input id="email" type="email" name="email-address" required>
+                        <div>
+                            <label for="firstname" class="form-label">First Name:</label>
+                            <input id="firstname" type="text" name="first-name" required>
+                        </div>
+                        <div>
+                            <label for="lastname" class="form-label">Last Name:</label>
+                            <input id="lastname" type="text" name="last-name" required>
+                        </div>
+                        <div>
+                            <label for="email" class="form-label">Email Address:</label>
+                            <input id="email" type="email" name="email-address" required>
+                        </div>
                     </fieldset>
                     <fieldset>
                         <legend>
                             <h4>Your Voice*</h4>
                         </legend>
-                        <p>Soprano</p>
+                        <p class="form-label">Soprano</p>
                         <div class="voicepart">
                             <input id="firstsop" type="radio" name="voice-part" value="first-soprano" required>
                             <label for="firstsop">1st Soprano</label>
@@ -118,7 +124,7 @@
                             <input id="secondsop" type="radio" name="voice-part" value="second-soprano">
                             <label for="secondsop">2nd Soprano</label>
                         </div>
-                        <p>Alto</p>
+                        <p class="form-label">Alto</p>
                         <div class="voicepart">
                             <input id="firstalto" type="radio" name="voice-part" value="first-alto">
                             <label for="firstalto">1st Alto</label>
@@ -127,7 +133,7 @@
                             <input id="secondalto" type="radio" name="voice-part" value="second-alto">
                             <label for="secondalto">2nd Alto</label>
                         </div>
-                        <p>Tenor</p>
+                        <p class="form-label">Tenor</p>
                         <div class="voicepart">
                             <input id="firsttenor" type="radio" name="voice-part" value="first-tenor">
                             <label for="firsttenor">1st Tenor</label>
@@ -136,7 +142,7 @@
                             <input id="secondtenor" type="radio" name="voice-part" value="second-tenor">
                             <label for="secondtenor">2nd Tenor</label>
                         </div>
-                        <p>Bass</p>
+                        <p class="form-label">Bass</p>
                         <div class="voicepart">
                             <input id="firstbass" type="radio" name="voice-part" value="first-bass">
                             <label for="firstbass">1st Bass</label>
