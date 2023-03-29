@@ -152,6 +152,10 @@ fieldset {
     border: solid 2px #c0aa3c;
 }
 
+.voicepart {
+    width: 120px;
+    display: inline-block;
+}
 
 
 /* Footer (with social media links) */
