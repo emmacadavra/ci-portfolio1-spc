@@ -151,6 +151,10 @@ nav li {
     border-top: solid 1px #c0aa3c;
 }
 
+.form-label {
+    font-weight: bold;
+}
+
 fieldset {
     border: solid 2px #c0aa3c;
 }
