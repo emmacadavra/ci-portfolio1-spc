@@ -16,6 +16,7 @@ body {
 .header {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     z-index: 1;
@@ -40,9 +41,9 @@ body {
     list-style-type: none;
 }
 
-/* nav li {
+nav li {
     margin: 20px;
-} */
+}
 
 .navbar a {
     text-decoration: none;
