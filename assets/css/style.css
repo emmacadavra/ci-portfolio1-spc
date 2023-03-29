@@ -38,11 +38,13 @@ body {
 
 .navbar ul {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     list-style-type: none;
 }
 
 nav li {
-    margin: 20px;
+    margin-left: 20px;
 }
 
 .navbar a {
