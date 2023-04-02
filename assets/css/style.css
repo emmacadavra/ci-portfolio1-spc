@@ -201,6 +201,7 @@ footer ul {
 
     .section {
         flex-direction: column;
+        scroll-margin-top: 50px;
     }
 
     .section-image {
