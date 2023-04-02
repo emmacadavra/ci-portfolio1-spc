@@ -46,7 +46,6 @@
     <!--Section 1 (Home)-->
 
     <section class="section section-one">
-        <!-- <div class="section section-one"> -->
         <div class="section-image">
             <img src="assets/images/choir-orchestra-church.jpg" alt="The Sheffield Philharmonic Chorus">
         </div>
@@ -54,109 +53,104 @@
             <h2 class="section-heading">The Sheffield Philharmonic Chorus</h2>
             <p>[General text about the SPC goes here]</p>
         </div>
-        <!-- </div> -->
     </section>
 
     <!--Section 2 (Upcoming Concerts)-->
 
-    <section>
-        <div id="upcoming-concerts" class="section section-two">
-            <div class="section-image">
-                <img src="assets/images/church-concert-laser.jpg"
-                    alt="The Chorus' Christmas concert at Sheffield City Hall">
-            </div>
-            <div class="section-content">
-                <h2 class="section-heading">Upcoming Concerts</h2>
-                <p>[General info about upcoming concerts goes here]</p>
-            </div>
+    <section id="upcoming-concerts" class="section section-two">
+        <div class="section-image">
+            <img src="assets/images/church-concert-laser.jpg"
+                alt="The Chorus' Christmas concert at Sheffield City Hall">
+        </div>
+        <div class="section-content">
+            <h2 class="section-heading">Upcoming Concerts</h2>
+            <p>[General info about upcoming concerts goes here]</p>
         </div>
     </section>
 
     <!--Section 3 (Join the Choir)-->
 
-    <section>
-        <div id="join-us" class="section section-three">
-            <div class="logo-container">
-                <img class="logo" src="assets/images/spc-logo.jpg" alt="Sheffield Philharmonic Chorus Logo">
-            </div>
-            <div class="signup-form">
-                <div class="signup-info">
-                    <h2 class="section-heading">Sing With Us!</h2>
-                    <br>
-                    <p>[information on sign-up will go in here]</p>
-                    <br>
-                    <hr>
-                </div>
-                <h3>Sign Up Form</h3>
+    <section id="join-us" class="section section-three">
+        <div class="logo-container">
+            <img class="logo" src="assets/images/spc-logo.jpg" alt="Sheffield Philharmonic Chorus Logo">
+        </div>
+        <div class="signup-form">
+            <div class="signup-info">
+                <h2 class="section-heading">Sing With Us!</h2>
                 <br>
-                <form method="post" action="/form-submission.html">
-                    <fieldset>
-                        <legend>
-                            <h4>Your Details</h4>
-                        </legend>
-                        <div>
-                            <label for="firstname" class="form-label">First Name:</label>
-                            <input id="firstname" type="text" name="first-name" required>
-                        </div>
-                        <div>
-                            <label for="lastname" class="form-label">Last Name:</label>
-                            <input id="lastname" type="text" name="last-name" required>
-                        </div>
-                        <div>
-                            <label for="email" class="form-label">Email Address:</label>
-                            <input id="email" type="email" name="email-address" required>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>
-                            <h4>Your Voice*</h4>
-                        </legend>
-                        <p class="form-label">Soprano</p>
-                        <div class="voicepart">
-                            <input id="firstsop" type="radio" name="voice-part" value="first-soprano" required>
-                            <label for="firstsop">1st Soprano</label>
-                        </div>
-                        <div class="voicepart">
-                            <input id="secondsop" type="radio" name="voice-part" value="second-soprano">
-                            <label for="secondsop">2nd Soprano</label>
-                        </div>
-                        <p class="form-label">Alto</p>
-                        <div class="voicepart">
-                            <input id="firstalto" type="radio" name="voice-part" value="first-alto">
-                            <label for="firstalto">1st Alto</label>
-                        </div>
-                        <div class="voicepart">
-                            <input id="secondalto" type="radio" name="voice-part" value="second-alto">
-                            <label for="secondalto">2nd Alto</label>
-                        </div>
-                        <p class="form-label">Tenor</p>
-                        <div class="voicepart">
-                            <input id="firsttenor" type="radio" name="voice-part" value="first-tenor">
-                            <label for="firsttenor">1st Tenor</label>
-                        </div>
-                        <div class="voicepart">
-                            <input id="secondtenor" type="radio" name="voice-part" value="second-tenor">
-                            <label for="secondtenor">2nd Tenor</label>
-                        </div>
-                        <p class="form-label">Bass</p>
-                        <div class="voicepart">
-                            <input id="firstbass" type="radio" name="voice-part" value="first-bass">
-                            <label for="firstbass">1st Bass</label>
-                        </div>
-                        <div class="voicepart">
-                            <input id="secondbass" type="radio" name="voice-part" value="second-bass">
-                            <label for="secondbass">2nd Bass</label>
-                        </div>
-                        <br>
-                        <p class="if-unsure">*If you are unsure of your exact voice part, don't worry, just select the
-                            one you feel is
-                            most
-                            accurate for now. Our talented vocal coach holds sessions with all new members to help them
-                            determine the right part for their range!</p>
-                    </fieldset>
-                    <input class="submit" type="submit" value="Join Us!">
-                </form>
+                <p>[information on sign-up will go in here]</p>
+                <br>
+                <hr>
             </div>
+            <h3>Sign Up Form</h3>
+            <br>
+            <form method="post" action="/form-submission.html">
+                <fieldset>
+                    <legend>
+                        <h4>Your Details</h4>
+                    </legend>
+                    <div>
+                        <label for="firstname" class="form-label">First Name:</label>
+                        <input id="firstname" type="text" name="first-name" required>
+                    </div>
+                    <div>
+                        <label for="lastname" class="form-label">Last Name:</label>
+                        <input id="lastname" type="text" name="last-name" required>
+                    </div>
+                    <div>
+                        <label for="email" class="form-label">Email Address:</label>
+                        <input id="email" type="email" name="email-address" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <h4>Your Voice*</h4>
+                    </legend>
+                    <p class="form-label">Soprano</p>
+                    <div class="voicepart">
+                        <input id="firstsop" type="radio" name="voice-part" value="first-soprano" required>
+                        <label for="firstsop">1st Soprano</label>
+                    </div>
+                    <div class="voicepart">
+                        <input id="secondsop" type="radio" name="voice-part" value="second-soprano">
+                        <label for="secondsop">2nd Soprano</label>
+                    </div>
+                    <p class="form-label">Alto</p>
+                    <div class="voicepart">
+                        <input id="firstalto" type="radio" name="voice-part" value="first-alto">
+                        <label for="firstalto">1st Alto</label>
+                    </div>
+                    <div class="voicepart">
+                        <input id="secondalto" type="radio" name="voice-part" value="second-alto">
+                        <label for="secondalto">2nd Alto</label>
+                    </div>
+                    <p class="form-label">Tenor</p>
+                    <div class="voicepart">
+                        <input id="firsttenor" type="radio" name="voice-part" value="first-tenor">
+                        <label for="firsttenor">1st Tenor</label>
+                    </div>
+                    <div class="voicepart">
+                        <input id="secondtenor" type="radio" name="voice-part" value="second-tenor">
+                        <label for="secondtenor">2nd Tenor</label>
+                    </div>
+                    <p class="form-label">Bass</p>
+                    <div class="voicepart">
+                        <input id="firstbass" type="radio" name="voice-part" value="first-bass">
+                        <label for="firstbass">1st Bass</label>
+                    </div>
+                    <div class="voicepart">
+                        <input id="secondbass" type="radio" name="voice-part" value="second-bass">
+                        <label for="secondbass">2nd Bass</label>
+                    </div>
+                    <br>
+                    <p class="if-unsure">*If you are unsure of your exact voice part, don't worry, just select the
+                        one you feel is
+                        most
+                        accurate for now. Our talented vocal coach holds sessions with all new members to help them
+                        determine the right part for their range!</p>
+                </fieldset>
+                <input class="submit" type="submit" value="Join Us!">
+            </form>
         </div>
     </section>
 
