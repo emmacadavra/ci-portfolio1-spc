@@ -190,3 +190,13 @@ footer ul {
 }
 
 /* Media Queries */
+
+@media screen and (min-width: 320px) {
+
+    .header {
+        width: 100%;
+        height: 50px;
+        font-size: 6px;
+    }
+
+}
