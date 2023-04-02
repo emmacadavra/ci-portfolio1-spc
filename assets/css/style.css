@@ -213,3 +213,7 @@ footer ul {
         height: auto;
         object-fit: cover;
     }
+
+    .section-one {
+        padding-top: 50px;
+    }
