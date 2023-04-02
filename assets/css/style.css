@@ -200,7 +200,7 @@ footer ul {
     }
 
     .section {
-        flex-direction: column;
+        flex-direction: column-reverse;
         scroll-margin-top: 50px;
         height: fit-content;
     }
@@ -220,10 +220,6 @@ footer ul {
         padding-top: 50px;
     }
 
-    .section-three {
-        flex-direction: column-reverse;
-    }
-
     .signup-form {
         width: 90%;
         margin-top: 10px;
@@ -233,3 +229,5 @@ footer ul {
         height: 300px;
         width: 300px;
     }
+
+}
