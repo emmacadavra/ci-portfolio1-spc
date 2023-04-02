@@ -205,6 +205,10 @@ footer ul {
         height: fit-content;
     }
 
+    .section-content {
+        padding: 10px;
+    }
+
     .section-image {
         width: 100%;
         overflow: hidden;
