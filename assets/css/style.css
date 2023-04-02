@@ -203,4 +203,13 @@ footer ul {
         flex-direction: column;
     }
 
-}
+    .section-image {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .section-image img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
