@@ -218,3 +218,7 @@ footer ul {
     .section-one {
         padding-top: 50px;
     }
+
+    .section-three {
+        flex-direction: column-reverse;
+    }
