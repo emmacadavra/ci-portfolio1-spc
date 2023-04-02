@@ -199,4 +199,8 @@ footer ul {
         font-size: 6px;
     }
 
+    .section {
+        flex-direction: column;
+    }
+
 }
