@@ -226,5 +226,10 @@ footer ul {
 
     .signup-form {
         width: 90%;
+        margin-top: 10px;
+    }
 
+    .logo-container {
+        height: 300px;
+        width: 300px;
     }
