@@ -21,7 +21,6 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 1;
-    font-family: "Playfair Display", serif;
     width: 100%;
     height: 100px;
     position: fixed;
@@ -31,13 +30,19 @@ body {
 
 .header h1 {
     font-size: 300%;
+    font-family: "Playfair Display", serif;
 }
 
-/* .navbar ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-} */
+.menu a {
+    text-decoration: none;
+    color: #c0aa3c;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    color: antiquewhite;
+}
 
 /* burger menu CSS start */
 
@@ -72,7 +77,7 @@ body {
 .menu-button::before,
 .menu-button::after {
     display: block;
-    background-color: #fff;
+    background-color: #c0aa3c;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -105,21 +110,6 @@ body {
 }
 
 /* hambuger menu CSS end */
-
-nav li {
-    margin-left: 20px;
-    margin-right: 30px;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: #c0aa3c;
-    font-size: 150%;
-}
-
-.navbar a:hover {
-    color: antiquewhite;
-}
 
 /* Sections */
 
@@ -251,6 +241,7 @@ footer ul {
 /* hamburger menu media query start */
 
 @media (max-width: 700px) {
+
     .menu-button-container {
         display: flex;
     }
@@ -287,7 +278,7 @@ footer ul {
         margin: 0;
         padding: 0.5em 0;
         width: 100%;
-        color: white;
+        color: #c0aa3c;
         background-color: #222;
     }
 
@@ -304,6 +295,11 @@ footer ul {
         width: 100%;
         height: 50px;
         font-size: 6px;
+    }
+
+    .menu li {
+        font-size: 200%;
+        text-transform: uppercase;
     }
 
     .section {
