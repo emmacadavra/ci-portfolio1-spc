@@ -110,11 +110,8 @@ body {
 /* Sections */
 
 .section {
-    height: calc(100vh - 100px);
-    width: 100%;
     position: relative;
     display: flex;
-    scroll-margin-top: 100px;
 }
 
 .section-heading {
@@ -377,6 +374,8 @@ footer ul {
 
     .section {
         flex-direction: row;
+        height: calc(100vh - 75px);
+        width: 100%;
     }
 
     .section-two {
