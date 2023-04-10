@@ -420,4 +420,9 @@ footer ul {
     .section {
         height: calc(100vh - 100px);
     }
+
+    .section-three {
+        height: calc(100vh - 200px);
+    }
+
 }
