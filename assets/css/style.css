@@ -120,7 +120,6 @@ body {
 .section {
     position: relative;
     display: flex;
-    background-color: antiquewhite;
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -131,6 +130,7 @@ body {
 
 .section-content {
     text-align: center;
+    background-color: antiquewhite;
     margin: 0 auto;
 }
 
@@ -223,6 +223,12 @@ footer {
     font-size: 300%;
 }
 
+/* Form Submission Page */
+
+.form-submit {
+    background-color: #333;
+}
+
 /* Media Queries */
 
 /* hamburger menu media query start */
@@ -307,7 +313,8 @@ footer {
         object-fit: cover;
     }
 
-    .section-one {
+    .section-one,
+    .form-submit {
         padding-top: 50px;
     }
 
@@ -347,7 +354,8 @@ footer {
         scroll-margin-top: 75px;
     }
 
-    .section-one {
+    .section-one,
+    .form-submit {
         padding-top: 75px;
     }
 
@@ -444,7 +452,8 @@ footer {
         scroll-margin-top: 100px;
     }
 
-    .section-one {
+    .section-one,
+    .form-submit {
         padding-top: 100px;
     }
 
