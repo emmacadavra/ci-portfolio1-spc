@@ -28,7 +28,7 @@ body {
     font-family: "Playfair Display", serif;
 }
 
-.header-footer {
+.header-inner {
     max-width: 1920px;
     margin: 0 auto;
     padding: 10px;
@@ -38,7 +38,7 @@ body {
     align-items: center;
 }
 
-.header-footer a {
+.header-inner a {
     text-decoration: none;
     color: #c0aa3c;
 }
@@ -211,9 +211,12 @@ footer {
     text-align: center;
 }
 
-footer ul {
+.footer-inner {
     list-style-type: none;
+    text-decoration: none;
     height: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
