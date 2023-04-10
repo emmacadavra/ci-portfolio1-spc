@@ -175,6 +175,7 @@ fieldset {
 .if-unsure {
     font-weight: bold;
     font-style: italic;
+    line-height: 25px;
 }
 
 .submit {
