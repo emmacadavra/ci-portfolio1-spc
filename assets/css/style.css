@@ -112,48 +112,20 @@ body {
 .section {
     position: relative;
     display: flex;
+    background-color: antiquewhite;
 }
 
 .section-heading {
     font-family: "Playfair Display", serif;
 }
 
-.section-image {
-    width: 50%;
-    overflow: hidden;
-}
-
-.section-image img {
-    max-height: 100%;
-    width: auto;
-    object-fit: cover;
-}
-
 .section-content {
-    width: 50%;
     text-align: center;
     margin: 0 auto;
 }
 
-/* Section 1 (Home) */
-
-.section-one {
-    background-color: antiquewhite;
-    padding-top: 100px;
-}
-
-/* Section 2 (Upcoming Concerts) */
-
-.section-two {
-    background-color: antiquewhite;
-    flex-direction: row-reverse;
-}
-
-/* Section 3 (Join the Choir) */
-
 .section-three {
     background: url('../images/sheet-music-book.jpg') no-repeat center center;
-    height: calc(100vh - 200px);
     justify-content: space-evenly;
     align-items: center;
 }
@@ -378,8 +350,23 @@ footer ul {
         width: 100%;
     }
 
+    .section-image {
+        width: 50%;
+        overflow: hidden;
+    }
+
+    .section-image img {
+        height: 100%;
+        width: auto;
+        object-fit: cover;
+    }
+
     .section-two {
         flex-direction: row-reverse;
+    }
+
+    .section-three {
+        height: calc(100vh - 175px);
     }
 
 }
