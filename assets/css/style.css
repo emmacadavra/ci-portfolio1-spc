@@ -416,4 +416,8 @@ footer ul {
     .header h1 {
         font-size: 200%;
     }
+
+    .section {
+        height: calc(100vh - 100px);
+    }
 }
