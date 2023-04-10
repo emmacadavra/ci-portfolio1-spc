@@ -31,8 +31,11 @@ body {
     font-family: "Playfair Display", serif;
 }
 
-.header a,
-footer a {
+.header-footer {
+    max-width: 1920px;
+}
+
+.header-footer a {
     text-decoration: none;
     color: #c0aa3c;
 }
