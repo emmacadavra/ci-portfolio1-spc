@@ -191,6 +191,11 @@ body {
     border-top: solid 1px #c0aa3c;
 }
 
+form {
+    max-width: 430px;
+    margin: 0 auto;
+}
+
 .form-label {
     font-weight: 900;
 }
