@@ -298,7 +298,7 @@ footer ul {
 
     .header {
         height: 50px;
-        font-size: 6px;
+        font-size: 60%;
     }
 
     .menu li {
@@ -339,6 +339,14 @@ footer ul {
     .logo-container {
         height: 300px;
         width: 300px;
+    }
+
+}
+
+@media screen and (min-width: 375px) {
+
+    .header {
+        font-size: 75%;
     }
 
 }
