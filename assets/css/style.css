@@ -378,14 +378,20 @@ footer ul {
         max-width: fit-content;
     }
 
+    fieldset {
+        height: 250px;
+    }
+
     .fieldset-container {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
     }
 
     .form-fieldset {
         max-width: 33%;
-        height: 100%;
     }
+
+    .if-unsure {}
 
 }
