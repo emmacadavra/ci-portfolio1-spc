@@ -228,11 +228,15 @@ footer {
 
 .form-submit {
     background-color: #333;
+    background: url('../images/sheet-music-book.jpg') no-repeat center center;
 }
 
 .thanks-signup {
     background-color: #101010;
     color: #c0aa3c;
+    margin: 10%;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 /* Media Queries */
@@ -338,6 +342,8 @@ footer {
         height: 300px;
         width: 300px;
     }
+
+
 
 }
 
