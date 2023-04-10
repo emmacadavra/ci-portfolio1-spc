@@ -142,6 +142,8 @@ body {
     border-radius: 50%;
 }
 
+/* Form */
+
 .signup-form {
     max-width: 450px;
     padding: 10px;
@@ -362,6 +364,11 @@ footer ul {
 
     .section-three {
         height: calc(100vh - 175px);
+    }
+
+    .signup-form {
+        width: 50%;
+        max-height: 90%;
     }
 
 }
