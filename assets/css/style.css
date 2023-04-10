@@ -375,6 +375,11 @@ footer ul {
         height: calc(100vh - 175px);
     }
 
+    .logo-container {
+        height: 400px;
+        width: 400px;
+    }
+
     .signup-form {
         min-width: 720px;
         max-width: 50%;
