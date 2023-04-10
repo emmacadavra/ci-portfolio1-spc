@@ -343,7 +343,9 @@ footer {
         width: 300px;
     }
 
-
+    .form-submit {
+        height: calc(100vh - 150px);
+    }
 
 }
 
@@ -377,6 +379,10 @@ footer {
 
     .signup-form {
         margin: 10px;
+    }
+
+    .form-submit {
+        height: calc(100vh - 175px);
     }
 
 }
