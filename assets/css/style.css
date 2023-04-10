@@ -117,7 +117,8 @@ body {
 
 /* Sections */
 
-.section {
+.section,
+.form-submit {
     position: relative;
     display: flex;
     max-width: 1920px;
@@ -227,6 +228,11 @@ footer {
 
 .form-submit {
     background-color: #333;
+}
+
+.thanks-signup {
+    background-color: #101010;
+    color: #c0aa3c;
 }
 
 /* Media Queries */
@@ -396,7 +402,8 @@ footer {
         flex-direction: row-reverse;
     }
 
-    .section-three {
+    .section-three,
+    .form-submit {
         height: calc(100vh - 175px);
     }
 
@@ -457,7 +464,8 @@ footer {
         padding-top: 100px;
     }
 
-    .section-three {
+    .section-three,
+    .form-submit {
         height: calc(100vh - 200px);
     }
 
