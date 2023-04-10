@@ -36,11 +36,6 @@ body {
     color: #c0aa3c;
 }
 
-.menu a {
-    font-size: 150%;
-    text-transform: uppercase;
-}
-
 .menu a:hover {
     color: antiquewhite;
 }
@@ -122,9 +117,9 @@ body {
     scroll-margin-top: 100px;
 }
 
-/* .section-heading {
+.section-heading {
     font-family: "Playfair Display", serif;
-} */
+}
 
 .section-image {
     width: 50%;
@@ -205,7 +200,6 @@ fieldset {
 }
 
 .voicepart {
-    /* width: 120px; */
     display: inline-block;
 }
 
@@ -245,7 +239,7 @@ footer ul {
 
 /* hamburger menu media query start */
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
 
     .menu-button-container {
         display: flex;
@@ -298,7 +292,10 @@ footer ul {
 
     .header {
         height: 50px;
-        font-size: 60%;
+    }
+
+    .header h1 {
+        font-size: 125%;
     }
 
     .section {
@@ -340,8 +337,8 @@ footer ul {
 
 @media screen and (min-width: 375px) {
 
-    .header {
-        font-size: 75%;
+    .header h1 {
+        font-size: 150%;
     }
 
 }
@@ -350,8 +347,12 @@ footer ul {
 
     .header {
         height: 75px;
-        /* font-size: 6px; */
     }
+
+    .header h1 {
+        font-size: 200%;
+    }
+
 
     .section {
         scroll-margin-top: 75px;
