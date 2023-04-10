@@ -375,4 +375,12 @@ footer ul {
         font-size: 175%;
     }
 
+    .section {
+        flex-direction: row;
+    }
+
+    .section-two {
+        flex-direction: row-reverse;
+    }
+
 }
