@@ -361,7 +361,11 @@ footer ul {
     }
 
     .signup-form {
-        width: 75%;
+        width: 50%;
+    }
+
+    .section-three {
+        flex-direction: row;
     }
 
 }
