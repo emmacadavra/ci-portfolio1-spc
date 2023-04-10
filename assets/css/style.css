@@ -301,11 +301,6 @@ footer ul {
         font-size: 60%;
     }
 
-    .menu li {
-        font-size: 200%;
-        text-transform: uppercase;
-    }
-
     .section {
         flex-direction: column-reverse;
         scroll-margin-top: 50px;
