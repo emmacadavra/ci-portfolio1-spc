@@ -220,6 +220,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 300%;
 }
 
 /* Media Queries */
