@@ -422,6 +422,10 @@ footer ul {
         scroll-margin-top: 100px;
     }
 
+    .section-one {
+        padding-top: 100px;
+    }
+
     .section-three {
         height: calc(100vh - 200px);
     }
