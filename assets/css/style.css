@@ -202,7 +202,7 @@ fieldset {
 }
 
 .voicepart {
-    width: 120px;
+    /* width: 120px; */
     display: inline-block;
 }
 
@@ -356,7 +356,7 @@ footer ul {
     }
 
     .signup-form {
-        width: 90%;
+        width: 75%;
     }
 
 }
