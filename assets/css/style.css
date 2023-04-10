@@ -145,7 +145,6 @@ body {
 /* Form */
 
 .signup-form {
-    max-width: 450px;
     padding: 10px;
     background-color: rgba(192, 170, 60, 0.75);
     border-radius: 10px;
@@ -156,7 +155,6 @@ body {
 }
 
 form {
-    max-width: 430px;
     margin: 0 auto;
 }
 
@@ -296,7 +294,12 @@ footer ul {
 
     .signup-form {
         width: 90%;
+        max-width: 450px;
         margin-top: 10px;
+    }
+
+    form {
+        max-width: 430px;
     }
 
     .logo-container {
@@ -367,8 +370,22 @@ footer ul {
     }
 
     .signup-form {
-        width: 50%;
+        max-width: 60%;
         max-height: 90%;
+    }
+
+    form {
+        max-width: fit-content;
+    }
+
+    .fieldset-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .form-fieldset {
+        max-width: 33%;
+        height: 100%;
     }
 
 }

@@ -86,74 +86,79 @@
             <h3>Sign Up Form</h3>
             <br>
             <form action="form-submission.html">
-                <fieldset>
-                    <legend>
-                        <h4>Your Details</h4>
-                    </legend>
-                    <div>
-                        <label for="firstname" class="form-label">First Name:</label>
-                        <br>
-                        <input id="firstname" type="text" name="first-name" required>
+                <div class="fieldset-container">
+                    <div class="form-fieldset">
+                        <fieldset>
+                            <legend>
+                                <h4>Your Details</h4>
+                            </legend>
+                            <div>
+                                <label for="firstname" class="form-label">First Name:</label>
+                                <br>
+                                <input id="firstname" type="text" name="first-name" required>
+                            </div>
+                            <div>
+                                <label for="lastname" class="form-label">Last Name:</label>
+                                <br>
+                                <input id="lastname" type="text" name="last-name" required>
+                            </div>
+                            <div>
+                                <label for="email" class="form-label">Email Address:</label>
+                                <br>
+                                <input id="email" type="email" name="email-address" required>
+                            </div>
+                        </fieldset>
                     </div>
-                    <div>
-                        <label for="lastname" class="form-label">Last Name:</label>
-                        <br>
-                        <input id="lastname" type="text" name="last-name" required>
+                    <div class="form-fieldset">
+                        <fieldset>
+                            <legend>
+                                <h4>Your Voice*</h4>
+                            </legend>
+                            <p class="form-label">Soprano</p>
+                            <div class="voicepart">
+                                <input id="firstsop" type="radio" name="voice-part" value="first-soprano" required>
+                                <label for="firstsop">1st Soprano</label>
+                            </div>
+                            <div class="voicepart">
+                                <input id="secondsop" type="radio" name="voice-part" value="second-soprano">
+                                <label for="secondsop">2nd Soprano</label>
+                            </div>
+                            <p class="form-label">Alto</p>
+                            <div class="voicepart">
+                                <input id="firstalto" type="radio" name="voice-part" value="first-alto">
+                                <label for="firstalto">1st Alto</label>
+                            </div>
+                            <div class="voicepart">
+                                <input id="secondalto" type="radio" name="voice-part" value="second-alto">
+                                <label for="secondalto">2nd Alto</label>
+                            </div>
+                            <p class="form-label">Tenor</p>
+                            <div class="voicepart">
+                                <input id="firsttenor" type="radio" name="voice-part" value="first-tenor">
+                                <label for="firsttenor">1st Tenor</label>
+                            </div>
+                            <div class="voicepart">
+                                <input id="secondtenor" type="radio" name="voice-part" value="second-tenor">
+                                <label for="secondtenor">2nd Tenor</label>
+                            </div>
+                            <p class="form-label">Bass</p>
+                            <div class="voicepart">
+                                <input id="firstbass" type="radio" name="voice-part" value="first-bass">
+                                <label for="firstbass">1st Bass</label>
+                            </div>
+                            <div class="voicepart">
+                                <input id="secondbass" type="radio" name="voice-part" value="second-bass">
+                                <label for="secondbass">2nd Bass</label>
+                            </div>
+                        </fieldset>
                     </div>
-                    <div>
-                        <label for="email" class="form-label">Email Address:</label>
-                        <br>
-                        <input id="email" type="email" name="email-address" required>
+                    <div class="form-fieldset">
+                        <p class="if-unsure">*If you are unsure of your exact voice part, don't worry, just select
+                            the one you feel is most accurate for now. Our talented vocal coach holds sessions with all
+                            new members to help
+                            them determine the right part for their range!</p>
                     </div>
-                </fieldset>
-                <fieldset>
-                    <legend>
-                        <h4>Your Voice*</h4>
-                    </legend>
-                    <p class="form-label">Soprano</p>
-                    <div class="voicepart">
-                        <input id="firstsop" type="radio" name="voice-part" value="first-soprano" required>
-                        <label for="firstsop">1st Soprano</label>
-                    </div>
-                    <div class="voicepart">
-                        <input id="secondsop" type="radio" name="voice-part" value="second-soprano">
-                        <label for="secondsop">2nd Soprano</label>
-                    </div>
-                    <p class="form-label">Alto</p>
-                    <div class="voicepart">
-                        <input id="firstalto" type="radio" name="voice-part" value="first-alto">
-                        <label for="firstalto">1st Alto</label>
-                    </div>
-                    <div class="voicepart">
-                        <input id="secondalto" type="radio" name="voice-part" value="second-alto">
-                        <label for="secondalto">2nd Alto</label>
-                    </div>
-                    <p class="form-label">Tenor</p>
-                    <div class="voicepart">
-                        <input id="firsttenor" type="radio" name="voice-part" value="first-tenor">
-                        <label for="firsttenor">1st Tenor</label>
-                    </div>
-                    <div class="voicepart">
-                        <input id="secondtenor" type="radio" name="voice-part" value="second-tenor">
-                        <label for="secondtenor">2nd Tenor</label>
-                    </div>
-                    <p class="form-label">Bass</p>
-                    <div class="voicepart">
-                        <input id="firstbass" type="radio" name="voice-part" value="first-bass">
-                        <label for="firstbass">1st Bass</label>
-                    </div>
-                    <div class="voicepart">
-                        <input id="secondbass" type="radio" name="voice-part" value="second-bass">
-                        <label for="secondbass">2nd Bass</label>
-                    </div>
-                    <br>
-                    <br>
-                    <p class="if-unsure">*If you are unsure of your exact voice part, don't worry, just select the
-                        one you feel is
-                        most
-                        accurate for now. Our talented vocal coach holds sessions with all new members to help them
-                        determine the right part for their range!</p>
-                </fieldset>
+                </div>
                 <input class="submit" type="submit" value="Join Us!">
             </form>
         </div>
