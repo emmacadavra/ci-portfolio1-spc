@@ -435,4 +435,11 @@ footer ul {
         height: calc(100vh - 200px);
     }
 
+    .signup-form {
+        max-width: 900px;
+    }
+
+    .submit-container {
+        margin-left: 30px;
+    }
 }
