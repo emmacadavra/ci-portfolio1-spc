@@ -174,7 +174,7 @@ body {
 }
 
 .signup-form {
-    width: 50%;
+    max-width: 450px;
     padding: 10px;
     background-color: rgba(192, 170, 60, 0.75);
     border-radius: 10px;
@@ -374,3 +374,9 @@ footer ul {
 }
 
 @media screen and (min-width: 1280px) {
+
+    .header h1 {
+        font-size: 300%;
+    }
+
+}
