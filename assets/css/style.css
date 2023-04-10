@@ -38,7 +38,8 @@ body {
     align-items: center;
 }
 
-.header-inner a {
+.header-inner a,
+.footer-inner a {
     text-decoration: none;
     color: #c0aa3c;
 }
@@ -207,7 +208,6 @@ fieldset {
 footer {
     background-color: #101010;
     height: 100px;
-    color: #c0aa3c;
     text-align: center;
 }
 
