@@ -419,6 +419,7 @@ footer ul {
 
     .section {
         height: calc(100vh - 100px);
+        scroll-margin-top: 100px;
     }
 
     .section-three {
