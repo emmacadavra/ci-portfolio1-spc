@@ -355,6 +355,10 @@ footer {
         flex-direction: row;
     }
 
+    .signup-form {
+        margin: 10px;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
