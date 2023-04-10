@@ -33,9 +33,12 @@ body {
     font-family: "Playfair Display", serif;
 }
 
-.menu a {
+.header a {
     text-decoration: none;
     color: #c0aa3c;
+}
+
+.menu a {
     font-size: 150%;
     text-transform: uppercase;
 }
