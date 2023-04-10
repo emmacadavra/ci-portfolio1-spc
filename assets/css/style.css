@@ -31,7 +31,8 @@ body {
     font-family: "Playfair Display", serif;
 }
 
-.header a {
+.header a,
+footer a {
     text-decoration: none;
     color: #c0aa3c;
 }
@@ -113,6 +114,8 @@ body {
     position: relative;
     display: flex;
     background-color: antiquewhite;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .section-heading {
