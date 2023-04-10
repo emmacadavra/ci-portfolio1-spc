@@ -234,9 +234,11 @@ footer {
 .thanks-signup {
     background-color: #101010;
     color: #c0aa3c;
-    margin: 10%;
+    margin: 10% auto;
     padding: 10px;
     border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
 }
 
 /* Media Queries */
