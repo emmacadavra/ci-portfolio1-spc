@@ -16,10 +16,6 @@ body {
 /* Header (logo & nav bar) */
 
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     z-index: 1;
     width: 100%;
     position: fixed;
@@ -34,6 +30,10 @@ body {
 .header-footer {
     max-width: 1920px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-footer a {
