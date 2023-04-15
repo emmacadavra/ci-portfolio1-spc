@@ -296,11 +296,11 @@ footer {
 @media screen and (min-width: 280px) {
 
     .header {
-        height: 50px;
+        height: 3.13rem;
     }
 
     .header h1 {
-        font-size: 115%;
+        font-size: 105%;
     }
 
     .section {
