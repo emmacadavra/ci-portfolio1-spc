@@ -460,7 +460,7 @@ footer {
 @media screen and (min-width: 1600px) {
 
     .header {
-        height: 100px;
+        height: 6.25rem;
     }
 
     .header h1 {
@@ -468,25 +468,25 @@ footer {
     }
 
     .section {
-        height: calc(100vh - 100px);
-        scroll-margin-top: 100px;
+        height: calc(100vh - 6.25rem);
+        scroll-margin-top: 6.25rem;
     }
 
     .section-one,
     .form-submit {
-        padding-top: 100px;
+        padding-top: 16.25rem;
     }
 
     .section-three,
     .form-submit {
-        height: calc(100vh - 200px);
+        height: calc(100vh - 12.5rem);
     }
 
     .signup-form {
-        max-width: 900px;
+        max-width: 56.25rem;
     }
 
     .submit-container {
-        margin-left: 30px;
+        margin-left: 1.875rem;
     }
 }
