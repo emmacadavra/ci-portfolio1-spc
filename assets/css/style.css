@@ -361,17 +361,17 @@ footer {
 @media screen and (min-width: 768px) {
 
     .header {
-        height: 75px;
+        height: 4.688rem;
         font-size: 175%;
     }
 
     .section {
-        scroll-margin-top: 75px;
+        scroll-margin-top: 4.688rem;
     }
 
     .section-one,
     .form-submit {
-        padding-top: 75px;
+        padding-top: 4.688rem;
     }
 
     .section-three {
@@ -379,11 +379,11 @@ footer {
     }
 
     .signup-form {
-        margin: 10px;
+        margin: 0.625rem;
     }
 
     .form-submit {
-        height: calc(100vh - 175px);
+        height: calc(100vh - 10.938rem);
     }
 
 }
