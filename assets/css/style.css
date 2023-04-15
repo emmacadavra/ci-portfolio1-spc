@@ -293,10 +293,10 @@ footer {
 
 /* hamburger menu media query end */
 
-@media screen and (min-width: 280px) {
+@media screen and (min-width: 320px) {
 
     .header {
-        height: 3.125rem;
+        height: 50px;
     }
 
     .header h1 {
@@ -305,12 +305,12 @@ footer {
 
     .section {
         flex-direction: column-reverse;
-        scroll-margin-top: 3.125rem;
+        scroll-margin-top: 50px;
         height: fit-content;
     }
 
     .section-content {
-        padding: 0.625rem;
+        padding: 10px;
     }
 
     .section-image {
@@ -326,17 +326,17 @@ footer {
 
     .section-one,
     .form-submit {
-        padding-top: 3.125rem;
+        padding-top: 50px;
     }
 
     .signup-form {
         width: 90%;
-        max-width: 28.125rem;
-        margin-top: 0.625rem;
+        max-width: 450px;
+        margin-top: 10px;
     }
 
     form {
-        max-width: 26.875rem;
+        max-width: 430px;
     }
 
     .logo-container {
@@ -345,7 +345,7 @@ footer {
     }
 
     .form-submit {
-        height: calc(100vh - 19.375rem);
+        height: calc(100vh - 150px);
     }
 
 }
@@ -361,17 +361,17 @@ footer {
 @media screen and (min-width: 768px) {
 
     .header {
-        height: 4.688rem;
+        height: 75px;
         font-size: 175%;
     }
 
     .section {
-        scroll-margin-top: 4.688rem;
+        scroll-margin-top: 75px;
     }
 
     .section-one,
     .form-submit {
-        padding-top: 4.688rem;
+        padding-top: 75px;
     }
 
     .section-three {
@@ -379,11 +379,11 @@ footer {
     }
 
     .signup-form {
-        margin: 0.625rem;
+        margin: 10px;
     }
 
     .form-submit {
-        height: calc(100vh - 10.938rem);
+        height: calc(100vh - 175px);
     }
 
 }
@@ -396,7 +396,7 @@ footer {
 
     .section {
         flex-direction: row;
-        height: calc(100vh - 4.688rem);
+        height: calc(100vh - 75px);
         width: 100%;
     }
 
@@ -417,7 +417,7 @@ footer {
 
     .section-three,
     .form-submit {
-        height: calc(100vh - 10.938rem);
+        height: calc(100vh - 175px);
     }
 
     .logo-container {
@@ -426,7 +426,7 @@ footer {
     }
 
     .signup-form {
-        min-width: 45rem;
+        min-width: 720px;
         max-width: 50%;
         max-height: 90%;
     }
@@ -436,7 +436,7 @@ footer {
     }
 
     fieldset {
-        height: 15.625rem;
+        height: 250px;
     }
 
     .fieldset-container {
@@ -452,7 +452,7 @@ footer {
 
     .submit-container {
         text-align: left;
-        margin-left: 0.625rem;
+        margin-left: 10px;
     }
 
 }
@@ -460,7 +460,7 @@ footer {
 @media screen and (min-width: 1600px) {
 
     .header {
-        height: 6.25rem;
+        height: 100px;
     }
 
     .header h1 {
@@ -468,25 +468,25 @@ footer {
     }
 
     .section {
-        height: calc(100vh - 6.25rem);
-        scroll-margin-top: 6.25rem;
+        height: calc(100vh - 100px);
+        scroll-margin-top: 100px;
     }
 
     .section-one,
     .form-submit {
-        padding-top: 16.25rem;
+        padding-top: 100px;
     }
 
     .section-three,
     .form-submit {
-        height: calc(100vh - 12.5rem);
+        height: calc(100vh - 200px);
     }
 
     .signup-form {
-        max-width: 56.25rem;
+        max-width: 900px;
     }
 
     .submit-container {
-        margin-left: 1.875rem;
+        margin-left: 30px;
     }
 }
