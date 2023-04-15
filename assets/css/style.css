@@ -296,7 +296,7 @@ footer {
 @media screen and (min-width: 280px) {
 
     .header {
-        height: 3.13rem;
+        height: 3.125rem;
     }
 
     .header h1 {
@@ -305,12 +305,12 @@ footer {
 
     .section {
         flex-direction: column-reverse;
-        scroll-margin-top: 50px;
+        scroll-margin-top: 3.125rem;
         height: fit-content;
     }
 
     .section-content {
-        padding: 10px;
+        padding: 0.625rem;
     }
 
     .section-image {
@@ -326,17 +326,17 @@ footer {
 
     .section-one,
     .form-submit {
-        padding-top: 50px;
+        padding-top: 3.125rem;
     }
 
     .signup-form {
         width: 90%;
-        max-width: 450px;
-        margin-top: 10px;
+        max-width: 28.125rem;
+        margin-top: 0.625rem;
     }
 
     form {
-        max-width: 430px;
+        max-width: 26.875rem;
     }
 
     .logo-container {
@@ -345,7 +345,7 @@ footer {
     }
 
     .form-submit {
-        height: calc(100vh - 150px);
+        height: calc(100vh - 19.375rem);
     }
 
 }
