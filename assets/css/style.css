@@ -229,7 +229,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 300%;
+    font-size: 3em;
 }
 
 /* Form Submission Page */
@@ -261,7 +261,7 @@ footer {
     .menu {
         position: absolute;
         top: 0;
-        margin-top: 50px;
+        margin-top: 3.125rem;
         left: 0;
         flex-direction: column;
         width: 100%;
@@ -295,7 +295,7 @@ footer {
     }
 
     .menu>li:not(:last-child) {
-        border-bottom: 1px solid #444;
+        border-bottom: 0.625em solid #444;
     }
 }
 
@@ -304,7 +304,7 @@ footer {
 @media screen and (min-width: 280px) {
 
     .header {
-        height: 50px;
+        height: 3.125rem;
     }
 
     .header h1 {
@@ -313,7 +313,7 @@ footer {
 
     .section {
         flex-direction: column-reverse;
-        scroll-margin-top: 50px;
+        scroll-margin-top: 3.125rem;
         height: fit-content;
     }
 
@@ -334,7 +334,7 @@ footer {
 
     .section-one,
     .form-submit {
-        padding-top: 50px;
+        padding-top: 3.125rem;
     }
 
     .signup-form {
@@ -348,7 +348,7 @@ footer {
     }
 
     .form-submit {
-        height: calc(100vh - 150px);
+        height: calc(100vh - 9.375rem);
     }
 
 }
