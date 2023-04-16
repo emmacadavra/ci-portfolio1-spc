@@ -150,13 +150,11 @@ body {
 }
 
 .logo-container {
-    height: 400px;
-    width: 400px;
     margin: 0.625rem;
 }
 
 .logo {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 50%;
 }
@@ -202,8 +200,8 @@ fieldset {
 
 .submit {
     margin-top: 0.625rem;
-    padding: 0.625rem 20px;
-    border-radius: 7px;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.438rem;
     background-color: #202020;
     color: #c0aa3c;
     font-size: larger;
@@ -215,7 +213,7 @@ fieldset {
 
 footer {
     background-color: #101010;
-    height: 100px;
+    height: 6.25em;
     text-align: center;
 }
 
@@ -307,7 +305,7 @@ footer {
     }
 
     .header h1 {
-        font-size: 105%;
+        font-size: 1.05em;
     }
 
     .section {
