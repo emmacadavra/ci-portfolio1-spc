@@ -403,7 +403,7 @@ footer {
 
     .section {
         flex-direction: row;
-        height: calc(100vh - 75px);
+        height: calc(100vh - 4.688rem);
         width: 100%;
     }
 
@@ -422,9 +422,8 @@ footer {
         flex-direction: row-reverse;
     }
 
-    .section-three,
-    .form-submit {
-        height: calc(100vh - 175px);
+    .section-three {
+        height: calc(100vh - 9.375rem);
     }
 
     .signup-form {
