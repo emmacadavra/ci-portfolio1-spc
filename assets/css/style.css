@@ -10,7 +10,7 @@
 body {
     font-family: "Lato", sans-serif;
     line-height: 1.5;
-    color: #101010;
+    color: #111;
     background-color: #333;
 }
 
@@ -21,7 +21,7 @@ body {
     z-index: 1;
     width: 100%;
     position: fixed;
-    background-color: #101010;
+    background-color: #111;
     color: #c0aa3c;
 }
 
@@ -205,7 +205,7 @@ fieldset {
     margin-top: 0.625rem;
     padding: 0.625rem 1.25rem;
     border-radius: 0.438rem;
-    background-color: #202020;
+    background-color: #222;
     color: #c0aa3c;
     font-size: larger;
     text-align: center;
@@ -215,7 +215,7 @@ fieldset {
 /* Footer (with social media links) */
 
 footer {
-    background-color: #101010;
+    background-color: #111;
     height: 6.25rem;
     text-align: center;
 }
@@ -239,7 +239,7 @@ footer {
 }
 
 .thanks-signup {
-    background-color: #101010;
+    background-color: #111;
     color: #c0aa3c;
     margin: 10% auto;
     padding: 0.625rem;
