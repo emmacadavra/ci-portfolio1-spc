@@ -151,6 +151,8 @@ body {
 
 .logo-container {
     margin: 0.625rem;
+    max-height: 400px;
+    max-width: 400px;
 }
 
 .logo {
@@ -305,7 +307,7 @@ footer {
     }
 
     .header h1 {
-        font-size: 1.05em;
+        font-size: 1em;
     }
 
     .section {
@@ -342,11 +344,6 @@ footer {
 
     form {
         max-width: 430px;
-    }
-
-    .logo-container {
-        height: 300px;
-        width: 300px;
     }
 
     .form-submit {
@@ -427,11 +424,6 @@ footer {
     .section-three,
     .form-submit {
         height: calc(100vh - 175px);
-    }
-
-    .logo-container {
-        height: 400px;
-        width: 400px;
     }
 
     .signup-form {
