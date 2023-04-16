@@ -9,6 +9,7 @@
 
 body {
     font-family: "Lato", sans-serif;
+    line-height: 1.5;
     color: #101010;
     background-color: #333;
 }
@@ -165,7 +166,7 @@ body {
 .signup-form {
     padding: 0.625rem;
     background-color: rgba(192, 170, 60, 0.75);
-    border-radius: 0.625rem;
+    border-radius: 10px;
 }
 
 .signup-form hr {
