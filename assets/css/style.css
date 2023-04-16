@@ -245,7 +245,7 @@ footer {
     padding: 0.625rem;
     border-radius: 0.625rem;
     text-align: center;
-    max-width: 500px;
+    max-width: 31.25rem;
 }
 
 /* Media Queries */
@@ -339,12 +339,12 @@ footer {
 
     .signup-form {
         width: 90%;
-        max-width: 450px;
+        max-width: 28.125rem;
         margin-top: 0.625rem;
     }
 
     form {
-        max-width: 430px;
+        max-width: 26.875;
     }
 
     .form-submit {
