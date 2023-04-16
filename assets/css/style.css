@@ -168,7 +168,7 @@ body {
 }
 
 .signup-form hr {
-    border-top: solid 1px #9c8929;
+    border-top: solid 0.063rem #9c8929;
 }
 
 form {
@@ -368,6 +368,10 @@ footer {
     .header {
         height: 75px;
         font-size: 175%;
+    }
+
+    .menu {
+        margin-top: 75px;
     }
 
     .section {
