@@ -184,7 +184,7 @@ form {
 fieldset {
     border: solid 1px #202020;
     padding: 0.625rem;
-    line-height: 25px;
+    line-height: 1.8;
 }
 
 .voicepart {
@@ -194,7 +194,6 @@ fieldset {
 .if-unsure {
     font-weight: bold;
     font-style: italic;
-    line-height: 25px;
 }
 
 .submit-container {
