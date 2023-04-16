@@ -31,7 +31,7 @@ body {
 .header-inner {
     max-width: 1920px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0.625rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -151,7 +151,7 @@ body {
 .logo-container {
     height: 400px;
     width: 400px;
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 .logo {
@@ -163,9 +163,9 @@ body {
 /* Form */
 
 .signup-form {
-    padding: 10px;
+    padding: 0.625rem;
     background-color: rgba(192, 170, 60, 0.75);
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .signup-form hr {
@@ -182,7 +182,7 @@ form {
 
 fieldset {
     border: solid 1px #202020;
-    padding: 10px;
+    padding: 0.625rem;
     line-height: 25px;
 }
 
@@ -201,8 +201,8 @@ fieldset {
 }
 
 .submit {
-    margin-top: 10px;
-    padding: 10px 20px;
+    margin-top: 0.625rem;
+    padding: 0.625rem 20px;
     border-radius: 7px;
     background-color: #202020;
     color: #c0aa3c;
@@ -241,7 +241,7 @@ footer {
     background-color: #101010;
     color: #c0aa3c;
     margin: 10% auto;
-    padding: 10px;
+    padding: 0.625rem;
     border-radius: 10px;
     text-align: center;
     max-width: 500px;
@@ -339,7 +339,7 @@ footer {
     .signup-form {
         width: 90%;
         max-width: 450px;
-        margin-top: 10px;
+        margin-top: 0.625rem;
     }
 
     form {
@@ -386,7 +386,7 @@ footer {
     }
 
     .signup-form {
-        margin: 10px;
+        margin: 0.625rem;
     }
 
     .form-submit {
@@ -459,7 +459,7 @@ footer {
 
     .submit-container {
         text-align: left;
-        margin-left: 10px;
+        margin-left: 0.625rem;
     }
 
 }
