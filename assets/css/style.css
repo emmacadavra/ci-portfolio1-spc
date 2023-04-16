@@ -170,7 +170,8 @@ body {
 }
 
 .signup-form hr {
-    border-top: solid 0.063rem #9c8929;
+    border-top: solid 0.125rem #b6a139;
+    margin-bottom: 1rem;
 }
 
 form {
