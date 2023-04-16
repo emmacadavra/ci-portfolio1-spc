@@ -418,6 +418,10 @@ footer {
         object-fit: cover;
     }
 
+    .section-content {
+        width: 50%;
+    }
+
     .section-two {
         flex-direction: row-reverse;
     }
@@ -427,7 +431,7 @@ footer {
     }
 
     .signup-form {
-        min-width: 720px;
+        min-width: 45rem;
         max-width: 50%;
         max-height: 90%;
     }
@@ -437,7 +441,7 @@ footer {
     }
 
     fieldset {
-        height: 250px;
+        height: 15.625rem;
     }
 
     .fieldset-container {
