@@ -354,31 +354,31 @@ footer {
 }
 
 @media screen and (min-width: 375px) {
-
+    /* 
     .header h1 {
         font-size: 140%;
-    }
+    } */
 
 }
 
 @media screen and (min-width: 768px) {
 
     .header {
-        height: 75px;
-        font-size: 175%;
+        height: 4.688rem;
+        /* font-size: 175%; */
     }
 
     .menu {
-        margin-top: 75px;
+        margin-top: 4.688rem;
     }
 
     .section {
-        scroll-margin-top: 75px;
+        scroll-margin-top: 4.688rem;
     }
 
     .section-one,
     .form-submit {
-        padding-top: 75px;
+        padding-top: 4.688rem;
     }
 
     .section-three {
@@ -390,16 +390,16 @@ footer {
     }
 
     .form-submit {
-        height: calc(100vh - 175px);
+        height: calc(100vh - 10.938rem);
     }
 
 }
 
 @media screen and (min-width: 1280px) {
 
-    .header h1 {
+    /* .header h1 {
         font-size: 190%;
-    }
+    } */
 
     .section {
         flex-direction: row;
@@ -465,9 +465,9 @@ footer {
         height: 100px;
     }
 
-    .header h1 {
+    /* .header h1 {
         font-size: 250%;
-    }
+    } */
 
     .section {
         height: calc(100vh - 100px);
