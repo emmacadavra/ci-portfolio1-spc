@@ -320,6 +320,7 @@ footer {
 
     .section-content p {
         padding: 1rem;
+        max-width: 75%;
     }
 
     .section-image {
@@ -386,7 +387,6 @@ footer {
     }
 
     .section-content p {
-        width: 65%;
         margin: 0 auto;
     }
 
