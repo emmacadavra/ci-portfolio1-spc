@@ -371,10 +371,6 @@ footer {
         font-size: 2em;
     }
 
-    .menu a {
-        font-size: 1.2em;
-    }
-
     .section {
         scroll-margin-top: 4.688rem;
     }
@@ -394,6 +390,14 @@ footer {
 
     .form-submit {
         height: calc(100vh - 10.938rem);
+    }
+
+}
+
+@media screen and (min-width: 1050px) {
+
+    .menu a {
+        font-size: 1.2em;
     }
 
 }
