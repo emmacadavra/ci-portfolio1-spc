@@ -252,7 +252,7 @@ footer {
 
 /* hamburger menu media query start */
 
-@media (max-width: 1050px) {
+@media (max-width: 768px) {
 
     .menu-button-container {
         display: flex;
@@ -354,10 +354,10 @@ footer {
 }
 
 @media screen and (min-width: 375px) {
-    /* 
+
     .header h1 {
-        font-size: 140%;
-    } */
+        font-size: 1.4em;
+    }
 
 }
 
@@ -365,11 +365,14 @@ footer {
 
     .header {
         height: 4.688rem;
-        /* font-size: 175%; */
     }
 
-    .menu {
-        margin-top: 4.688rem;
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .menu a {
+        font-size: 1em;
     }
 
     .section {
