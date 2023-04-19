@@ -371,6 +371,10 @@ footer {
         font-size: 2em;
     }
 
+    .menu {
+        margin-top: 4.688rem;
+    }
+
     .section {
         scroll-margin-top: 4.688rem;
     }
