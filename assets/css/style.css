@@ -384,6 +384,11 @@ footer {
         padding-top: 4.688rem;
     }
 
+    .section-content p {
+        width: 65%;
+        margin: 0 auto;
+    }
+
     .section-three {
         flex-direction: row;
     }
