@@ -170,8 +170,14 @@ The footer sits at the bottom of the webpage and includes four social media link
 ## **Credits**
 ### **Honourable mentions**
 
+* [Damon Kreft](https://github.com/damon-kreft) - Thank you for your unwavering patience and support, and your enthusiasm and encouragement when I have struggled. Your experience is invaluable to me.
+
+* [Richard Wells](https://github.com/D0nni387) - Thank you for your mentorship so far, and for always going out of your way to make sure I'm on the right track. I appreciate your advice and guidance very much.
+
+* [The Sheffield Philharmonic Chorus](https://sheffieldphil.org/) - Thank you to the Sheffield Philharmonic Chorus, in particular to Anne Adams who is the SPC administrator, for allowing me to use their content in order to progress my skills in software development. I'm proud to be a member of the chorus!
 
 ### **Content:**
+
 
 
 ### **Media:**
