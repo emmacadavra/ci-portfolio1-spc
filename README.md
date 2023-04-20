@@ -176,11 +176,15 @@ The site has also been tested and confirmed as fully responsive with no issues o
 ## **Bugs**
 
 
+
 ## **Deployment**
 
 
 ## **Tech**
 
+The technologies used in the making of this website are:
+* HTML5
+* CSS3
 
 ## **Credits**
 ### **Honourable mentions**
