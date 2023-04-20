@@ -484,6 +484,10 @@ footer {
         height: 15.625rem;
     }
 
+    .your-voice {
+        min-width: 15rem;
+    }
+
     .fieldset-container {
         display: flex;
         flex-direction: row;
