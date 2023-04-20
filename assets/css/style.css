@@ -153,6 +153,10 @@ body {
     font-weight: bold;
 }
 
+.section-content a:hover {
+    text-decoration: underline;
+}
+
 .section-three {
     background: url('../images/sheet-music-book.jpg') no-repeat center center;
     justify-content: space-evenly;
