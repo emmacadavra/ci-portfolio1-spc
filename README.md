@@ -164,7 +164,14 @@ If I had more time and knowledge, I would see the following enhancements made:
 
 ## **Testing Phase**
 
+During development, I manually tested the website in Chrome, predominantly by using Chrome's DevTools to allow me to test the content across different screen sizes.
 
+I also made the server public and shared it with several people, asking them to test it on their devices. This was at varying stages of the development, and across different devices so that I could get an idea of whether the site looked good to different people at different sizes.
+
+The site has also been tested on the following browsers:
+* Google Chrome
+* Mozilla Firefox
+* Microsoft Edge
 
 ## **Bugs**
 
