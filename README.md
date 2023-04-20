@@ -85,6 +85,25 @@ In each case, the links are obvious and readable for a smooth user experience.
 
 #### **Section Images**
 
+Sections one and two (‘Home’ and ‘About Us’) feature a large image that makes up 50% of the section as a whole. The decision to include images that take up a large part of each section was made in order to make the site more visually eye-catching and appealing, with the additional benefit of not overloading the user with too much text at once.
+
+(screenshot of smaller screen)
+
+On smaller screens, the images appear landscape, and are positioned below the content of the section.
+
+(screenshot of larger screen)
+
+On larger screens, the images appear next to the content of the section, with section two’s order having been reversed for an engaging visual effect.
+
+(section one image)
+
+Section one’s image was chosen for its eye-catching location’s grandeur, and sets a very professional and serene tone. It also suggests an important level of inclusiveness for those who prefer to wear masks since the outbreak of the Covid-19 pandemic.
+
+(section two image)
+
+Section two’s image is a lot more casual, and this is to show the other side of the chorus which is friendly, approachable, and full of smiles. This is so that users of the website can see that the choir is both professional, and also relaxed and welcoming.
+
+The images are responsive, and will adapt to the screen size and position without stretching or shrinking.
 
 #### **SPC Logo**
 
