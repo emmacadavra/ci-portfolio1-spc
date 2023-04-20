@@ -179,6 +179,7 @@ body {
 
 .signup-heading {
     font-family: "Playfair Display", serif;
+    text-align: center;
 }
 
 .signup-form {
@@ -189,7 +190,7 @@ body {
 
 .signup-form hr {
     border-top: solid 0.125rem #b6a139;
-    margin-bottom: 1rem;
+    margin: 0.5rem 0;
 }
 
 form {
