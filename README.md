@@ -45,3 +45,20 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
 ## **Typography:**
 
 
+## **Current Features Common to All Pages**
+#### **Header and Navigation Bar**
+
+
+#### **Section Images**
+
+
+#### **SPC Logo**
+
+
+#### **Sign-Up Form**
+
+
+#### **Form Submission Page**
+
+
+#### **Footer**
