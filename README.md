@@ -168,7 +168,7 @@ During development, I manually tested the website in Chrome, predominantly by us
 
 I also made the server public and shared it with several people, asking them to test it on their devices. This was at varying stages of the development, and across different devices so that I could get an idea of whether the site looked good to different people at different sizes.
 
-The site has also been tested on the following browsers:
+The site has also been tested and confirmed as fully responsive with no issues on the following browsers:
 * Google Chrome
 * Mozilla Firefox
 * Microsoft Edge
