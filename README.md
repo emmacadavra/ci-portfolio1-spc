@@ -141,6 +141,7 @@ The Submit button is made distinct from the rest of the form by using the invers
 
 #### **Form Submission Page**
 
+The form submission page was created to emulate the experience of submitting a form. In this particular instance, because this website is for education purposes and is not designed to collect data, no form method has been defined. However, in order to create a professional looking website, the form-submission page acts as a confirmation of form validation that the user can understand. It also includes the same header and footer as the main site page, so that the user can quickly and easily navigate back to the homepage and other sections.
 
 #### **Footer**
 
