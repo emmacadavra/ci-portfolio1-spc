@@ -319,7 +319,8 @@ footer {
     }
 
     .section-content p {
-        padding: 1rem;
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
         max-width: 75%;
     }
 
