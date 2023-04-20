@@ -189,7 +189,7 @@ The technologies used in the making of this website are:
 ## **Credits**
 ### **Honourable mentions**
 
-* [Damon Kreft](https://github.com/damon-kreft) - Thank you for your unwavering patience and support, and your enthusiasm and encouragement when I have struggled. Your experience is invaluable to me.
+* [Damon Kreft](https://github.com/damon-kreft) - Thank you for your unwavering patience and support, and your enthusiasm and encouragement when I have struggled. Your experience has been and will continue to be invaluable to me.
 
 * [Richard Wells](https://github.com/D0nni387) - Thank you for your mentorship so far, and for always going out of your way to make sure I'm on the right track. I appreciate your advice and guidance very much.
 
