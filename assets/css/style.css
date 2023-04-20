@@ -447,6 +447,10 @@ footer {
         width: 50%;
     }
 
+    .section-heading {
+        font-size: 200%;
+    }
+
     .section-two {
         flex-direction: row-reverse;
     }
