@@ -70,6 +70,18 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
 ## **Current Features Common to All Pages**
 #### **Header and Navigation Bar**
 
+The header sits atop the page in a fixed position, so that the site title is always visible to the user, for a simple and pleasant user experience. Within the header, there is a navigation bar, which appears in two separate forms depending on the screen size of the user.
+
+(screenshot of larger screen)
+
+On larger screens, such as laptops and desktops, the navigation bar displays all three navigation links in the top-right corner of the screen.
+
+(screenshot of mobile screen - menu closed)
+(screenshot of mobile screen - menu open)
+
+On smaller screens, such as tablets and mobile phones, the navigation bar menu appears as a hamburger menu in the top-right corner, which expands when clicked on to reveal the page links. The purpose of this is to prevent the header from taking up too much room on smaller screens, providing an optimal experience.
+
+In each case, the links are obvious and readable for a smooth user experience.
 
 #### **Section Images**
 
