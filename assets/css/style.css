@@ -163,6 +163,10 @@ body {
 
 /* Form */
 
+.signup-heading {
+    font-family: "Playfair Display", serif;
+}
+
 .signup-form {
     padding: 0.625rem;
     background-color: rgba(192, 170, 60, 0.75);
