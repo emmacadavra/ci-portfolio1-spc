@@ -143,10 +143,16 @@ The Submit button is made distinct from the rest of the form by using the invers
 
 The form submission page was created to emulate the experience of submitting a form. In this particular instance, because this website is for education purposes and is not designed to collect data, no form method has been defined. However, in order to create a professional looking website, the form-submission page acts as a confirmation of form validation that the user can understand. It also includes the same header and footer as the main site page, so that the user can quickly and easily navigate back to the homepage and other sections.
 
+(screenshot of form submission page)
+
 #### **Footer**
 
+The footer sits at the bottom of the webpage and includes four social media links, all of which are indicated by a logo from Font Awesome. As they are logos only, they also include an aria-label so that screen readers can easily understand the purpose of each icon. All links are set to open in a new tab, so that they do not disrupt the user experience.
+
+(screenshot of footer)
 
 ## **Future-Enhancements**
+
 
 
 ## **Testing Phase**
