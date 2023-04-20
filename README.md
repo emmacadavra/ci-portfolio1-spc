@@ -121,6 +121,23 @@ The logo image is responsive, and a maximum width has been set so that it does n
 
 #### **Sign-Up Form**
 
+Section three of the site also contains a sign-up form, which is a crucial element to this website as its aim is to provide people with a way of joining the choir. The form features two fieldsets which clearly define which information is required from the user.
+
+(screenshot of fieldset one)
+
+The first fieldset asks for personal details and includes three input fields - two text fields (clearly labelled 'First Name' and 'Last Name') and an email field (clearly labelled 'Email Address') - all three of which are marked as 'required'.
+
+(screenshot of fieldset two)
+
+The second fieldset uses radio button input so that the user can select which voice part they would sing in the choir. The first radio button input is marked as required so that one of the eight options must be selected in order to validate the form. Each option is clearly labelled and separated into four separate voice parts.
+
+(screenshot of form on mobile)
+
+(screenshot of form on desktop)
+
+The form is responsive, with the fieldsets and additional text being set to display as columns on smaller screens, and rows on larger screens. This is achieved using Flexbox CSS rules.
+
+The Submit button is made distinct from the rest of the form by using the inverse of the form's colours - rather than dark grey text on yellow, the button itself is dark grey with yellow text that is larger than the form's text. 
 
 #### **Form Submission Page**
 
