@@ -107,6 +107,17 @@ The images are responsive, and will adapt to the screen size and position withou
 
 #### **SPC Logo**
 
+Section three contains the Sheffield Philharmonic Chorus logo, in reverse colours to that of the header. This contrast is visually pleasing, and helps to establish the brand in the eyes of the users. It appears circular so as to stand out from the other images on the page.
+
+(screenshot of logo on smaller screen)
+
+On smaller screens, the logo appears at the very bottom of the page, above the footer.
+
+(screenshot of logo on larger screen)
+
+On larger screens, the logo appears on the left-hand side of the screen, before the sign-up form.
+
+The logo image is responsive, and a maximum width has been set so that it does not distort or stretch above the image’s maximum dimensions.
 
 #### **Sign-Up Form**
 
