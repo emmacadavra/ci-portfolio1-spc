@@ -147,6 +147,12 @@ body {
     font-size: 1.25rem;
 }
 
+.section-content a {
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+}
+
 .section-three {
     background: url('../images/sheet-music-book.jpg') no-repeat center center;
     justify-content: space-evenly;
