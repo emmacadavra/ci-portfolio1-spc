@@ -1,3 +1,9 @@
+# **The Sheffield Philharmonic Chorus**
+## **Site Overview**
+The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in Sheffield, South Yorkshire, and the purpose of this website is to act as a first stop for people interested in joining the choir. The choir’s ethos is to share its love of a large range of choral music by performing it periodically, and to continue to do this they rely on new members seeking them out and joining them.
+​
+![Am I responsive screenshot](screenshot of amiresponsive)
+
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
 1. [**Planning stage**](#planning-stage)
