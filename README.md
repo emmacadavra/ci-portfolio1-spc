@@ -28,3 +28,20 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
     * [**General reference**](#general-reference)
     * [**Content**](#content)
     * [**Media**](#media)
+
+## **Planning stage**
+### **Target Audiences:**
+
+
+### **User Stories:**
+
+
+### **Site Aims:**
+
+
+### **Colour Scheme:**
+
+
+## **Typography:**
+
+
