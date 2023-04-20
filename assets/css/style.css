@@ -418,10 +418,6 @@ footer {
 
 @media screen and (min-width: 1280px) {
 
-    /* .header h1 {
-        font-size: 190%;
-    } */
-
     .section {
         flex-direction: row;
         height: calc(100vh - 4.688rem);
@@ -489,9 +485,9 @@ footer {
         height: 6.25rem;
     }
 
-    /* .header h1 {
-        font-size: 250%;
-    } */
+    .header h1 {
+        font-size: 3em;
+    }
 
     .section {
         height: calc(100vh - 6.25rem);
