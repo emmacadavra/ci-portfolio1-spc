@@ -45,7 +45,8 @@ body {
     color: #c0aa3c;
 }
 
-.menu a:hover {
+.menu a:hover,
+.footer-links a:hover {
     color: #faebd7;
 }
 
