@@ -515,9 +515,9 @@ footer {
 
 @media screen and (min-width: 1600px) {
 
-    .header {
+    /* .header {
         height: 6.25rem;
-    }
+    } */
 
     .header h1 {
         font-size: 3rem;
