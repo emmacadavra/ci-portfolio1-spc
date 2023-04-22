@@ -509,6 +509,8 @@ footer {
     .rehearsal-photos img {
         width: 25%;
         height: auto;
+        margin-top: 0.125rem;
+        overflow: hidden;
     }
 
     .footer-links {
