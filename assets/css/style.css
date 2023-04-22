@@ -119,8 +119,7 @@ body {
 
 /* Sections */
 
-.section,
-.form-submit {
+.section {
     position: relative;
     display: flex;
     max-width: 1920px;
@@ -261,6 +260,7 @@ footer {
 
 .form-submit {
     background: url('../images/sheet-music-book.jpg') no-repeat center center;
+    max-width: 1920px;
 }
 
 .thanks-signup {
