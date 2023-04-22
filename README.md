@@ -85,7 +85,7 @@ In each case, the links are obvious and readable for a smooth user experience.
 
 #### **Section Images**
 
-Sections one and two (‘Home’ and ‘About Us’) feature a large image that makes up 50% of the section as a whole. The decision to include images that take up a large part of each section was made in order to make the site more visually eye-catching and appealing, with the additional benefit of not overloading the user with too much text at once.
+Sections one and two (‘Home’ and ‘Rehearsals’) feature a large image that makes up 50% of the section as a whole. The decision to include images that take up a large part of each section was made in order to make the site more visually eye-catching and appealing, with the additional benefit of not overloading the user with too much text at once.
 
 (screenshot of smaller screen)
 
