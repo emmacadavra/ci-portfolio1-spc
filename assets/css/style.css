@@ -159,7 +159,8 @@ body {
 }
 
 .section-three {
-    background: url('../images/sheet-music-book.jpg') no-repeat center center;
+    background: #faebd7 url('../images/sheet-music-book.jpg') no-repeat fixed center;
+    background-size: cover;
     justify-content: space-evenly;
     align-items: center;
 }
