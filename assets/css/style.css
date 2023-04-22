@@ -254,7 +254,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 3rem;
 }
 
 /* Form Submission Page */
@@ -263,6 +262,7 @@ footer {
     background: url('../images/sheet-music-book.jpg') no-repeat center center;
     flex-direction: column;
     justify-content: space-around;
+    padding: 0.5rem;
 }
 
 .thanks-signup {
@@ -284,8 +284,6 @@ footer {
 }
 
 .rehearsal-photos img {
-    height: 18.75rem;
-    width: auto;
     object-fit: contain;
     padding: 0.125rem;
 }
@@ -391,10 +389,19 @@ footer {
         max-width: 26.875rem;
     }
 
-    .form-submit {
-        height: calc(100vh - 9.375rem);
+    .footer-links {
+        font-size: 1.75rem;
     }
 
+    .rehearsal-photos {
+        flex-direction: column;
+        background-color: #111;
+    }
+
+    .rehearsal-photos img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 375px) {
