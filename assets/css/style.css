@@ -417,16 +417,16 @@ footer {
         font-size: 1.4rem;
     }
 
+    .footer-links {
+        font-size: 2rem;
+    }
+
 }
 
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 550px) {
 
     .form-submit {
         min-height: calc(100vh - 9.375rem);
-    }
-
-    .footer-links {
-        font-size: 2rem;
     }
 
     .rehearsal-photos {
@@ -435,8 +435,7 @@ footer {
     }
 
     .rehearsal-photos img {
-        width: 48%;
-        height: auto;
+        width: 49%;
     }
 
 }
