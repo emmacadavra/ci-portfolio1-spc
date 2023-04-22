@@ -260,7 +260,8 @@ footer {
 /* Form Submission Page */
 
 .form-submit {
-    background: url('../images/sheet-music-book.jpg') no-repeat center center;
+    background: #faebd7 url('../images/sheet-music-book.jpg') no-repeat fixed center;
+    background-size: cover;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
