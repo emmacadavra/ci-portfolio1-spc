@@ -503,6 +503,7 @@ footer {
         flex-direction: row;
         flex-wrap: nowrap;
         width: auto;
+        background-color: #111;
     }
 
     .rehearsal-photos img {
