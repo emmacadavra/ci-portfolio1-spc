@@ -244,11 +244,11 @@ The footer sits at the bottom of the webpage and includes four social media link
 
 ### **During Development**
 
-During development, I manually tested the website in Chrome, predominantly by using Chrome's DevTools to allow me to test the content across different screen sizes.
+During development, I manually tested the website as I went along by using the 'python3 -m http.server' command in GitPod's VSCode workspace. I use Google Chrome, so I was predominantly using Chrome's DevTools to allow me to test the content across different screen sizes.
 
-I also made the server public and shared it with several people, asking them to test it on their devices. This was at varying stages of the development, and across different devices so that I could get an idea of whether the site looked good to different people at different sizes.
+At various stages throughout development, I also made the server public and shared it with several people, asking them to confirm that the site was functional on their devices so that I could get an idea of whether the site looked good to different people across different devices.
 
-The site has also been tested and confirmed as fully responsive with no issues on the following browsers:
+The site's functionality has been tested and confirmed as fully responsive across different breakpoints with no issues on the following browsers:
 
 * Google Chrome
 * Mozilla Firefox
@@ -287,23 +287,27 @@ As this is my first major project as part of Code Institute's Full Stack Softwar
 
 If I had more time and knowledge, I would see the following enhancements made:
 
-* JavaScript: I feel that use of JavaScript would greatly improve the functionality of this website, and allow for even more interactive elements to be included on the website. For example, where a hamburger menu has been created in CSS for the purpose of this project, I would replace it with a more intuitive JavaScript hamburger menu. I would also like to include a live Twitter feed, and interactive view of upcoming concerts.
-* Functional sign-up form: As mentioned above, for the purposes of this project the sign-up form I have created does not collect any data from users, but a future enhancement could be to create a sign-up form that fulfils its purpose, with a corresponding database set up ready to receive and store the information.
-* Additional content: As mentioned in the credits, a large portion of this site's content was taken from the Sheffield Philharmonic Chorus' website - though the information provided in this project pales in comparison to the rich amount of information and detail given on their official website. Given more time, I would have liked to include more of this information, such as with a page about the SPC's history, and another with a gallery, et cetera.
-* Improved accessibility: This website utilises viewport heigh calculations for laptop and desktop screen sizes, which looks slick and appealing to users. However, it is noted in the 'Bugs' section below that while the units of measurement I have used wherever possible are rem and em so that increased default font sizes can be taken into account, the viewport height calculations interfere with this level of accessibility. Extra time would be needed to investigate how best to maintain the look of the website (with this viewport height styling rule in mind) whilst also removing barriers for those who use larger font sizes in their browsers.
+* JavaScript: I feel that use of JavaScript would greatly improve the functionality of this website, and allow for even more interactive elements to be included. As I do not know any JavaScript, these things were not possible, but future considerations could be the inclusion of a live Twitter feed, and interactive view of upcoming concerts. Also, where a hamburger menu has been created in CSS for the purpose of this project, I would replace it with an even more intuitive JavaScript hamburger menu.
+* Functional sign-up form: As mentioned above, for the purposes of this project the sign-up form I have created does not collect any data from users, but ideally a future enhancement would be to create a sign-up form that fulfils its purpose, with a corresponding database set up ready to receive and store the information. This would allow for new membership queries to be handled in the streamlined and modernised way that this website set out to achieve.
+* Additional content: As mentioned in the credits, a large portion of this site's content was taken from the Sheffield Philharmonic Chorus' website. However, the content used in this project pales in comparison to the rich amount of information and detail given on their official website. Given more time, I would have liked to include more of this information, such as with a page about the SPC's storied history, a dedicated gallery page, and information about the current season of concerts as well as noteworthy concerts of the past.
+* Improved accessibility: This website utilises viewport height calculations for laptop and desktop screen sizes, which looks slick and appealing to users. However, it is noted in the 'Bugs' section below that while the units of measurement I have used wherever possible are in rem so that increased default font sizes can be taken into account, the viewport height calculations interfere with this level of accessibility. Extra time would be needed to investigate how best to maintain the look of the website (with this viewport height styling rule in mind) whilst also removing barriers for those who use larger font sizes in their browsers.
 
 ## **Credits**
 ### **Honourable Mentions**
 
-* [Damon Kreft](https://github.com/damon-kreft) - Thank you for your unwavering patience and support, and your enthusiasm and encouragement when I have struggled. Your experience has been and will continue to be invaluable to me.
+I'd like to take this opportunity to show my gratitude for the following people:
 
-* [Richard Wells](https://github.com/D0nni387) - Thank you for your mentorship so far, and for always going out of your way to make sure I'm on the right track. I appreciate your advice and guidance very much.
+* [**Damon Kreft**](https://github.com/damon-kreft) - For your unwavering patience, love and support, and your enthusiasm in seeing me start out on my development journey! Thank you for all of your advice, and for being so proud of me and encouraging me when I have struggled. The breadth of your knowledge and experience has been and will continue to be inspiring to me.
 
-* [Kieran Peat](https://github.com/kieranpeat) - Thank you for helping me test my site's functionality, and for your encouraging words of support!
+* [**Richard Wells**](https://github.com/D0nni387) - As my Code Institute mentor, you are always going out of your way to make sure I feel positive about my learning journey by creating a safe and relaxed space to discuss my project. Your feedback is always helpful, and I appreciate your advice and guidance very much.
 
-* [Christina Webb]() - Thank you for encouraging me to go after this course as a means to finally take steps into the world of development!
+* [**Kieran Peat**](https://github.com/kieranpeat) - Thank you so much for always being proud of me when I've shared things I've learned or been working on. I'm grateful to you for helping me test this website on a Mac, and your encouragement means a lot to me.
 
-* [The Sheffield Philharmonic Chorus](https://sheffieldphil.org/) - Thank you to the Sheffield Philharmonic Chorus, in particular to Anne Adams, the SPC Administrator, for allowing me to use their content in order to progress my skills in software development. I'm proud to be a member of the chorus!
+* [**Christina Webb**]() - Thank you for encouraging and inspiring me to go after this course as a means to finally take steps into the world of development!
+
+* [**Jake Pike**]() - For being one of my oldest friends, and helping me believe that I have what it takes to become a developer. 
+
+* [**The Sheffield Philharmonic Chorus**](https://sheffieldphil.org/) - Thank you, of course, to the Sheffield Philharmonic Chorus, in particular to Anne Adams, the SPC Administrator, for allowing me to use their content in order to progress my skills in software development. I'm proud to be a member of the chorus!
 
 ### **Code References**
 
@@ -317,7 +321,7 @@ If I had more time and knowledge, I would see the following enhancements made:
 
 ### **Content**
 
-* The large majority of the written content in Sections One and Two of this website has either been taken directly from or based on the content of the [Sheffield Philharmonic Chorus' official website](https://sheffieldphil.org/). I am once again very grateful to have been given permission to use this content for the purposes of this project.
+* The large majority of the written content in Sections One and Two of this website has either been taken directly from or based on the content of the [Sheffield Philharmonic Chorus' official website](https://sheffieldphil.org/). _"South Yorkshire's foremost large mixed-voice choir"_ is a direct quote from the SPC website's title and header that I have also used in this website's description and opening paragraph, and I have rearranged (or in some cases reworded or paraphrased) the select few sentences I chose to include in this website. I am once again very grateful to have been given permission to use this content for the purposes of this project.
 
 * All icons used are from [Font Awesome](https://fontawesome.com/).
 
@@ -327,11 +331,11 @@ If I had more time and knowledge, I would see the following enhancements made:
 
 * The photograph used in Section One of this website - [choir-orchestra-church.jpg](https://unsplash.com/photos/yUJVHiYZCGQ) - is by [Andrea Zanenga on unsplash.com](https://unsplash.com/@andreazanenga).
 
-* The photographs of the Sheffield Philharmonic Chorus rehearsing, used in Section Two and on the Form Submission page - 'choir-rehearsing.jpg', 'rehearsal1.jpg', 'rehearsal2.jpg', 'rehearsal3.jpg' and 'rehearsal4.jpg' - are real photographs of the choir and were shared with me by Anne Adams, the SPC Adminstrator. All rights belong to the choir.
+* The photographs of the Sheffield Philharmonic Chorus rehearsing, used in Section Two and on the Form Submission page - 'choir-rehearsing.jpg', 'rehearsal1.jpg', 'rehearsal2.jpg', 'rehearsal3.jpg' and 'rehearsal4.jpg' - are real photographs of the choir and were shared with me by Anne Adams, the SPC Adminstrator, along with permission to use them. All rights belong to the choir.
 
 * The Sheffield Philharmonic Chorus logo used in Section Three was taken - with permission - from the [Sheffield Philharmonic Chorus Twitter Account](https://twitter.com/SheffPhilChorus).
 
-* The background image of a sheet music book - [sheet-music-book.jpg](https://unsplash.com/photos/bu-6kNWQj6U) is by [Michael Maasen on unsplash.com](https://unsplash.com/@mgmaasen).
+* The background image of a sheet music book - [sheet-music-book.jpg](https://unsplash.com/photos/bu-6kNWQj6U) - is by [Michael Maasen on unsplash.com](https://unsplash.com/@mgmaasen).
 
 * The screenshot under the Site Overview section of this README.md, displaying the website at different breakpoints/on different devices, was made on [Am I Responsive](https://ui.dev/amiresponsive).
 
