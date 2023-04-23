@@ -78,7 +78,7 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
 
 For this website I chose a simple, elegant colour scheme comprised of two shades of gold, one shade of antique white and four shades of dark grey. This colour scheme not only matches the Sheffield Philharmonic Chorus' logo, but also works exceptionally well with the images chosen for the website to create an antiquated, refined display.
 
-(screenshots of dnp and pass contrast grids)
+![Colour Scheme Contrast Grid](docs/images/spc-project-colours-pass.png)
 
 ### **Typography**
 
