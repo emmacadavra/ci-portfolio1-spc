@@ -577,18 +577,6 @@ footer {
 
 }
 
-@media screen and (min-height: 980px) {
-
-    .section {
-        min-height: calc(100vh - 4.688rem);
-    }
-
-    .section-three,
-    .form-submit {
-        min-height: calc(100vh - 10.938rem);
-    }
-}
-
 @media screen and (min-width: 1280px) {
 
     .menu {
@@ -596,6 +584,7 @@ footer {
     }
 
     .section {
+        min-height: calc(100vh - 4.688rem);
         flex-direction: row;
         width: 100%;
     }
@@ -626,6 +615,11 @@ footer {
 
     .section-two {
         flex-direction: row-reverse;
+    }
+
+    .section-three,
+    .form-submit {
+        min-height: calc(100vh - 10.938rem);
     }
 
     .signup-form {
@@ -668,18 +662,6 @@ footer {
 
 }
 
-@media screen and (min-width: 1600px) and (min-height: 980px) {
-
-    .section {
-        min-height: calc(100vh - 6.25rem);
-    }
-
-    .section-three,
-    .form-submit {
-        min-height: calc(100vh - 12.5rem);
-    }
-}
-
 @media screen and (min-width: 1600px) {
 
     .header {
@@ -696,11 +678,17 @@ footer {
 
     .section {
         scroll-margin-top: 6.25rem;
+        min-height: calc(100vh - 6.25rem);
     }
 
     .section-one,
     .form-submit {
         padding-top: 6.25rem;
+    }
+
+    .section-three,
+    .form-submit {
+        min-height: calc(100vh - 12.5rem);
     }
 
     .signup-form {
