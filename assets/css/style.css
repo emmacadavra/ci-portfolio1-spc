@@ -136,6 +136,7 @@ body {
 .section-content {
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -199,6 +200,11 @@ body {
     padding: 0.625rem;
     background-color: rgba(192, 170, 60, 0.75);
     border-radius: 0.625rem;
+    margin-bottom: 0.5rem;
+}
+
+.signup-form h3 {
+    text-align: center;
 }
 
 .signup-form hr {
@@ -380,6 +386,11 @@ footer {
         height: fit-content;
     }
 
+    .section-heading,
+    .signup-heading {
+        font-size: 1.75rem;
+    }
+
     .section-content p {
         padding: 0.625rem;
         margin: 0 auto;
@@ -482,6 +493,7 @@ footer {
 
     .menu {
         margin-top: 4.688rem;
+        font-size: 1.1rem;
     }
 
     .section {
@@ -491,6 +503,10 @@ footer {
     .section-one,
     .form-submit {
         padding-top: 4.688rem;
+    }
+
+    .section-content h2 {
+        font-size: 2rem;
     }
 
     .section-content p {
@@ -523,6 +539,7 @@ footer {
 
     .menu {
         margin-top: 0;
+        font-size: 1.1rem;
     }
 
     .menu a {
@@ -550,6 +567,10 @@ footer {
 }
 
 @media screen and (min-width: 1280px) {
+
+    .menu {
+        font-size: 1.2rem;
+    }
 
     .section {
         flex-direction: row;
@@ -632,12 +653,20 @@ footer {
     }
 
     .header h1 {
-        font-size: 3rem;
+        font-size: 3.25rem;
+    }
+
+    .menu {
+        font-size: 1.4rem;
     }
 
     .section {
         height: calc(100vh - 6.25rem);
         scroll-margin-top: 6.25rem;
+    }
+
+    .section {
+        font-size: 1.1rem;
     }
 
     .section-one,
