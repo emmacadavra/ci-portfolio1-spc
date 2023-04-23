@@ -301,9 +301,17 @@ If I had more time and knowledge, I would see the following enhancements made:
 
 * [Kieran Peat](https://github.com/kieranpeat) - Thank you for helping me test my site's functionality, and for your encouraging words of support!
 
-* [The Sheffield Philharmonic Chorus](https://sheffieldphil.org/) - Thank you to the Sheffield Philharmonic Chorus, in particular to Anne Adams, the SPC administrator, for allowing me to use their content in order to progress my skills in software development. I'm proud to be a member of the chorus!
+* [The Sheffield Philharmonic Chorus](https://sheffieldphil.org/) - Thank you to the Sheffield Philharmonic Chorus, in particular to Anne Adams, the SPC Administrator, for allowing me to use their content in order to progress my skills in software development. I'm proud to be a member of the chorus!
 
 ### **Code References**
+
+As this is my first project as part of Code Institute's Full Stack Software Development course, it has been largely influenced by what I have learned up until this point, in particular the 'Love Running' code-along project and the additional learning it inspired me to do (for example, learning Flexbox). I have tried to make this project as unique to me as possible, but there are likely many similarities in the code. Examples of this are the unordered lists used for the header's navigation bar, and social media links in the footer.
+
+Both the HTML and CSS code for this project's hamburger menu were taken from [Luke Embrey's 10+ Hamburger Menu Examples CSS Only](https://alvarotrigo.com/blog/hamburger-menu-css/) blog post. I have clearly marked where the HTML and CSS code I have used begins and ends using comments in my code. I'm very grateful for this blog post, as it provided me the opportunity to learn something I wouldn't have thought possible with CSS alone.
+
+My understanding of Flexbox is almost entirely thanks to [Traversy Media's Flexbox Crash Course 2022 YouTube video](https://youtu.be/3YW65K6LcIA), and so there is likely a lot of similarity in the methods I have used.
+
+Throughout the project, I utilised MDN Web Docs, Stack Overflow, W3Schools and Code Institute's Programme Content and Slack Channels as references whenever I was stuck or needed to refresh my knowledge. 
 
 
 ### **Content**
