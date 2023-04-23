@@ -49,7 +49,7 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
 
 * To inform the user about the choir and its rehearsals
 * To maintain the choir's professional reputation whilst demonstrating its friendly approach
-* To inform the user about how they can register their interest to join the choir
+* To inform the user about how they can register their interest to join the choir, and to provide a way in which they can sign up through a convenient online form, rather than get in touch by email or phone.
 
 ### **Colour Scheme:**
 
@@ -141,9 +141,17 @@ The Submit button is made distinct from the rest of the form by using the invers
 
 #### **Form Submission Page**
 
-The form submission page was created to emulate the experience of submitting a form. In this particular instance, because this website is for education purposes and is not designed to collect data, no form method has been defined. However, in order to create a professional looking website, the form-submission page acts as a confirmation of form validation that the user can understand. It also includes the same header and footer as the main site page, so that the user can quickly and easily navigate back to the homepage and other sections.
+The form submission page was created to emulate the experience of submitting a form. In this particular instance, because this website is for education purposes and is not designed to collect data, no form method has been defined. However, in order to create a professional looking website, the form-submission page acts as a confirmation of form validation that the user can understand. It includes the same header and footer as the main site page, so that the user can quickly and easily navigate back to the homepage and other sections at their convenience.
 
 (screenshot of form submission page)
+
+As an additional feature to this page, I added four photographs taken from a recent rehearsal to make the page more interesting to the user, and to give the user who has signed up a further idea of the fun they will have singing with the choir. My vision for this section is best displayed at a minimum screen width of 1050px, where all four images form a band across the screen in a way that is reminiscent of photographic film.
+
+(screenshot of these images at a wider screen width)
+
+This format does not suit smaller screens, however, so I added two levels of responsive design depending on the width of the user's screen - when on a narrow mobile device, the images appear in a column below the box of confirmation text, while on a tablet screen between 550px and 1050px, the photos appear as a 2x2 grid.
+
+(screenshots of grid + mobile columns)
 
 #### **Footer**
 
@@ -172,6 +180,7 @@ The site has also been tested and confirmed as fully responsive with no issues o
 * Google Chrome
 * Mozilla Firefox
 * Microsoft Edge
+* Safari
 
 ## **Bugs**
 
@@ -184,7 +193,7 @@ The site has also been tested and confirmed as fully responsive with no issues o
 
 The technologies used in the making of this website are:
 * HTML5
-* CSS3
+* CSS3, including Flexbox
 
 ## **Credits**
 ### **Honourable mentions**
