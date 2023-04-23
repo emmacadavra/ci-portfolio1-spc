@@ -32,6 +32,7 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
     * [***Footer***](#footer)
         * [*Footer Links*](#footer-links)
         * [*Footer Disclaimer*](#footer-disclaimer)
+1. [**Accessibility**](#accessibility)
 1. [**Testing**](#testing)
     * [***During Development***](#during-development)
     * [***Bugs***](#bugs)
@@ -40,9 +41,8 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
     * [***Validators***](#validators)
         * [*HTML Validation*](#html-validation)
         * [*CSS Validation*](#css-validation)
-        * [*Lighthouse Score - Desktop*](#lighthouse-score-desktop)
-        * [*Lighthouse Score - Mobile*](#lighthouse-score-mobile)
-    * [***Accessibility***](#accessibility)
+        * [*Lighthouse Score Desktop*](#lighthouse-score-desktop)
+        * [*Lighthouse Score Mobile*](#lighthouse-score-mobile)
 1. [**Technologies Used**](#technologies-used)
 1. [**Deployment**](#deployment)
 1. [**Future-Enhancements**](#future-enhancements)
@@ -112,6 +112,8 @@ In each case, the links are obvious and readable for a smooth user experience.
 
 ### **Section One**
 
+HOME
+
 #### **Section One Image**
 
 Sections one and two (‘Home’ and ‘Rehearsals’) feature a large image that makes up 50% of the section as a whole. The decision to include images that take up a large part of each section was made in order to make the site more visually eye-catching and appealing, with the additional benefit of not overloading the user with too much text at once.
@@ -156,6 +158,8 @@ The images are responsive, and will adapt to the screen size and position withou
 
 ### **Section Two**
 
+REHEARSALS
+
 #### **Section Two Image**
 
 (section two image)
@@ -167,6 +171,8 @@ The image is responsive, and will adapt to the screen size and position without 
 #### **Section Two Content**
 
 ### **Section Three**
+
+JOIN US
 
 #### **SPC Logo**
 
@@ -230,6 +236,8 @@ The footer sits at the bottom of the webpage and includes four social media link
 
 #### **Footer Disclaimer**
 
+## **Accessibility**
+
 ## **Testing**
 
 ### **During Development**
@@ -239,6 +247,7 @@ During development, I manually tested the website in Chrome, predominantly by us
 I also made the server public and shared it with several people, asking them to test it on their devices. This was at varying stages of the development, and across different devices so that I could get an idea of whether the site looked good to different people at different sizes.
 
 The site has also been tested and confirmed as fully responsive with no issues on the following browsers:
+
 * Google Chrome
 * Mozilla Firefox
 * Microsoft Edge
@@ -258,11 +267,9 @@ Mention the Lighthouse score for performance - image compression!!
 
 #### **CSS Validation**
 
-#### **Lighthouse Score - Desktop**
+#### **Lighthouse Score Desktop**
 
-#### **Lighthouse Score - Mobile**
-
-### **Accessibility**
+#### **Lighthouse Score Mobile**
 
 ## **Technologies Used**
 
