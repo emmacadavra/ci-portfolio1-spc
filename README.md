@@ -311,7 +311,7 @@ Both the HTML and CSS code for this project's hamburger menu were taken from [Lu
 
 My understanding of Flexbox is almost entirely thanks to [Traversy Media's Flexbox Crash Course 2022 YouTube video](https://youtu.be/3YW65K6LcIA), and so there is likely a lot of similarity in the methods I have used.
 
-Throughout the project, I utilised MDN Web Docs, Stack Overflow, W3Schools and Code Institute's Programme Content and Slack Channels as references whenever I was stuck or needed to refresh my knowledge. 
+Throughout the project, I often utilised and relied upon [MDN Web Docs](https://developer.mozilla.org/en-US/), [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/) and Code Institute's Programme Content and Slack Channels as references whenever I was stuck or needed to refresh my knowledge. 
 
 
 ### **Content**
