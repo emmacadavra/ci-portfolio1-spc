@@ -149,7 +149,7 @@ body {
     font-size: 1.1rem;
 }
 
-.interested {
+.call-to-action {
     background: rgb(182, 161, 57);
     background: linear-gradient(90deg, rgba(182, 161, 57, 1) 0%, rgba(249, 230, 140, 1) 23%, rgba(192, 170, 60, 1) 100%);
     border-radius: 0.8rem;
@@ -157,7 +157,7 @@ body {
     box-shadow: 0px 0px 20px 0px #222;
 }
 
-.interested h3 {
+.call-to-action h3 {
     font-family: "Roboto Serif", serif;
     font-size: 1.5rem;
 }
@@ -399,7 +399,7 @@ footer {
         max-width: 90%;
     }
 
-    .interested {
+    .call-to-action {
         padding: 0.5rem;
         width: 90%;
     }
@@ -456,7 +456,7 @@ footer {
         font-size: 1.4rem;
     }
 
-    .interested {
+    .call-to-action {
         max-width: 29.688rem;
     }
 
