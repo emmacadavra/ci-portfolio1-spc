@@ -13,12 +13,25 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
     * [***Colour Scheme***](#colour-scheme)
     * [***Typography***](#typography)
 1. [**Current Features Common to All Pages**](#current-features-common-to-all-pages)
-    * [***Header and Navigation Bar***](#header-and-navigation-bar)
-    * [***Section Images***](#section-images)
-    * [***SPC Logo***](#spc-logo)
-    * [***Sign-Up Form***](#sign-up-form)
+    * [***Header***](#header)
+        * [*Site Title*](#site-title)
+        * [*Navigation Bar*](#navigation-bar)
+    * [***Section One***](#section-one)
+        * [*Section One Image*](#section-one-image)
+        * [*Section One Content*](#section-one-content)
+        * [*Interested in Singing With Us Box*](#interested-in-singing-with-us-box)
+    * [***Section Two***](#section-two)
+        * [*Section Two Image*](#section-two-image)
+        * [*Section Two Content*](#section-two-content)
+    * [***Section Three***](#section-three)
+        * [*SPC Logo*](#spc-logo)
+        * [*Sign-Up Form*](#sign-up-form)
     * [***Form Submission Page***](#form-submission-page)
-    * [**Footer**](#footer)
+        * [*Form Submission Confirmation*](#form-submission-confirmation)
+        * [*Form Submissions Images*](#form-submission-images)
+    * [***Footer***](#footer)
+        * [*Footer Links*](#footer-links)
+        * [*Footer Disclaimer*](#footer-disclaimer)
 1. [**Future-Enhancements**](#future-enhancements)
 1. [**Testing Phase**](#testing-phase)
 1. [**Deployment**](#deployment)
@@ -68,11 +81,15 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
 * All fonts were sourced from Google fonts, as stated in the credits.
 
 ## **Current Features Common to All Pages**
-#### **Header and Navigation Bar**
+### **Header**
 
-The header sits atop the page in a fixed position, so that the site title is always visible to the user, for a simple and pleasant user experience. Within the header, there is a navigation bar, which appears in two separate forms depending on the screen size of the user.
+The header sits atop the page in a fixed position, so that the site title is always visible to the user, for a simple and pleasant user experience. Within the header, the site title is clearly visible, and there is a navigation bar, which appears in two separate forms depending on the screen size of the user.
 
 (screenshot of larger screen)
+
+#### **Site Title**
+
+#### **Navigation Bar**
 
 On larger screens, such as laptops and desktops, the navigation bar displays all three navigation links in the top-right corner of the screen.
 
@@ -83,7 +100,13 @@ On smaller screens, such as tablets and mobile phones, the navigation bar menu a
 
 In each case, the links are obvious and readable for a smooth user experience.
 
-#### **Section Images**
+### **Section One**
+
+#### **Section One Image**
+
+#### **Section One Content**
+
+#### **Interested in Singing With Us Box**
 
 Sections one and two (‘Home’ and ‘Rehearsals’) feature a large image that makes up 50% of the section as a whole. The decision to include images that take up a large part of each section was made in order to make the site more visually eye-catching and appealing, with the additional benefit of not overloading the user with too much text at once.
 
@@ -104,6 +127,14 @@ Section one’s image was chosen for its eye-catching location’s grandeur, and
 Section two’s image is a lot more casual, and this is to show the other side of the chorus which is friendly, approachable, and full of smiles. This is so that users of the website can see that the choir is both professional, and also relaxed and welcoming.
 
 The images are responsive, and will adapt to the screen size and position without stretching or shrinking.
+
+### **Section Two**
+
+#### **Section Two Image**
+
+#### **Section Two Content**
+
+### **Section Three**
 
 #### **SPC Logo**
 
@@ -137,13 +168,17 @@ The second fieldset uses radio button input so that the user can select which vo
 
 The form is responsive, with the fieldsets and additional text being set to display as columns on smaller screens, and rows on larger screens. This is achieved using Flexbox CSS rules.
 
-The Submit button is made distinct from the rest of the form by using the inverse of the form's colours - rather than dark grey text on yellow, the button itself is dark grey with yellow text that is larger than the form's text. 
+The Submit button is made distinct from the rest of the form by using the inverse of the form's colours - rather than dark grey text on yellow, the button itself is dark grey with yellow text that is larger than the form's text.
 
-#### **Form Submission Page**
+### **Form Submission Page**
+
+#### **Form Submission Confirmation**
 
 The form submission page was created to emulate the experience of submitting a form. In this particular instance, because this website is for education purposes and is not designed to collect data, no form method has been defined. However, in order to create a professional looking website, the form-submission page acts as a confirmation of form validation that the user can understand. It includes the same header and footer as the main site page, so that the user can quickly and easily navigate back to the homepage and other sections at their convenience.
 
 (screenshot of form submission page)
+
+#### **Form Submission Images**
 
 As an additional feature to this page, I added four photographs taken from a recent rehearsal to make the page more interesting to the user, and to give the user who has signed up a further idea of the fun they will have singing with the choir. My vision for this section is best displayed at a minimum screen width of 1050px, where all four images form a band across the screen in a way that is reminiscent of photographic film.
 
@@ -153,11 +188,15 @@ This format does not suit smaller screens, however, so I added two levels of res
 
 (screenshots of grid + mobile columns)
 
-#### **Footer**
+### **Footer**
+
+#### **Footer Links**
 
 The footer sits at the bottom of the webpage and includes four social media links, all of which are indicated by a logo from Font Awesome. As they are logos only, they also include an aria-label so that screen readers can easily understand the purpose of each icon. All links are set to open in a new tab, so that they do not disrupt the user experience.
 
 (screenshot of footer)
+
+#### **Footer Disclaimer**
 
 ## **Future-Enhancements**
 
