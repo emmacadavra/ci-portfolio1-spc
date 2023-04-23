@@ -106,7 +106,7 @@ The header sits atop the page in a fixed position, for a simple and pleasant use
 
 #### **Site Title**
 
-The fixed position of the header means that the site title is clear and visible - regardless of what device the user is viewing from, and where they are on the website. CSS media queries have been used across multiple breakpoints, so that the text is always appropriately large and easy to read. It is the only h1 element on the website, so that its purpose as the main website title is made obvious not only by its location and styling, but also by its semantic placement within the header for the benefit of assistive technology such as screen readers.
+The fixed position of the header means that the site title is clear and visible - regardless of what device the user is viewing from, and where they are on the website. It starts on the left-hand side of the header, making it intuitive as the website is in English, which is read left-to-right. CSS media queries have been used across multiple breakpoints, so that the text is always appropriately large and easy to read. It is the only h1 element on the website, so that its purpose as the main website title is made obvious not only by its location and styling, but also by its semantic placement within the header for the benefit of assistive technology such as screen readers.
 
 The site title also serves as a link to take the user back to the homepage, which is a simple function that users have come to expect on all webpages. There are no special CSS rules applied to the site title (such as the hover rule), to give the illusion that it is an image logo, which is also something users would expect.
 
@@ -114,16 +114,22 @@ The site title also serves as a link to take the user back to the homepage, whic
 
 #### **Navigation Bar**
 
-On larger screens, such as laptops and desktops, the navigation bar displays all three navigation links in the top-right corner of the screen.
+The navigation bar is comprised of three unordered list items that are wrapped within a nav element for semantic purposes. Each list item uses an anchor tag to link it to its corresponding section on the website. The three links are 'Home' (Section One), 'Rehearsals' (Section Two) and 'Join Us' (Section Three). These links make it so that the user can navigate to the different sections of the website with ease, and without the need to use the browser's 'back' button.
+
+CSS styling rules have been applied for screens that are at least 1050px wide, so that the navigation links appear on the right-hand side of the header, and the links have hover styling that changes the default colour to a brighter shade of gold, so that the user is given interactive confirmation that the text they are hovering over is a clickable link. 
+
+(screenshot of nav bar)
+(screenshot of hover styling)
 
 #### **Hamburger Menu**
 
+On smaller screens, such as tablets and mobile phones, the navigation bar menu appears as a hamburger menu in the top-right corner, which expands when clicked on to reveal the navigation links. The purpose of this is to prioritise the site title, so that users can always see it, and to prevent the header from taking up too much room on smaller screens, providing an optimal experience.
+
 (screenshot of mobile screen - menu closed)
+
+An animation has been added to the hamburger menu which turns it from the traditional three lines when closed, into a large X when it is open. This makes it feel even more interactive, and to make it clear to users that they can close the menu again by clicking on the familar transformed shape.
+
 (screenshot of mobile screen - menu open)
-
-On smaller screens, such as tablets and mobile phones, the navigation bar menu appears as a hamburger menu in the top-right corner, which expands when clicked on to reveal the page links. The purpose of this is to prevent the header from taking up too much room on smaller screens, providing an optimal experience.
-
-In each case, the links are obvious and readable for a smooth user experience.
 
 ### **Section One**
 
