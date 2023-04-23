@@ -307,7 +307,7 @@ I'd like to take this opportunity to show my gratitude for the following people:
 
 * [**Christina Webb**]() - Thank you for encouraging and inspiring me to go after this course as a means to finally take steps into the world of development!
 
-* [**Jake Pike**]() - For being one of my oldest friends, and helping me believe that I have what it takes to become a developer. 
+* [**Jake Pike**](https://github.com/iamjakepike/) - For being one of my oldest friends, and helping me believe that I have what it takes to become a developer. Thank you also for taking the time to provide me with tips and resources to help me develop, and for providing additional feedback from a business and marketing perspective so that I get a well rounded view of all the things I need to consider!
 
 * [**The Sheffield Philharmonic Chorus**](https://sheffieldphil.org/) - Thank you, of course, to the Sheffield Philharmonic Chorus, in particular to Anne Adams, the SPC Administrator, for allowing me to use their content in order to progress my skills in software development. I'm proud to be a member of the chorus!
 
