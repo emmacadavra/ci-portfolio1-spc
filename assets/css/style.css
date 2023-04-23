@@ -148,14 +148,25 @@ body {
     font-size: 1.25rem;
 }
 
+.interested {
+    background-color: #c0aa3c;
+    border-radius: 0.625rem;
+    margin: 1rem auto;
+}
+
+.interested h3 {
+    font-family: "Roboto Serif", serif;
+    font-size: 1.5rem;
+}
+
 .section-content a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #111;
     font-weight: bold;
 }
 
 .section-content a:hover {
-    text-decoration: underline;
+    color: #8B6914;
 }
 
 .section-three {
@@ -375,6 +386,11 @@ footer {
         max-width: 90%;
     }
 
+    .interested {
+        padding: 1rem;
+        width: 90%;
+    }
+
     .section-image {
         width: 100%;
         overflow: hidden;
@@ -425,6 +441,10 @@ footer {
 
     .header h1 {
         font-size: 1.4rem;
+    }
+
+    .interested {
+        max-width: 29.688rem;
     }
 
     .footer-links {
