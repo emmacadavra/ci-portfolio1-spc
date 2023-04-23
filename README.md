@@ -6,7 +6,7 @@ Currently, the SPC's official website is vast and full of a wealth of informatio
 ​
 ![Am I responsive screenshot](screenshot of amiresponsive)
 
-## Table of contents:
+## **Table of Contents:**
 1. [**Site Overview**](#site-overview)
 1. [**Planning stage**](#planning-stage)
     * [***Target Audiences***](#target-audiences)
@@ -18,6 +18,7 @@ Currently, the SPC's official website is vast and full of a wealth of informatio
     * [***Header***](#header)
         * [*Site Title*](#site-title)
         * [*Navigation Bar*](#navigation-bar)
+        * [*Hamburger Menu*](#hamburger-menu)
     * [***Section One***](#section-one)
         * [*Section One Image*](#section-one-image)
         * [*Section One Content*](#section-one-content)
@@ -57,28 +58,29 @@ Currently, the SPC's official website is vast and full of a wealth of informatio
 ## **Planning stage**
 ### **Target Audiences**
 
-* Users interested in singing choral music with other like-minded people
-* Users interested in performing choral music as part of a large choir
-* Users who have seen or heard about the Sheffield Philharmonic Chorus and want to find out more
-* Users interested in joining a choir in the Sheffield/South Yorkshire area who do not know about the Sheffield Philharmonic Chorus
+* Users interested in singing choral music with other like-minded people.
+* Users interested in performing choral music as part of a large choir.
+* Users who have seen or heard about the Sheffield Philharmonic Chorus and want to find out more.
+* Users interested in joining a choir in the Sheffield/South Yorkshire area who do not know about the Sheffield Philharmonic Chorus.
 
 ### **User Stories**
 
 * As a user, I want to see the subject matter of the page.
 * As a user, I want to navigate the page to find what I require quickly and easily.
-* As a user, I want to learn more about what the choir does.
-* As a user, I want to learn more about when the choir rehearses.
-* As a user, I want to register to join the choir.
+* As a user, I want a concise overview about the choir.
+* As a user, I want to learn more about when and where the choir rehearses.
+* As a user, I want to register to join the choir with ease.
 
 ### **Site Aims**
 
-* To inform the user about the choir and its rehearsals
-* To maintain the choir's professional reputation whilst demonstrating its friendly approach
-* To inform the user about how they can register their interest to join the choir, and to provide a way in which they can sign up through a convenient online form, rather than get in touch by email or phone.
+* To provide a concise overview about the Sheffield Philharmonic Chorus.
+* To inform the user about when and where the choir meets for rehearsals.
+* To offer a straightforward, streamlined experience for users who wish to register with the choir online, by utilising a simple and strong call to action, and an easy to understand online form, rather than users needing to get in touch by email or telephone.
+* To maintain the choir's professional reputation whilst demonstrating its friendly and approachable demeanour.
 
 ### **Colour Scheme**
 
-For this website I chose a simple, elegant colour scheme comprised of two shades of gold, one shade of antique white and four shades of dark grey. This colour scheme not only matches the Sheffield Philharmonic Chorus' logo, but also works exceptionally well with the images chosen for the website to create an antiquated, refined display.
+For this website I chose an elegant colour scheme comprised of three shades of gold, one shade of antique white and four shades of dark grey. This colour scheme not only matches the Sheffield Philharmonic Chorus' logo, but also works exceptionally well with the images chosen for the website to create an antiquated, refined display.
 
 ![Colour Scheme Contrast Grid](docs/images/)
 
@@ -89,7 +91,7 @@ For this website I chose a simple, elegant colour scheme comprised of two shades
     * Roboto Serif
     * Roboto Slab
 ​
-* The ‘Playfair Display’ font was chosen to match the Sheffield Philharmonic Chorus logo, seen in the logo in the ‘Join Us’ sections of the site.
+* The ‘Playfair Display’ font was chosen to match the Sheffield Philharmonic Chorus logo, which is featured in the ‘Join Us’ sections of the site.
 * Roboto Slab was chosen as the font for the majority of the body of the site as it maintains readability whilst appearing sophisticated.
 * Roboto Serif was chosen for the opening paragraph due to it being better suited to italic styling than Roboto Slab.
 * All fonts were sourced from Google Fonts, as stated in the credits.
@@ -97,15 +99,24 @@ For this website I chose a simple, elegant colour scheme comprised of two shades
 ## **Current Website Features**
 ### **Header**
 
-The header sits atop the page in a fixed position, so that the site title is always visible to the user, for a simple and pleasant user experience. Within the header, the site title is clearly visible, and there is a navigation bar, which appears in two separate forms depending on the screen size of the user.
+The header sits atop the page in a fixed position, for a simple and pleasant user experience. Within the header, the site title is clearly visible, and there is a navigation bar, which appears in two separate forms depending on the screen size of the user. The contrast between the background colour and text colour is AAA rated, as seen on the above Colour Contrast Grid, and responsive CSS design rules have been applied to the header height, depending on screen size.
 
-(screenshot of larger screen)
+(screenshot of header on desktop)
+(screenshot of header on mobile)
 
 #### **Site Title**
+
+The fixed position of the header means that the site title is clear and visible - regardless of what device the user is viewing from, and where they are on the website. CSS media queries have been used across multiple breakpoints, so that the text is always appropriately large and easy to read. It is the only h1 element on the website, so that its purpose as the main website title is made obvious not only by its location and styling, but also by its semantic placement within the header for the benefit of assistive technology such as screen readers.
+
+The site title also serves as a link to take the user back to the homepage, which is a simple function that users have come to expect on all webpages. There are no special CSS rules applied to the site title (such as the hover rule), to give the illusion that it is an image logo, which is also something users would expect.
+
+(screenshots of site title at 2 or 3 different breakpoints)
 
 #### **Navigation Bar**
 
 On larger screens, such as laptops and desktops, the navigation bar displays all three navigation links in the top-right corner of the screen.
+
+#### **Hamburger Menu**
 
 (screenshot of mobile screen - menu closed)
 (screenshot of mobile screen - menu open)
@@ -299,17 +310,17 @@ If I had more time and knowledge, I would see the following enhancements made:
 
 I'd like to take this opportunity to express my gratitude to the following people:
 
-* [**Damon Kreft**](https://github.com/damon-kreft) - For your unwavering patience, love and support, and your enthusiasm in seeing me start out on my development journey! Thank you for all of your advice, and for being so proud of me and encouraging me when I have struggled. The breadth of your knowledge and experience has been and will continue to be inspiring to me.
+* [**Damon Kreft**](https://github.com/damon-kreft) - For your unwavering patience, love and support, and your enthusiasm in seeing me start out on my development journey! Thank you for all of your advice, and for being so proud of me and encouraging me when I have struggled. The breadth of your knowledge and experience has been and will continue to be inspiring to me, and I hope to continue to make you proud!
 
 * [**Richard Wells**](https://github.com/D0nni387) - As my Code Institute mentor, you are always going out of your way to make sure I feel positive about my learning journey by creating a safe and relaxed space to discuss my project. Your feedback is always helpful, and I appreciate your advice and guidance very much.
 
-* [**Kieran Peat**](https://github.com/kieranpeat) - Thank you so much for always being proud of me when I've shared things I've learned or been working on. I'm grateful to you for your encouragement, which means a lot to me. Thank you also for being the only person I know who uses a Mac, and as such being able to help me test this website on Safari!
+* [**Kieran Peat**](https://github.com/kieranpeat) - Thank you so much for always being proud of me when I've shared things I've learned or been working on. I'm grateful to you for your encouragement, which means a lot to me. Thank you also for helping me test this website's functionality on Safari!
 
 * [**Christina Webb**]() - Thank you for encouraging and inspiring me to go after this course as a means to finally take steps into the world of development! I'm looking forward to being able to share our development journeys with each other.
 
-* [**Jake Pike**](https://github.com/iamjakepike) - For being one of my oldest friends, and helping me believe that I have what it takes to become a developer. Thank you also for taking the time to provide me with tips and resources to help me develop, and for providing additional feedback from a business and marketing perspective so that I get a well rounded view of all the things I need to consider!
+* [**Jake Pike**](https://github.com/iamjakepike) - For being one of my oldest friends, and helping me believe that I have what it takes to become a developer. Thank you also for taking the time to provide me with tips and resources to help me develop my skills, and for providing additional feedback from a business and marketing perspective so that I get a well rounded view of all the things I need to consider!
 
-* [**Michael Fisher**](https://github.com/undefinedyuuki) - Thank you for being so willing to help me refine and polish this website, and for sharing important lessons you have learned on your web development journey so far. Thank you also for asking all the right questions to help me really consider the best solutions for this project.
+* [**Michael Fisher**](https://github.com/undefinedyuuki) - Thank you for being so willing to help me refine and polish this website by sharing important lessons you have learned on your web development journey so far. Thank you also for asking all the right questions to help me really consider the best solutions for this project.
 
 * [**The Sheffield Philharmonic Chorus**](https://sheffieldphil.org/) - Thank you, of course, to the Sheffield Philharmonic Chorus, in particular to Anne Adams, the SPC Administrator, for allowing me to use their content in order to progress my skills in software development. I'm proud to be a member of the chorus!
 
