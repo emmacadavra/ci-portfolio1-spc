@@ -12,7 +12,7 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
     * [***Site Aims***](#site-aims)
     * [***Colour Scheme***](#colour-scheme)
     * [***Typography***](#typography)
-1. [**Current Features Common to All Pages**](#current-features-common-to-all-pages)
+1. [**Current Website Features**](#current-website-features)
     * [***Header***](#header)
         * [*Site Title*](#site-title)
         * [*Navigation Bar*](#navigation-bar)
@@ -32,25 +32,35 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
     * [***Footer***](#footer)
         * [*Footer Links*](#footer-links)
         * [*Footer Disclaimer*](#footer-disclaimer)
-1. [**Future-Enhancements**](#future-enhancements)
-1. [**Testing Phase**](#testing-phase)
+1. [**Testing**](#testing)
+    * [***During Development***](#during-development)
+    * [***Bugs***](#bugs)
+        * [*Resolved Bugs*](#resolved-bugs)
+        * [*Unresolved Bugs*](#unresolved-bugs)
+    * [***Validators***](#validators)
+        * [*HTML Validation*](#html-validation)
+        * [*CSS Validation*](#css-validation)
+        * [*Lighthouse Score - Desktop*](#lighthouse-score-desktop)
+        * [*Lighthouse Score - Mobile*](#lighthouse-score-mobile)
+    * [***Accessibility***](#accessibility)
+1. [**Technologies Used**](#technologies-used)
 1. [**Deployment**](#deployment)
-1. [**Tech**](#tech)
+1. [**Future-Enhancements**](#future-enhancements)
 1. [**Credits**](#credits)
-    * [**Honourable mentions**](#honourable-mentions)
-    * [**General reference**](#general-reference)
+    * [**Honourable Mentions**](#honourable-mentions)
+    * [**Code References**](#code-references)
     * [**Content**](#content)
     * [**Media**](#media)
 
 ## **Planning stage**
-### **Target Audiences:**
+### **Target Audiences**
 
 * Users interested in singing choral music with other like-minded people
 * Users interested in performing choral music as part of a large choir
 * Users who have seen or heard the Sheffield Philharmonic Chorus and want to find out more
 * Users interested in joining a choir in the Sheffield area who do not know about the Sheffield Philharmonic Chorus
 
-### **User Stories:**
+### **User Stories**
 
 * As a user, I want to see the subject matter of the page.
 * As a user, I want to navigate the page to find what I require quickly and easily.
@@ -58,17 +68,17 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
 * As a user, I want to learn more about when the choir rehearses.
 * As a user, I want to register to join the choir.
 
-### **Site Aims:**
+### **Site Aims**
 
 * To inform the user about the choir and its rehearsals
 * To maintain the choir's professional reputation whilst demonstrating its friendly approach
 * To inform the user about how they can register their interest to join the choir, and to provide a way in which they can sign up through a convenient online form, rather than get in touch by email or phone.
 
-### **Colour Scheme:**
+### **Colour Scheme**
 
 (INFO ABOUT COLOURS)
 
-## **Typography:**
+### **Typography**
 
 * Throughout the page, there are 3 fonts used:
     * Playfair Display
@@ -80,7 +90,7 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
 * Roboto Serif was chosen for the opening paragraph due to it being better suited to italic styling than Roboto Slab.
 * All fonts were sourced from Google fonts, as stated in the credits.
 
-## **Current Features Common to All Pages**
+## **Current Website Features**
 ### **Header**
 
 The header sits atop the page in a fixed position, so that the site title is always visible to the user, for a simple and pleasant user experience. Within the header, the site title is clearly visible, and there is a navigation bar, which appears in two separate forms depending on the screen size of the user.
@@ -103,6 +113,22 @@ In each case, the links are obvious and readable for a smooth user experience.
 ### **Section One**
 
 #### **Section One Image**
+
+Sections one and two (‘Home’ and ‘Rehearsals’) feature a large image that makes up 50% of the section as a whole. The decision to include images that take up a large part of each section was made in order to make the site more visually eye-catching and appealing, with the additional benefit of not overloading the user with too much text at once.
+
+(screenshot of smaller screen)
+
+On smaller screens, the images appear landscape, and are positioned below the content of the section.
+
+(screenshot of larger screen)
+
+On larger screens, the images appear next to the content of the section, with section two’s order having been reversed for an engaging visual effect.
+
+(section one image)
+
+Section one’s image was chosen for its eye-catching location’s grandeur, and sets a very professional and serene tone. It also suggests an important level of inclusiveness for those who prefer to wear masks since the outbreak of the Covid-19 pandemic.
+
+The image is responsive, and will adapt to the screen size and position without stretching or shrinking.
 
 #### **Section One Content**
 
@@ -131,6 +157,12 @@ The images are responsive, and will adapt to the screen size and position withou
 ### **Section Two**
 
 #### **Section Two Image**
+
+(section two image)
+
+Section two’s image is a lot more casual, and this is to show the other side of the chorus which is friendly, approachable, and full of smiles. This is so that users of the website can see that the choir is both professional, and also relaxed and welcoming.
+
+The image is responsive, and will adapt to the screen size and position without stretching or shrinking.
 
 #### **Section Two Content**
 
@@ -198,18 +230,9 @@ The footer sits at the bottom of the webpage and includes four social media link
 
 #### **Footer Disclaimer**
 
-## **Future-Enhancements**
+## **Testing**
 
-As this is my first major project as part of Code Institute's Full Stack Software Development course, I am limited by the current scope of my knowledge.
-
-If I had more time and knowledge, I would see the following enhancements made:
-
-* JavaScript: I feel that use of JavaScript would greatly improve the functionality of this website, and allow for even more interactive elements to be included on the website. For example, where a hamburger menu has been created in CSS for the purpose of this project, I would replace it with a more intuitive JavaScript hamburger menu. I would also like to include a live Twitter feed, and interactive view of upcoming concerts.
-* Functional sign-up form: As mentioned above, for the purposes of this project the sign-up form I have created does not collect any data from users, but a future enhancement could be to create a sign-up form that fulfils its purpose, with a corresponding database set up ready to receive and store the information.
-* Additional content: As mentioned in the credits, a large portion of this site's content was taken from the Sheffield Philharmonic Chorus' website - though the information provided in this project pales in comparison to the rich amount of information and detail given on their official website. Given more time, I would have liked to include more of this information, such as with a page about the SPC's history, and another with a gallery, et cetera.
-* Improved accessibility: This website utilises viewport heigh calculations for laptop and desktop screen sizes, which looks slick and appealing to users. However, it is noted in the 'Bugs' section below that while the units of measurement I have used wherever possible are rem and em so that increased default font sizes can be taken into account, the viewport height calculations interfere with this level of accessibility. Extra time would be needed to investigate how best to maintain the look of the website (with this viewport height styling rule in mind) whilst also removing barriers for those who use larger font sizes in their browsers.
-
-## **Testing Phase**
+### **During Development**
 
 During development, I manually tested the website in Chrome, predominantly by using Chrome's DevTools to allow me to test the content across different screen sizes.
 
@@ -221,21 +244,47 @@ The site has also been tested and confirmed as fully responsive with no issues o
 * Microsoft Edge
 * Safari
 
-## **Bugs**
+### **Bugs**
 
+#### **Resolved Bugs**
 
+Mention the Lighthouse score for performance - image compression!!
 
-## **Deployment**
+#### **Unresolved Bugs**
 
+### **Validators**
 
-## **Tech**
+#### **HTML Validation**
+
+#### **CSS Validation**
+
+#### **Lighthouse Score - Desktop**
+
+#### **Lighthouse Score - Mobile**
+
+### **Accessibility**
+
+## **Technologies Used**
 
 The technologies used in the making of this website are:
 * HTML5
 * CSS3, including Flexbox
 
+## **Deployment**
+
+## **Future-Enhancements**
+
+As this is my first major project as part of Code Institute's Full Stack Software Development course, I am limited by the current scope of my knowledge.
+
+If I had more time and knowledge, I would see the following enhancements made:
+
+* JavaScript: I feel that use of JavaScript would greatly improve the functionality of this website, and allow for even more interactive elements to be included on the website. For example, where a hamburger menu has been created in CSS for the purpose of this project, I would replace it with a more intuitive JavaScript hamburger menu. I would also like to include a live Twitter feed, and interactive view of upcoming concerts.
+* Functional sign-up form: As mentioned above, for the purposes of this project the sign-up form I have created does not collect any data from users, but a future enhancement could be to create a sign-up form that fulfils its purpose, with a corresponding database set up ready to receive and store the information.
+* Additional content: As mentioned in the credits, a large portion of this site's content was taken from the Sheffield Philharmonic Chorus' website - though the information provided in this project pales in comparison to the rich amount of information and detail given on their official website. Given more time, I would have liked to include more of this information, such as with a page about the SPC's history, and another with a gallery, et cetera.
+* Improved accessibility: This website utilises viewport heigh calculations for laptop and desktop screen sizes, which looks slick and appealing to users. However, it is noted in the 'Bugs' section below that while the units of measurement I have used wherever possible are rem and em so that increased default font sizes can be taken into account, the viewport height calculations interfere with this level of accessibility. Extra time would be needed to investigate how best to maintain the look of the website (with this viewport height styling rule in mind) whilst also removing barriers for those who use larger font sizes in their browsers.
+
 ## **Credits**
-### **Honourable mentions**
+### **Honourable Mentions**
 
 * [Damon Kreft](https://github.com/damon-kreft) - Thank you for your unwavering patience and support, and your enthusiasm and encouragement when I have struggled. Your experience has been and will continue to be invaluable to me.
 
@@ -245,10 +294,10 @@ The technologies used in the making of this website are:
 
 * [The Sheffield Philharmonic Chorus](https://sheffieldphil.org/) - Thank you to the Sheffield Philharmonic Chorus, in particular to Anne Adams, the SPC administrator, for allowing me to use their content in order to progress my skills in software development. I'm proud to be a member of the chorus!
 
-### **Code:**
+### **Code References**
 
 
-### **Content:**
+### **Content**
 
 
-### **Media:**
+### **Media**
