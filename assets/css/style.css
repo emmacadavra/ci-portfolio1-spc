@@ -511,6 +511,7 @@ footer {
 
     .section-content p {
         margin: 0 auto;
+        max-width: 50.625rem;
     }
 
     .section-three {
