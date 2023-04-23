@@ -149,19 +149,6 @@ body {
     font-size: 1.1rem;
 }
 
-.call-to-action {
-    background: rgb(182, 161, 57);
-    background: linear-gradient(90deg, rgba(182, 161, 57, 1) 0%, rgba(249, 230, 140, 1) 23%, rgba(192, 170, 60, 1) 100%);
-    border-radius: 0.8rem;
-    margin: 0.5rem auto;
-    box-shadow: 0px 0px 20px 0px #222;
-}
-
-.call-to-action h3 {
-    font-family: "Roboto Serif", serif;
-    font-size: 1.5rem;
-}
-
 .section-content a {
     text-decoration: underline;
     color: #111;
@@ -170,6 +157,19 @@ body {
 
 .section-content a:hover {
     font-style: italic;
+}
+
+.call-to-action {
+    background: rgb(182, 161, 57);
+    background: linear-gradient(90deg, rgba(182, 161, 57, 1) 0%, rgba(249, 230, 140, 1) 23%, rgba(192, 170, 60, 1) 100%);
+    border-radius: 0.8rem;
+    margin: 1.5rem auto;
+    box-shadow: 0px 0px 20px 0px #222;
+}
+
+.call-to-action h3 {
+    font-family: "Roboto Serif", serif;
+    font-size: 1.5rem;
 }
 
 .section-three {
@@ -468,6 +468,14 @@ footer {
 
 @media screen and (min-width: 550px) {
 
+    .section-content {
+        padding-bottom: 1rem;
+    }
+
+    .section-content p {
+        padding: 0.75rem;
+    }
+
     .form-submit {
         min-height: calc(100vh - 9.375rem);
     }
@@ -512,8 +520,8 @@ footer {
     }
 
     .section-content p {
-        margin: 0 auto;
-        max-width: auto;
+        max-width: 90%;
+        padding: 1rem;
     }
 
     .section-three {
@@ -569,6 +577,18 @@ footer {
 
 }
 
+@media screen and (min-height: 980px) {
+
+    .section {
+        height: calc(100vh - 4.688rem);
+    }
+
+    .section-three,
+    .form-submit {
+        height: calc(100vh - 10.938rem);
+    }
+}
+
 @media screen and (min-width: 1280px) {
 
     .menu {
@@ -577,7 +597,6 @@ footer {
 
     .section {
         flex-direction: row;
-        height: calc(100vh - 4.688rem);
         width: 100%;
     }
 
@@ -601,16 +620,12 @@ footer {
     }
 
     .section-content p {
-        max-width: 95%;
+        max-width: 85%;
+        padding: 1.5rem;
     }
 
     .section-two {
         flex-direction: row-reverse;
-    }
-
-    .section-three,
-    .form-submit {
-        height: calc(100vh - 10.938rem);
     }
 
     .signup-form {

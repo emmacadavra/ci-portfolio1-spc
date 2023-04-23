@@ -21,7 +21,7 @@ Currently, the SPC's official website is vast and full of a wealth of informatio
     * [***Section One***](#section-one)
         * [*Section One Image*](#section-one-image)
         * [*Section One Content*](#section-one-content)
-        * [*Interested in Singing With Us Box*](#interested-in-singing-with-us-box)
+        * [*Section One Call To Action*](#section-one-call-to-action)
     * [***Section Two***](#section-two)
         * [*Section Two Image*](#section-two-image)
         * [*Section Two Content*](#section-two-content)
@@ -138,7 +138,7 @@ The image is responsive, and will adapt to the screen size and position without 
 
 #### **Section One Content**
 
-#### **Interested in Singing With Us Box**
+#### **Section One Call To Action**
 
 Sections one and two (‘Home’ and ‘Rehearsals’) feature a large image that makes up 50% of the section as a whole. The decision to include images that take up a large part of each section was made in order to make the site more visually eye-catching and appealing, with the additional benefit of not overloading the user with too much text at once.
 
