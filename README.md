@@ -57,8 +57,8 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
 
 * Users interested in singing choral music with other like-minded people
 * Users interested in performing choral music as part of a large choir
-* Users who have seen or heard the Sheffield Philharmonic Chorus and want to find out more
-* Users interested in joining a choir in the Sheffield area who do not know about the Sheffield Philharmonic Chorus
+* Users who have seen or heard about the Sheffield Philharmonic Chorus and want to find out more
+* Users interested in joining a choir in the Sheffield/South Yorkshire area who do not know about the Sheffield Philharmonic Chorus
 
 ### **User Stories**
 
@@ -88,7 +88,7 @@ The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in She
 * The ‘Playfair Display’ font was chosen to match the Sheffield Philharmonic Chorus logo, seen in the logo in the ‘Join Us’ sections of the site.
 * Roboto Slab was chosen as the font for the majority of the body of the site as it maintains readability whilst appearing sophisticated.
 * Roboto Serif was chosen for the opening paragraph due to it being better suited to italic styling than Roboto Slab.
-* All fonts were sourced from Google fonts, as stated in the credits.
+* All fonts were sourced from Google Fonts, as stated in the credits.
 
 ## **Current Website Features**
 ### **Header**
