@@ -1,6 +1,8 @@
 # **The Sheffield Philharmonic Chorus**
 ## **Site Overview**
-The Sheffield Philharmonic Chorus is the foremost large mixed-voice choir in Sheffield, South Yorkshire, and the purpose of this website is to act as a first stop for people interested in joining the choir. The choir’s ethos is to share its love of a large range of choral music by performing it periodically, and to continue to do this they rely on new members seeking them out and joining them.
+The Sheffield Philharmonic Chorus (often abbreviated to 'SPC' in this README.md file) is South Yorkshire's foremost mixed-voice choir, and the purpose of this website is to act as a first stop for people interested in joining. The choir’s ethos is to share its love of a large range of choral music by performing it periodically, and to continue to do this they rely on new members seeking them out and joining them.
+
+Currently, the SPC's official website is vast and full of a wealth of information, but its process for new members is managed through one email address and is not
 ​
 ![Am I responsive screenshot](screenshot of amiresponsive)
 
@@ -314,6 +316,8 @@ I'd like to take this opportunity to show my gratitude for the following people:
 * As this is my first project as part of [Code Institute's Full Stack Software Development Diploma](https://codeinstitute.net/full-stack-software-development-diploma/), it has been largely influenced by what I have learned up until this point, in particular the 'Love Running' code-along project and the additional learning it inspired me to do (for example, learning Flexbox). I have tried to make this project as unique to me as possible, but there are likely many similarities in the code. Examples of this are the unordered lists used for the header's navigation bar, and social media links in the footer.
 
 * Both the HTML and CSS code for this project's hamburger menu were taken from [Luke Embrey's 10+ Hamburger Menu Examples CSS Only](https://alvarotrigo.com/blog/hamburger-menu-css/) blog post. I have clearly marked where the HTML and CSS code I have used begins and ends using comments in my code. I'm very grateful for this blog post, as it provided me the opportunity to learn something I wouldn't have thought possible with CSS alone.
+
+* The linear gradient background colour CSS code used in Section One's "Interested in Singing With Us?" div element was created using [CSSGradient.io](https://cssgradient.io/).
 
 * My understanding of Flexbox is almost entirely thanks to [Traversy Media's Flexbox Crash Course 2022 YouTube video](https://youtu.be/3YW65K6LcIA), and so there is likely a lot of similarity in the methods I have used.
 
