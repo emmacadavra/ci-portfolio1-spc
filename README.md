@@ -297,7 +297,7 @@ If I had more time and knowledge, I would see the following enhancements made:
 ## **Credits**
 ### **Honourable Mentions**
 
-I'd like to take this opportunity to show my gratitude for the following people:
+I'd like to take this opportunity to express my gratitude to the following people:
 
 * [**Damon Kreft**](https://github.com/damon-kreft) - For your unwavering patience, love and support, and your enthusiasm in seeing me start out on my development journey! Thank you for all of your advice, and for being so proud of me and encouraging me when I have struggled. The breadth of your knowledge and experience has been and will continue to be inspiring to me.
 
@@ -307,7 +307,7 @@ I'd like to take this opportunity to show my gratitude for the following people:
 
 * [**Christina Webb**]() - Thank you for encouraging and inspiring me to go after this course as a means to finally take steps into the world of development!
 
-* [**Jake Pike**](https://github.com/iamjakepike/) - For being one of my oldest friends, and helping me believe that I have what it takes to become a developer. Thank you also for taking the time to provide me with tips and resources to help me develop, and for providing additional feedback from a business and marketing perspective so that I get a well rounded view of all the things I need to consider!
+* [**Jake Pike**](https://github.com/iamjakepike) - For being one of my oldest friends, and helping me believe that I have what it takes to become a developer. Thank you also for taking the time to provide me with tips and resources to help me develop, and for providing additional feedback from a business and marketing perspective so that I get a well rounded view of all the things I need to consider!
 
 * [**The Sheffield Philharmonic Chorus**](https://sheffieldphil.org/) - Thank you, of course, to the Sheffield Philharmonic Chorus, in particular to Anne Adams, the SPC Administrator, for allowing me to use their content in order to progress my skills in software development. I'm proud to be a member of the chorus!
 
