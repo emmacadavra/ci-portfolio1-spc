@@ -580,12 +580,12 @@ footer {
 @media screen and (min-height: 980px) {
 
     .section {
-        height: calc(100vh - 4.688rem);
+        min-height: calc(100vh - 4.688rem);
     }
 
     .section-three,
     .form-submit {
-        height: calc(100vh - 10.938rem);
+        min-height: calc(100vh - 10.938rem);
     }
 }
 
@@ -668,6 +668,18 @@ footer {
 
 }
 
+@media screen and (min-width: 1600px) and (min-height: 980px) {
+
+    .section {
+        min-height: calc(100vh - 6.25rem);
+    }
+
+    .section-three,
+    .form-submit {
+        min-height: calc(100vh - 12.5rem);
+    }
+}
+
 @media screen and (min-width: 1600px) {
 
     .header {
@@ -683,18 +695,12 @@ footer {
     }
 
     .section {
-        height: calc(100vh - 6.25rem);
         scroll-margin-top: 6.25rem;
     }
 
     .section-one,
     .form-submit {
         padding-top: 6.25rem;
-    }
-
-    .section-three,
-    .form-submit {
-        height: calc(100vh - 12.5rem);
     }
 
     .signup-form {
