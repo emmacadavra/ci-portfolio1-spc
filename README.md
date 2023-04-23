@@ -2,7 +2,7 @@
 ## **Site Overview**
 The Sheffield Philharmonic Chorus (often abbreviated to 'SPC' in this README.md file) is South Yorkshire's foremost mixed-voice choir, and the purpose of this website is to act as a first stop for people interested in joining. The choir’s ethos is to share its love of a large range of choral music by performing it periodically, and to continue to do this they rely on new members seeking them out and joining them.
 
-Currently, the SPC's official website is vast and full of a wealth of information, but its process for new members is managed through one email address and is not
+Currently, the SPC's official website is vast and full of a wealth of information, but it lacks a clear, streamlined user experience in regards to registering interest to join the choir. This website sets out to meet that need by offering a sign-up form that is clearly sign-posted in multiple areas of the website.
 ​
 ![Am I responsive screenshot](screenshot of amiresponsive)
 
@@ -308,6 +308,8 @@ I'd like to take this opportunity to express my gratitude to the following peopl
 * [**Christina Webb**]() - Thank you for encouraging and inspiring me to go after this course as a means to finally take steps into the world of development!
 
 * [**Jake Pike**](https://github.com/iamjakepike) - For being one of my oldest friends, and helping me believe that I have what it takes to become a developer. Thank you also for taking the time to provide me with tips and resources to help me develop, and for providing additional feedback from a business and marketing perspective so that I get a well rounded view of all the things I need to consider!
+
+* [**Michael Fisher**](https://github.com/undefinedyuuki) - Thank you for being so willing to help me refine and polish this website, and for sharing important lessons you have learned on your web development journey so far. Thank you also for asking all the right questions to help me really consider the best solutions for this project.
 
 * [**The Sheffield Philharmonic Chorus**](https://sheffieldphil.org/) - Thank you, of course, to the Sheffield Philharmonic Chorus, in particular to Anne Adams, the SPC Administrator, for allowing me to use their content in order to progress my skills in software development. I'm proud to be a member of the chorus!
 
