@@ -193,7 +193,9 @@ The technologies used in the making of this website are:
 
 * [Richard Wells](https://github.com/D0nni387) - Thank you for your mentorship so far, and for always going out of your way to make sure I'm on the right track. I appreciate your advice and guidance very much.
 
-* [The Sheffield Philharmonic Chorus](https://sheffieldphil.org/) - Thank you to the Sheffield Philharmonic Chorus, in particular to Anne Adams who is the SPC administrator, for allowing me to use their content in order to progress my skills in software development. I'm proud to be a member of the chorus!
+* [Kieran Peat](https://github.com/kieranpeat) - Thank you for helping me test my site's functionality, and for your encouraging words of support!
+
+* [The Sheffield Philharmonic Chorus](https://sheffieldphil.org/) - Thank you to the Sheffield Philharmonic Chorus, in particular to Anne Adams, the SPC administrator, for allowing me to use their content in order to progress my skills in software development. I'm proud to be a member of the chorus!
 
 ### **Code:**
 
