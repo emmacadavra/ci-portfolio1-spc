@@ -301,20 +301,38 @@ If I had more time and knowledge, I would see the following enhancements made:
 
 * [Kieran Peat](https://github.com/kieranpeat) - Thank you for helping me test my site's functionality, and for your encouraging words of support!
 
+* [Christina Webb]() - Thank you for encouraging me to go after this course as a means to finally take steps into the world of development!
+
 * [The Sheffield Philharmonic Chorus](https://sheffieldphil.org/) - Thank you to the Sheffield Philharmonic Chorus, in particular to Anne Adams, the SPC Administrator, for allowing me to use their content in order to progress my skills in software development. I'm proud to be a member of the chorus!
 
 ### **Code References**
 
-As this is my first project as part of Code Institute's Full Stack Software Development course, it has been largely influenced by what I have learned up until this point, in particular the 'Love Running' code-along project and the additional learning it inspired me to do (for example, learning Flexbox). I have tried to make this project as unique to me as possible, but there are likely many similarities in the code. Examples of this are the unordered lists used for the header's navigation bar, and social media links in the footer.
+* As this is my first project as part of [Code Institute's Full Stack Software Development Diploma](https://codeinstitute.net/full-stack-software-development-diploma/), it has been largely influenced by what I have learned up until this point, in particular the 'Love Running' code-along project and the additional learning it inspired me to do (for example, learning Flexbox). I have tried to make this project as unique to me as possible, but there are likely many similarities in the code. Examples of this are the unordered lists used for the header's navigation bar, and social media links in the footer.
 
-Both the HTML and CSS code for this project's hamburger menu were taken from [Luke Embrey's 10+ Hamburger Menu Examples CSS Only](https://alvarotrigo.com/blog/hamburger-menu-css/) blog post. I have clearly marked where the HTML and CSS code I have used begins and ends using comments in my code. I'm very grateful for this blog post, as it provided me the opportunity to learn something I wouldn't have thought possible with CSS alone.
+* Both the HTML and CSS code for this project's hamburger menu were taken from [Luke Embrey's 10+ Hamburger Menu Examples CSS Only](https://alvarotrigo.com/blog/hamburger-menu-css/) blog post. I have clearly marked where the HTML and CSS code I have used begins and ends using comments in my code. I'm very grateful for this blog post, as it provided me the opportunity to learn something I wouldn't have thought possible with CSS alone.
 
-My understanding of Flexbox is almost entirely thanks to [Traversy Media's Flexbox Crash Course 2022 YouTube video](https://youtu.be/3YW65K6LcIA), and so there is likely a lot of similarity in the methods I have used.
+* My understanding of Flexbox is almost entirely thanks to [Traversy Media's Flexbox Crash Course 2022 YouTube video](https://youtu.be/3YW65K6LcIA), and so there is likely a lot of similarity in the methods I have used.
 
-Throughout the project, I often utilised and relied upon [MDN Web Docs](https://developer.mozilla.org/en-US/), [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/) and Code Institute's Programme Content and Slack Channels as references whenever I was stuck or needed to refresh my knowledge. 
-
+* Throughout the project, I often utilised and relied upon [MDN Web Docs](https://developer.mozilla.org/en-US/), [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/) and Code Institute's Programme Content and Slack Channels as references whenever I was stuck or needed to refresh my knowledge. 
 
 ### **Content**
 
+* The large majority of the written content in Sections One and Two of this website has either been taken directly from or based on the content of the [Sheffield Philharmonic Chorus' official website](https://sheffieldphil.org/). I am once again very grateful to have been given permission to use this content for the purposes of this project.
+
+* All icons used are from [Font Awesome](https://fontawesome.com/).
+
+* All fonts have been imported from [Google Fonts](https://fonts.google.com/).
 
 ### **Media**
+
+* The photograph used in Section One of this website - [choir-orchestra-church.jpg](https://unsplash.com/photos/yUJVHiYZCGQ) - is by [Andrea Zanenga on unsplash.com](https://unsplash.com/@andreazanenga).
+
+* The photographs of the Sheffield Philharmonic Chorus rehearsing, used in Section Two and on the Form Submission page - 'choir-rehearsing.jpg', 'rehearsal1.jpg', 'rehearsal2.jpg', 'rehearsal3.jpg' and 'rehearsal4.jpg' - are real photographs of the choir and were shared with me by Anne Adams, the SPC Adminstrator. All rights belong to the choir.
+
+* The Sheffield Philharmonic Chorus logo used in Section Three was taken - with permission - from the [Sheffield Philharmonic Chorus Twitter Account](https://twitter.com/SheffPhilChorus).
+
+* The background image of a sheet music book - [sheet-music-book.jpg](https://unsplash.com/photos/bu-6kNWQj6U) is by [Michael Maasen on unsplash.com](https://unsplash.com/@mgmaasen).
+
+* The screenshot under the Site Overview section of this README.md, displaying the website at different breakpoints/on different devices, was made on [Am I Responsive](https://ui.dev/amiresponsive).
+
+* The [Colour Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23111%2C%0D%0A%23222%2C%0D%0A%23333%2C%0D%0A%23444%2C%0D%0A%23b6a139%2C%0D%0A%23c0aa3c%2C%0D%0A%23faebd7%2C%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) used in the Colour Scheme section of this README.md is courtesy of [Eightshapes](https://eightshapes.com/).
