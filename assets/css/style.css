@@ -160,11 +160,9 @@ body {
 }
 
 .call-to-action {
-    background: rgb(182, 161, 57);
-    background: linear-gradient(90deg, rgba(182, 161, 57, 1) 0%, rgba(249, 230, 140, 1) 23%, rgba(192, 170, 60, 1) 100%);
+    background: rgba(182, 161, 57, 0.7);
     border-radius: 0.8rem;
     margin: 1.5rem auto;
-    box-shadow: 0px 0px 20px 0px #222;
 }
 
 .call-to-action h3 {
@@ -323,6 +321,7 @@ footer {
 /* Media Queries */
 
 /* hamburger menu media query start */
+
 @media (max-width: 1050px) {
 
     .menu-button-container {
@@ -400,7 +399,7 @@ footer {
     }
 
     .call-to-action {
-        padding: 0.5rem;
+        padding: 1rem 0.5rem 0.5rem;
         width: 90%;
     }
 
@@ -472,8 +471,8 @@ footer {
         padding-bottom: 1rem;
     }
 
-    .section-content p {
-        padding: 0.75rem;
+    .call-to-action {
+        padding-top: 1.5rem;
     }
 
     .form-submit {
@@ -611,6 +610,10 @@ footer {
     .section-content p {
         max-width: 85%;
         padding: 1.5rem;
+    }
+
+    .call-to-action {
+        padding-top: ;
     }
 
     .section-two {
