@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto+Serif:ital,wght@1,500&family=Roboto+Slab&display=swap');
 
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     border: none;
     scroll-behavior: smooth;
 }
 
 body {
     font-family: "Roboto Slab", sans-serif;
-    line-height: 1.5;
     color: #111;
     background-color: #333;
+    line-height: 1.5;
 }
 
 
@@ -637,11 +637,11 @@ footer {
     }
 
     fieldset {
-        height: 15.625rem;
+        height: 18rem;
     }
 
     .your-voice {
-        min-width: 15rem;
+        min-width: 16rem;
     }
 
     .fieldset-container {
