@@ -336,7 +336,7 @@ I'd like to take this opportunity to express my gratitude to the following peopl
 
 * Both the HTML and CSS code for this project's hamburger menu were taken from [Luke Embrey's 10+ Hamburger Menu Examples CSS Only](https://alvarotrigo.com/blog/hamburger-menu-css/) blog post. I have clearly marked where the HTML and CSS code I have used begins and ends using comments in my code. I'm very grateful for this blog post, as it provided me the opportunity to learn something I wouldn't have thought possible with CSS alone.
 
-* The linear gradient background colour CSS code used in Section One's "Interested in Singing With Us?" div element was created using [CSSGradient.io](https://cssgradient.io/).
+* Although I didn't decide to use it in my final commit, some of my testing screenshots show that I used a linear gradient background for the Call To Action used in Section One, which was created using [CSSGradient.io](https://cssgradient.io/).
 
 * My understanding of Flexbox is almost entirely thanks to [Traversy Media's Flexbox Crash Course 2022 YouTube video](https://youtu.be/3YW65K6LcIA), and so there is likely a lot of similarity in the methods I have used.
 
