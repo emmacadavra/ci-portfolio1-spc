@@ -584,9 +584,12 @@ footer {
     }
 
     .section {
-        min-height: calc(100vh - 4.688rem);
         flex-direction: row;
         width: 100%;
+    }
+
+    .section-one {
+        min-height: 100vh;
     }
 
     .section-image {
@@ -619,6 +622,7 @@ footer {
 
     .section-two {
         flex-direction: row-reverse;
+        min-height: calc(100vh - 4.688rem);
     }
 
     .section-three,
@@ -682,12 +686,15 @@ footer {
 
     .section {
         scroll-margin-top: 6.25rem;
-        min-height: calc(100vh - 6.25rem);
     }
 
     .section-one,
     .form-submit {
         padding-top: 6.25rem;
+    }
+
+    .section-two {
+        min-height: calc(100vh - 6.25rem);
     }
 
     .section-three,
