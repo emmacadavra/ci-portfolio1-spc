@@ -535,10 +535,6 @@ footer {
         font-size: 2.5rem;
     }
 
-    .rehearsal-photos img {
-        width: 49%;
-    }
-
 }
 
 @media screen and (min-width: 1050px) {
@@ -552,18 +548,13 @@ footer {
         font-size: 1.2em;
     }
 
-    .rehearsal-photos {
-        flex-direction: row;
+    .rehearsal-photos-container {
         flex-wrap: nowrap;
-        width: 100%;
         background-color: #111;
     }
 
-    .rehearsal-photos img {
-        width: 25%;
-        height: auto;
-        margin-top: 0.125rem;
-        overflow: hidden;
+    .rehearsal-photos {
+        flex-basis: calc(25% - 0.5rem);
     }
 
     .footer-links {
