@@ -307,10 +307,14 @@ footer {
     font-size: 2em;
 }
 
-.rehearsal-photos {
+.rehearsal-photos-container {
     display: flex;
-    justify-content: space-around;
-    padding: 0.25rem;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+.rehearsal-photos {
+    flex-grow: 1;
 }
 
 .rehearsal-photos img {
