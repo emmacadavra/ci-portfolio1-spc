@@ -318,12 +318,15 @@ footer {
 .rehearsal-photos {
     flex-grow: 1;
     flex-basis: calc(100% - 0.5rem);
+    overflow: hidden;
 }
 
 .rehearsal-photos img {
     object-fit: cover;
     padding: 0.125rem;
-    margin-bottom: 0.25rem;
+    width: 100%;
+    height: auto;
+    background-color: #111;
 }
 
 /* Media Queries */
@@ -445,16 +448,6 @@ footer {
         padding: 0 1rem;
     }
 
-    .rehearsal-photos {
-        flex-direction: column;
-        width: 95%;
-    }
-
-    .rehearsal-photos img {
-        width: 100%;
-        height: auto;
-        background-color: #111;
-    }
 }
 
 @media screen and (min-width: 375px) {
