@@ -481,12 +481,7 @@ footer {
     }
 
     .rehearsal-photos {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .rehearsal-photos img {
-        width: 49%;
+        flex-basis: calc(50% - 0.5rem);
     }
 
 }
