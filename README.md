@@ -3,6 +3,7 @@
 The Sheffield Philharmonic Chorus (often abbreviated to 'SPC' in this README.md file) is South Yorkshire's foremost mixed-voice choir, and the purpose of this website is to act as a first stop for people interested in joining. The choir’s ethos is to share its love of a large range of choral music by performing it periodically, and to continue to do this they rely on new members seeking them out and joining them.
 
 Currently, the SPC's official website is vast and full of a wealth of information, but it lacks a clear, streamlined user experience in regards to registering interest to join the choir. This website sets out to meet that need by offering a sign-up form that is clearly sign-posted in multiple areas of the website.
+
 ​
 ![Am I responsive screenshot](docs/images/am-i-responsive-screenshot.png)
 
