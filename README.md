@@ -82,7 +82,7 @@ Currently, the SPC's official website is vast and full of a wealth of informatio
 
 For this website I chose an elegant colour scheme comprised of three shades of gold, one shade of antique white and four shades of dark grey. This colour scheme not only matches the Sheffield Philharmonic Chorus' logo, but also works exceptionally well with the images chosen for the website to create an antiquated, refined display.
 
-![Colour Scheme Contrast Grid](docs/images/)
+![Colour Scheme Contrast Grid](docs/images/colour-contrast-grid.png)
 
 ### **Typography**
 
@@ -102,12 +102,15 @@ For this website I chose an elegant colour scheme comprised of three shades of g
 The header sits atop the page in a fixed position, for a simple and pleasant user experience. Within the header, the site title is clearly visible, and there is a navigation bar, which appears in two separate forms depending on the screen size of the user. The contrast between the background colour and text colour is AAA rated, as seen on the above Colour Contrast Grid, and responsive CSS design rules have been applied to the header height, depending on screen size.
 
 Full header at 375px wide:
+
 ![Header at 375px width](docs/images/header-full-375px.png)
 
 Full header at 768pc wide: 
+
 ![Header at 768px width](docs/images/header-full-768px.png)
 
 Full header at 1280px wide:
+
 ![Header at 1280px wide](docs/images/header-full-1280px.png)
 
 #### **Site Title**
@@ -127,6 +130,7 @@ CSS styling rules have been applied for screens that are at least 1050px wide, s
 ![Header Navigation Bar on Desktop view](docs/images/header-nav-bar-desktop.png)
 
 Navigation Bar with 'Home' hovered over (cursor not included in screenshot due to its automatic removal from screenshots):
+
 ![Header Navigation Bar item when hovered over](docs/images/nav-bar-hover-text.png)
 
 #### **Hamburger Menu**
@@ -134,6 +138,7 @@ Navigation Bar with 'Home' hovered over (cursor not included in screenshot due t
 On smaller screens, such as tablets and mobile phones, the navigation bar menu appears as a hamburger menu in the top-right corner, which expands when clicked on to reveal the navigation links. The purpose of this is to prioritise the site title, so that users can always see it, and to prevent the header from taking up too much room on smaller screens, providing an optimal experience.
 
 When closed, the hamburger menu displays as three horizontal lines, which users associate with this type of menu:
+
 ![Hamburger menu closed](docs/images/header-full-375px.png)
 
 An animation has been added to the hamburger menu which turns it from the traditional three lines when closed, into a large X when it is open. This makes it feel even more interactive, and to make it clear to users that they can close the menu again by clicking on the familar transformed shape.
@@ -141,56 +146,54 @@ An animation has been added to the hamburger menu which turns it from the tradit
 When opened, the hamburger menu displays below the header, and it is responsive to increased header height.
 
 At 375px wide:
+
 ![Hamburger menu open at 375px wide](docs/images/header-hamburger-menu-375px.png)
 
 At 768px wide:
+
 ![Hamburger menu open at 768px wide](docs/images/header-hamburger-menu-768px.png)
 
 ### **Section One**
 
-HOME
+Sections one and two (‘Home’ and ‘Rehearsals’) feature a large image that makes up 50% of the section as a whole. The decision to include images that take up a large part of each section was made in order to make the site more visually eye-catching and appealing, with the additional benefit of not overloading the user with too much text at once.
 
 #### **Section One Image**
 
-Sections one and two (‘Home’ and ‘Rehearsals’) feature a large image that makes up 50% of the section as a whole. The decision to include images that take up a large part of each section was made in order to make the site more visually eye-catching and appealing, with the additional benefit of not overloading the user with too much text at once.
-
-(screenshot of smaller screen)
+Section one’s image was chosen for its eye-catching location and feeling of grandeur, and sets a very professional and serene tone. It also suggests an important level of inclusiveness for those who prefer to wear masks since the outbreak of the Covid-19 pandemic. The image is responsive, and will adapt to the screen size and position without stretching or shrinking.
 
 On smaller screens, the images appear landscape, and are positioned below the content of the section.
 
-(screenshot of larger screen)
+Section One image at 550px wide:
+
+![Section One image at 550px wide](docs/images/section-one-image-550px.png)
 
 On larger screens, the images appear next to the content of the section, with section two’s order having been reversed for an engaging visual effect.
 
-(section one image)
+Shown next to the content at 1600px wide:
 
-Section one’s image was chosen for its eye-catching location’s grandeur, and sets a very professional and serene tone. It also suggests an important level of inclusiveness for those who prefer to wear masks since the outbreak of the Covid-19 pandemic.
-
-The image is responsive, and will adapt to the screen size and position without stretching or shrinking.
+![Section One image at 1600px wide](docs/images/section-one-image-content-1600px.png)
 
 #### **Section One Content**
 
+Section One's main content serves as a welcome to site visitors, and gives a brief history and overview of the choir. The background is an antique white colour, with dark grey text, so that it is clear and easy to read. The opening sentence has different styling to the rest of the text, to make it stand out. It includes a link to Classical Sheffield, of which the SPC is a member, which has been made obvious to the viewer by making the text bold and underlined. When the user hovers over the text, it becomes italicised, indicating it is interactable.
+
+Section One main content:
+
+![Section One main content](docs/images/section-one-content-desktop.png)
+
+Section One content with 'Classical Sheffield' link hovered over (cursor not included in screenshot due to its automatic removal from screenshots):
+
+![Section One content with 'Classical Sheffield' link hovered over](docs/images/section-one-hover-style.png)
+
 #### **Section One Call To Action**
 
-Sections one and two (‘Home’ and ‘Rehearsals’) feature a large image that makes up 50% of the section as a whole. The decision to include images that take up a large part of each section was made in order to make the site more visually eye-catching and appealing, with the additional benefit of not overloading the user with too much text at once.
+Section One also features a Call To Action box, which has been styled to stand out from the rest of the test by having been given a background colour that matches the font colour in the Header, and styling that matches the form in Section Three of the website. This Call To Action makes it so that users can easily determine one of the primary goals of the website - to invite people to sign up. Through this Call To Action, they can find their way straight to the Sign-Up Form of the website, or to the Rehearsals section if they want to know more about this first.
 
-(screenshot of smaller screen)
+As with Section One's link to Classical Sheffield, the two links to 'Rehearsals' and 'Sign-Up Form' are made bold and underlined, and the text becomes italicised when hovered over.
 
-On smaller screens, the images appear landscape, and are positioned below the content of the section.
+![Call To Action - Rehearsal hover](docs/images/section-one-call-to-action-hover-1.png)
 
-(screenshot of larger screen)
-
-On larger screens, the images appear next to the content of the section, with section two’s order having been reversed for an engaging visual effect.
-
-(section one image)
-
-Section one’s image was chosen for its eye-catching location’s grandeur, and sets a very professional and serene tone. It also suggests an important level of inclusiveness for those who prefer to wear masks since the outbreak of the Covid-19 pandemic.
-
-(section two image)
-
-Section two’s image is a lot more casual, and this is to show the other side of the chorus which is friendly, approachable, and full of smiles. This is so that users of the website can see that the choir is both professional, and also relaxed and welcoming.
-
-The images are responsive, and will adapt to the screen size and position without stretching or shrinking.
+![Call To Action - Sign-Up Form hover](docs/images/section-one-call-to-action-hover-2.png)
 
 ### **Section Two**
 
