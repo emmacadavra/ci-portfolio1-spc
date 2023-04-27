@@ -334,7 +334,7 @@ footer {
 
 /* hamburger menu media query start */
 
-@media (max-width: 1050px) {
+@media (max-width: 1049px) {
 
     .menu-button-container {
         display: flex;
