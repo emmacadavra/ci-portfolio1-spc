@@ -4,7 +4,7 @@ The Sheffield Philharmonic Chorus (often abbreviated to 'SPC' in this README.md 
 
 Currently, the SPC's official website is vast and full of a wealth of information, but it lacks a clear, streamlined user experience in regards to registering interest to join the choir. This website sets out to meet that need by offering a sign-up form that is clearly sign-posted in multiple areas of the website.
 ​
-![Am I responsive screenshot](screenshot of amiresponsive)
+![Am I responsive screenshot](docs/images/am-i-responsive-screenshot.png)
 
 ## **Table of Contents:**
 1. [**Site Overview**](#site-overview)
@@ -101,8 +101,14 @@ For this website I chose an elegant colour scheme comprised of three shades of g
 
 The header sits atop the page in a fixed position, for a simple and pleasant user experience. Within the header, the site title is clearly visible, and there is a navigation bar, which appears in two separate forms depending on the screen size of the user. The contrast between the background colour and text colour is AAA rated, as seen on the above Colour Contrast Grid, and responsive CSS design rules have been applied to the header height, depending on screen size.
 
-(screenshot of header on desktop)
-(screenshot of header on mobile)
+Full header at 375px wide:
+![Header at 375px width](docs/images/header-full-375px.png)
+
+Full header at 768pc wide: 
+![Header at 768px width](docs/images/header-full-768px.png)
+
+Full header at 1280px wide:
+![Header at 1280px wide](docs/images/header-full-1280px.png)
 
 #### **Site Title**
 
@@ -110,7 +116,7 @@ The fixed position of the header means that the site title is clear and visible 
 
 The site title also serves as a link to take the user back to the homepage, which is a simple function that users have come to expect on all webpages. There are no special CSS rules applied to the site title (such as the hover rule), to give the illusion that it is an image logo, which is also something users would expect.
 
-(screenshots of site title at 2 or 3 different breakpoints)
+![Site Title on Desktop view](docs/images/header-site-title-desktop.png)
 
 #### **Navigation Bar**
 
@@ -118,18 +124,27 @@ The navigation bar is comprised of three unordered list items that are wrapped w
 
 CSS styling rules have been applied for screens that are at least 1050px wide, so that the navigation links appear on the right-hand side of the header, and the links have hover styling that changes the default colour to a brighter shade of gold, so that the user is given interactive confirmation that the text they are hovering over is a clickable link. 
 
-(screenshot of nav bar)
-(screenshot of hover styling)
+![Header Navigation Bar on Desktop view](docs/images/header-nav-bar-desktop.png)
+
+Navigation Bar with 'Home' hovered over (cursor not included in screenshot due to its automatic removal from screenshots):
+![Header Navigation Bar item when hovered over](docs/images/nav-bar-hover-text.png)
 
 #### **Hamburger Menu**
 
 On smaller screens, such as tablets and mobile phones, the navigation bar menu appears as a hamburger menu in the top-right corner, which expands when clicked on to reveal the navigation links. The purpose of this is to prioritise the site title, so that users can always see it, and to prevent the header from taking up too much room on smaller screens, providing an optimal experience.
 
-(screenshot of mobile screen - menu closed)
+When closed, the hamburger menu displays as three horizontal lines, which users associate with this type of menu:
+![Hamburger menu closed](docs/images/header-full-375px.png)
 
 An animation has been added to the hamburger menu which turns it from the traditional three lines when closed, into a large X when it is open. This makes it feel even more interactive, and to make it clear to users that they can close the menu again by clicking on the familar transformed shape.
 
-(screenshot of mobile screen - menu open)
+When opened, the hamburger menu displays below the header, and it is responsive to increased header height.
+
+At 375px wide:
+![Hamburger menu open at 375px wide](docs/images/header-hamburger-menu-375px.png)
+
+At 768px wide:
+![Hamburger menu open at 768px wide](docs/images/header-hamburger-menu-768px.png)
 
 ### **Section One**
 
