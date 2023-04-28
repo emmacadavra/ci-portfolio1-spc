@@ -41,7 +41,7 @@ The site's functionality has been tested and confirmed as fully responsive acros
 
 ### **Bugs**
 
-(Bugs, including the lighthouse scores and images in need of compression, border-box sizing, horizontal scroll on form-submission, grey bottom of section-three, page not found due to incorrect file paths on form-submission page, w3c issue with hamburger html, etc)
+(Bugs, including border-box sizing, horizontal scroll on form-submission, grey bottom of section-three, page not found due to incorrect file paths on form-submission page, w3c issue with hamburger html, etc)
 
 ### **Accessibility**
 
@@ -68,6 +68,25 @@ The CSS code for this website was entered into the [**W3C CSS Validation Service
 ![W3C CSS Validation Icon - Valid CSS!](http://jigsaw.w3.org/css-validator/images/vcss)
 
 #### Lighthouse Scores
+
+When using Lighthouse, I made sure that tests were run in Incognito windows so that there could be no interferance from browser extensions..
+
+Below are screenshots of the results for both the mobile and desktop tests for index.html and form-submission.html:
+
+Desktop Lighthouse test - form-submission.html:
+
+
+
+Desktop Lighthouse test - index.html:
+
+
+
+Mobile Lighthouse test - form-submission.html:
+
+
+
+Mobile Lighthouse test - index.html:
+
 
 
 ### Unresolved Bugs
