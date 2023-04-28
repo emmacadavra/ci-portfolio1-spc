@@ -17,8 +17,8 @@
         * [*Lighthouse Scores and PageSpeed Insights*](#lighthouse-scores-and-pagespeed-insights)
     * [***Unresolved Bugs***](#unresolved-bugs)
         * [*PageSpeed Insights Performance Scores on Mobile*](#pagespeed-insights-performance-scores-on-mobile)
+        * [*Viewport Height Issue on Safari*](#viewport-height-issue-on-safari)
         * [*WAVE Web Access Accessibility Evaluation Error*](#wave-web-access-accessibility-evaluation-error)
-        * [*WCAG Colour Contrast Checker Failure*](#wcag-colour-contrast-checker-failure)
 
 ## **Testing Throughout Development**
 
@@ -32,14 +32,15 @@ Once I was happy with the overall design of the website, I deployed it to GitHub
 
 ### **Responsive Design and Functionality**
 
-(How I tested responsive design + browser stack!)
-
-The site's functionality has been tested and confirmed as fully responsive across different breakpoints with no issues on the following browsers on both mobile and desktop:
+The site's functionality has been tested and confirmed as fully responsive across different breakpoints on the following browsers:
 
 * Google Chrome
 * Mozilla Firefox
 * Microsoft Edge
+* Opera
 * Safari
+
+It has also been tested across different browsers on a variety of virtual operating systems such as Mac, iOS, Android and Windows through the use of [**BrowserStack**](https://www.browserstack.com/live).
 
 ### **Testing of Site Features**
 
@@ -155,6 +156,18 @@ The biggest and most important unresolved bug is that, when testing the mobile v
 
 While this was enough to significantly raise the Performance score on Lighthouse to above 90, it was not enough to see the same consistency in PageSpeed Insights. As shown above in the final screenshots, the average high score I could get is 88, however the tests would vary, with one tester seeing average scores of around 85, but even in my own testing I sometimes received scores of 70 - 80. I do believe that a potential solution for this would be to resize the images again and add an additional srcset rule for small mobile screens, however I did find that a consistent issue I came across was due to the efficiency of GitHub's cache policy - which is beyond my control. Regardless, this is something I will keep in mind for the future, as well as learning how to use programs like GIMP that would allow me to resize, compress, and save images in next-gen formats such as WEBP.
 
+#### **Viewport Height Issue on Safari**
+
+As mentioned previously in this document, I tested this website across multiple browsers and devices, across a variety of breakpoints. One consistent issue I came across was that Safari does not recognose viewport height CSS rules in the same way as other browsers, and so Section One and Section Two were elongated past the normal points, as seen in the screenshots below:
+
+![Safari viewport height issue 1](docs/images/safari-vh-issue-1.PNG)
+
+![Safari viewport height issue 2](docs/images/safari-vh-issue-2.PNG)
+
+![Safari viewport height issue 3](docs/images/safari-vh-issue-3.PNG)
+
+After investigating this, it seems that this is a known issue that is usually fixed using JavaScript, which is outside of the current scope of my knowledge and something I would like to implement in the future. 
+
 #### **WAVE Web Access Accessibility Evaluation Error**
 
 When passing index.html and form-submission.html through the [**WAVE Web Accessibility Evaluation Tool**](https://wave.webaim.org/), one error appeared for both pages:
@@ -162,7 +175,3 @@ When passing index.html and form-submission.html through the [**WAVE Web Accessi
 ![WAVE Accessibility label error](docs/images/wave-accessibility-label-error.png)
 
 The empty label that it refers to is part of the HTML code I used for the hamburger menu, and from what I understand it needs to remain blank. This obviously is not ideal and I would have liked to have caught this earlier in the development cycle so that I could learn how to negate this negative impact on the website's accessibility.
-
-#### **WCAG Colour Contrast Checker Failure**
-
-When testing the website pages with the WCAG Colour Contrast Checker, I found that there were failures on my Form Submission page around the images. Although I understand that this is due to the background colour of the image containers, and the containing div element - and that they do not actually contain any text - I would still consider this an issue that I would like to spend more time working out how to avoid.
