@@ -571,13 +571,11 @@ footer {
 
     .section-image {
         width: 50%;
-        overflow: hidden;
     }
 
     .section-image img {
         height: 100%;
         width: auto;
-        object-fit: cover;
     }
 
     .section-content {
