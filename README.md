@@ -156,11 +156,11 @@ At 768px wide:
 
 ### **Section One**
 
-Sections one and two (‘Home’ and ‘Rehearsals’) feature a large image that makes up 50% of the section as a whole. The decision to include images that take up a large part of each section was made in order to make the site more visually eye-catching and appealing, with the additional benefit of not overloading the user with too much text at once.
+Sections One and Two (‘Home’ and ‘Rehearsals’) feature a large image that makes up 50% of the section as a whole. The decision to include images that take up a large part of each section was made in order to make the site more visually eye-catching and appealing, with the additional benefit of not overloading the user with too much text at once.
 
 #### **Section One Image**
 
-Section one’s image was chosen for its eye-catching location and feeling of grandeur, and sets a very professional and serene tone. It also suggests an important level of inclusiveness for those who prefer to wear masks since the outbreak of the Covid-19 pandemic. The image is responsive, and will adapt to the screen size and position without stretching or shrinking.
+Section One’s image was chosen for its eye-catching location and feeling of grandeur, and sets a very professional and serene tone. It also suggests an important level of inclusiveness for those who prefer to wear masks since the outbreak of the Covid-19 pandemic. The image is responsive, and will adapt to the screen size and position without stretching or shrinking.
 
 On smaller screens, the images appear landscape, and are positioned below the content of the section.
 
@@ -198,17 +198,17 @@ As with Section One's link to Classical Sheffield, the two links to 'Rehearsals'
 
 ### **Section Two**
 
-REHEARSALS
+As with Section One, Section Two is divided into two parts - a large image, and the content. For this section, when viewing on a screen that has a width of at least 1280px, the order of the content and image has switched. This has been done using Flexbox, and means that the section is visually engaging, while avoiding having all text on one side of the website which would look unappealing. 
 
 #### **Section Two Image**
 
-(section two image)
-
-Section two’s image is a lot more casual, and this is to show the other side of the chorus which is friendly, approachable, and full of smiles. This is so that users of the website can see that the choir is both professional, and also relaxed and welcoming.
+Section Two’s image is more casual by comparison to the image used in Section One, and this is to show the other side of the chorus which is friendly, approachable, and full of smiles. Users of the website will therefore be able to see that the choir is not cold in its professionalism, but also warm and welcoming.
 
 The image is responsive, and will adapt to the screen size and position without stretching or shrinking.
 
 #### **Section Two Content**
+
+Section Two provides the user with information about the time, location and frequency of the choir's rehearsals, as well as information about the Music Director, Accompanist and Vocal Coach which any user wishing to sign up can make use of. It uses the same antique white background colour, and same fonts seen in Section One, for consistency and familiarity.
 
 ### **Section Three**
 
@@ -341,7 +341,7 @@ I'd like to take this opportunity to express my gratitude to the following peopl
 
 * [**Kieran Peat**](https://github.com/kieranpeat) - Thank you so much for always being proud of me when I've shared things I've learned or been working on. I'm grateful to you for your encouragement, which means a lot to me. Thank you also for helping me test this website's functionality on Safari!
 
-* [**Christina Webb**]() - Thank you for encouraging and inspiring me to go after this course as a means to finally take steps into the world of development! I'm looking forward to being able to share our development journeys with each other.
+* [**Christina Webb**](https://github.com/c-webb-sfougaras) - Thank you for encouraging and inspiring me to go after this course as a means to finally take steps into the world of development! I'm looking forward to being able to share our development journeys with each other.
 
 * [**Jake Pike**](https://github.com/iamjakepike) - For being one of my oldest friends, and helping me believe that I have what it takes to become a developer. Thank you also for taking the time to provide me with tips and resources to help me develop my skills, and for providing additional feedback from a business and marketing perspective so that I get a well rounded view of all the things I need to consider!
 
@@ -357,9 +357,9 @@ I'd like to take this opportunity to express my gratitude to the following peopl
 
 * Although I didn't decide to use it in my final commit, some of my testing screenshots show that I used a linear gradient background for the Call To Action used in Section One, which was created using [CSSGradient.io](https://cssgradient.io/).
 
-* My understanding of Flexbox is almost entirely thanks to [Traversy Media's Flexbox Crash Course 2022 YouTube video](https://youtu.be/3YW65K6LcIA), and so there is likely a lot of similarity in the methods I have used.
+* My understanding of Flexbox is almost entirely thanks to [Traversy Media's Flexbox Crash Course 2022 YouTube video](https://youtu.be/3YW65K6LcIA), and a follow-up demonstration by [Damon Kreft](https://github.com/damon-kreft) to help me better understand flex-wrap, flex-grow, and flex-basis. Although I wrote the code myself, it is thanks to them that I understood what I needed to do.
 
-* Throughout the project, I often utilised and relied upon [MDN Web Docs](https://developer.mozilla.org/en-US/), [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/) and Code Institute's Programme Content and Slack Channels as references whenever I was stuck or needed to refresh my knowledge. 
+* Throughout the project, I often utilised and relied upon [MDN Web Docs](https://developer.mozilla.org/en-US/), [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/) and Code Institute's Programme Content and Slack Channels as references when I was stuck or needed to refresh my knowledge.
 
 ### **Content**
 
