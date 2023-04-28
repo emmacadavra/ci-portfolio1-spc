@@ -81,7 +81,7 @@ Both during development and post-development, I ran additional tests on this web
 
 In addition to the Lighthouse and PageSpeed Insight Accessibility tests, I ran this website through the [**WAVE Web Accessibility Evaluation Tool**](https://wave.webaim.org/). Both index.html and form-submission.html returned one error, which I have detailed in the **'Unresolved Bugs'** section of this document, but passed in all other areas.
 
-Initially, I had also set most of the heights, widths and dimensions within the website in pixel values. However, when discussing this with my mentor and other developers mentioned in the **'Honourable Mentions'** section of the [**README.md file**](README.md), I learned that it was best practise to use rem measurements. This contributes to good practise in accessibility considerations, as it means that if a user who is partially sighted increases the default text size of their browser, the website scales appropriately and removes any barriers they might otherwise have if the font sizes were fixed by pixels.
+Initially, I had also set most of the heights, widths and dimensions within the website in pixel values. However, when discussing this with my mentor and other developers mentioned in the **'Honourable Mentions'** section of the [**README.md file**](README.md), I learned that it was best practice to use rem measurements. This contributes to good practise in accessibility considerations, as it means that if a user who is partially sighted increases the default text size of their browser, the website scales appropriately and removes any barriers they might otherwise have if the font sizes were fixed by pixels.
 
 Following on from this, I had set rules for the height of each page section, so that it would always appear as 100vh minus the height of the header (and footer in the case of Section Three and the Form Submission page). The reason I did this was to create the effect of each section appearing as though it was a separate page when on desktop, to clearly separate the sections in the mind of the user. However, when testing the website's responsiveness to the increased default font-size accessibility tool in Google Chrome, I realised that the fixed viewport height became another barrier to people who need to use this tool. I therefore amended the desktop viewport height rules to be min-height rules, to allow the page to expand to fit the content when larger font-sizes are applied.
 
@@ -107,7 +107,7 @@ The CSS code for this website was entered into the [**W3C CSS Validation Service
 
 #### **Lighthouse Scores and PageSpeed Insights**
 
-When using Lighthouse, I made sure that tests were run in Incognito windows so that there could be no interferance from browser extensions.
+When using Lighthouse, I made sure that tests were run in Incognito windows so that there could be no interference from browser extensions.
 
 Below are screenshots of the final, post-development results for both the mobile and desktop Lighthouse tests for index.html and form-submission.html. They were very consistent across multiple browsers and devices, with some tests coming back with perfect 100 scored in all categories, however these screenshots are ones I've taken from my own PC:
 
@@ -151,7 +151,7 @@ There are three noteworthy things about this website that I would consider unres
 
 #### **PageSpeed Insights Performance Scores on Mobile**
 
-The biggest and most important unresolved bug is that, when testing the mobile versions of index.html and form-submission.html on PageSpeed Insights, the Performance score often fluctuates. As mentioned in the **'Validation Issues'** section under **'Bugs'**, initially I found that the website scored much lower than desired in its Performance scores due to the high resolutions of the images used on the website (particularly for index.html), and a lack of explicit image widths and heights due to the responsive design model. I was able to improve this score by fixed by compressing the images as well as introducing a srcset rule to the HTML, so that the browser would load a lower resolution version of the image for screens under 1280px wide.
+The biggest and most important unresolved bug is that, when testing the mobile versions of index.html and form-submission.html on PageSpeed Insights, the Performance score often fluctuates. As mentioned in the **'Validation Issues'** section under **'Bugs'**, initially I found that the website scored much lower than desired in its Performance scores due to the high resolutions of the images used on the website (particularly for index.html), and a lack of explicit image widths and heights due to the responsive design model. I was able to improve this score by compressing the images as well as introducing a srcset rule to the HTML, so that the browser would load a lower resolution version of the image for screens under 1280px wide.
 
 While this was enough to significantly raise the Performance score on Lighthouse to above 90, it was not enough to see the same consistency in PageSpeed Insights. As shown above in the final screenshots, the average high score I could get is 88, however the tests would vary, with one tester seeing average scores of around 85, but even in my own testing I sometimes received scores of 70 - 80. I do believe that a potential solution for this would be to resize the images again and add an additional srcset rule for small mobile screens, however I did find that a consistent issue I came across was due to the efficiency of GitHub's cache policy - which is beyond my control. Regardless, this is something I will keep in mind for the future, as well as learning how to use programs like GIMP that would allow me to resize, compress, and save images in next-gen formats such as WEBP.
 
@@ -161,8 +161,8 @@ When passing index.html and form-submission.html through the [**WAVE Web Accessi
 
 ![WAVE Accessibility label error](docs/images/wave-accessibility-label-error.png)
 
-The empty label that it refers to is part of the HTML code I used for the hamburger menu, and from what I understand it needs to remain blank. This obviously is not ideal and I would liked to have caught this earlier in the development cycle so that I could learn how to negate this negative impact on the website's accessibility.
+The empty label that it refers to is part of the HTML code I used for the hamburger menu, and from what I understand it needs to remain blank. This obviously is not ideal and I would have liked to have caught this earlier in the development cycle so that I could learn how to negate this negative impact on the website's accessibility.
 
 #### **WCAG Colour Contrast Checker Failure**
 
-When testing the website pages with the WCAG Colour Contrast Checker, I found that there were failures on my Form Submission page around the images. Although I understand that this is due to the background colour of the image containers, and the contaning div element - and that they do not actually contain any text - I would still consider this an issue that I would like to spend more time working out how to avoid.
+When testing the website pages with the WCAG Colour Contrast Checker, I found that there were failures on my Form Submission page around the images. Although I understand that this is due to the background colour of the image containers, and the containing div element - and that they do not actually contain any text - I would still consider this an issue that I would like to spend more time working out how to avoid.
