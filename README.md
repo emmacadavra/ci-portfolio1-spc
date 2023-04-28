@@ -34,19 +34,8 @@ Currently, the SPC's official website is vast and full of a wealth of informatio
         * [*Form Submission Confirmation*](#form-submission-confirmation)
         * [*Form Submissions Images*](#form-submission-images)
     * [***Footer***](#footer)
-        * [*Footer Links*](#footer-links)
-        * [*Footer Disclaimer*](#footer-disclaimer)
-1. [**Accessibility**](#accessibility)
+        * [*Footer Links and Disclaimer*](#footer-links-and-disclaimer)
 1. [**Testing**](#testing)
-    * [***During Development***](#during-development)
-    * [***Bugs***](#bugs)
-        * [*Resolved Bugs*](#resolved-bugs)
-        * [*Unresolved Bugs*](#unresolved-bugs)
-    * [***Validators***](#validators)
-        * [*HTML Validation*](#html-validation)
-        * [*CSS Validation*](#css-validation)
-        * [*Lighthouse Score Desktop*](#lighthouse-score-desktop)
-        * [*Lighthouse Score Mobile*](#lighthouse-score-mobile)
 1. [**Technologies Used**](#technologies-used)
 1. [**Deployment**](#deployment)
 1. [**Future-Enhancements**](#future-enhancements)
@@ -290,15 +279,13 @@ This format does not suit smaller screens, however, so I added two levels of res
 
 The Footer sits at the bottom of the webpage, with the same colour styling rules as the Header, and its height is consistent across all devices.
 
-#### **Footer Links**
+#### **Footer Links and Disclaimer**
 
 The four social media links within the Footer are indicated by logos from Font Awesome. As they are logos only, they also include an aria-label so that screen readers can easily understand the purpose of each icon. All links are set to open in a new tab, so that they do not disrupt the user experience. They also have the same hover styling rules as the Navigation Bar, so that users can clearly see that they are interactable.
 
 (screenshot of social media links)
 
 (screenshot of hover styling)
-
-#### **Footer Disclaimer**
 
 A Disclaimer has been added to the very bottom of the Footer, explaining that this website is for educational purposes only.
 
