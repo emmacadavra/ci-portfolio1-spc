@@ -32,7 +32,7 @@ Once I was happy with the overall design of the website, I deployed it to GitHub
 
 ### **Responsive Design and Functionality**
 
-(How I tested responsive design)
+(How I tested responsive design + browser stack!)
 
 The site's functionality has been tested and confirmed as fully responsive across different breakpoints with no issues on the following browsers on both mobile and desktop:
 
@@ -83,7 +83,7 @@ In addition to the Lighthouse and PageSpeed Insight Accessibility tests, I ran t
 
 Initially, I had also set most of the heights, widths and dimensions within the website in pixel values. However, when discussing this with my mentor and other developers mentioned in the **'Honourable Mentions'** section of the [**README.md file**](README.md), I learned that it was best practise to use rem measurements. This contributes to good practise in accessibility considerations, as it means that if a user who is partially sighted increases the default text size of their browser, the website scales appropriately and removes any barriers they might otherwise have if the font sizes were fixed by pixels.
 
-Following on from this, I had set rules for the height of each page section, so that it would always appear as 100vh minus the height of the header (and footer in the case of Section Three and the Form Submission page). The reason I did this was to create the effect of each section appearing as though it was a separate page when on desktop, to clearly separate the sections in the mind of the user. However, when testing the website's responsiveness to the increased default font-size accessibility tool in Google Chrome, I realised that the fixed viewport height became another barrier to people who need to use this tool. I therefore amended the desktop viewport height rules to be min-height rules, to allow the page to fit the content when larger font-sizes are applied.
+Following on from this, I had set rules for the height of each page section, so that it would always appear as 100vh minus the height of the header (and footer in the case of Section Three and the Form Submission page). The reason I did this was to create the effect of each section appearing as though it was a separate page when on desktop, to clearly separate the sections in the mind of the user. However, when testing the website's responsiveness to the increased default font-size accessibility tool in Google Chrome, I realised that the fixed viewport height became another barrier to people who need to use this tool. I therefore amended the desktop viewport height rules to be min-height rules, to allow the page to expand to fit the content when larger font-sizes are applied.
 
 ## **Testing Post-Development**
 
@@ -147,7 +147,7 @@ Mobile PageSpeed Insights test - form-submission.html:
 
 ### Unresolved Bugs
 
-There are two main noteworthy things about this website that I would consider unresolved bugs:
+There are three noteworthy things about this website that I would consider unresolved bugs:
 
 #### **PageSpeed Insights Performance Scores on Mobile**
 
