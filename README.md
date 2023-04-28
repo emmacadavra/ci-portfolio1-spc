@@ -289,40 +289,9 @@ Footer with the 'Twitter' icon hovered over (cursor not included in screenshot d
 
 A Disclaimer has been added to the very bottom of the Footer, explaining that this website is for educational purposes only.
 
-## **Accessibility**
-
 ## **Testing**
 
-### **During Development**
-
-During development, I manually tested the website as I went along by using the 'python3 -m http.server' command in GitPod's VSCode workspace. I use Google Chrome, so I was predominantly using Chrome's DevTools to allow me to test the content across different screen sizes.
-
-At various stages throughout development, I also made the server public and shared it with several people, asking them to confirm that the site was functional on their devices so that I could get an idea of whether the site looked good to different people across different devices.
-
-The site's functionality has been tested and confirmed as fully responsive across different breakpoints with no issues on the following browsers on both mobile and desktop:
-
-* Google Chrome
-* Mozilla Firefox
-* Microsoft Edge
-* Safari
-
-### **Bugs**
-
-#### **Resolved Bugs**
-
-Mention the Lighthouse score for performance - image compression!!
-
-#### **Unresolved Bugs**
-
-### **Validators**
-
-#### **HTML Validation**
-
-#### **CSS Validation**
-
-#### **Lighthouse Score Desktop**
-
-#### **Lighthouse Score Mobile**
+A separate file has been created for information about testing. Please click the following link to access it: [**TESTING.md**](TESTING.md) 
 
 ## **Technologies Used**
 
