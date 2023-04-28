@@ -15,9 +15,7 @@ body {
     line-height: 1.5;
 }
 
-
-/* Header (logo & nav bar) */
-
+/* Header (Site Title and Navigation Bar) */
 .header {
     z-index: 1;
     width: 100%;
@@ -51,8 +49,7 @@ body {
     color: #f9e68c;
 }
 
-/* burger menu CSS start */
-
+/* Luke Embrey's Hamburger Menu CSS start (see README credits) */
 .menu {
     display: flex;
     flex-direction: row;
@@ -116,10 +113,9 @@ body {
     transform: rotate(-405deg);
 }
 
-/* hambuger menu CSS end */
+/* Luke Embrey's Hamburger Menu CSS end */
 
 /* Sections */
-
 .section,
 .form-submit {
     position: relative;
@@ -190,8 +186,7 @@ body {
     border-radius: 50%;
 }
 
-/* Form */
-
+/* Sign-Up Form */
 .signup-heading {
     font-family: "Playfair Display", serif;
     text-align: center;
@@ -252,8 +247,7 @@ fieldset {
 }
 
 
-/* Footer (with social media links) */
-
+/* Footer (Social Media Links and Disclaimer) */
 footer {
     background-color: #111;
     height: 6.25rem;
@@ -275,8 +269,7 @@ footer {
     align-items: center;
 }
 
-/* Form Submission Page */
-
+/* Form Submission Confirmation Page */
 .form-submit {
     background: #faebd7 url('../images/sheet-music-book.jpg') no-repeat fixed center;
     background-size: cover;
@@ -332,8 +325,7 @@ footer {
 
 /* Media Queries */
 
-/* hamburger menu media query start */
-
+/* Luke Embrey's Hamburger Menu CSS Media Query start (see README credits) */
 @media (max-width: 1049px) {
 
     .menu-button-container {
@@ -381,8 +373,9 @@ footer {
     }
 }
 
-/* hamburger menu media query end */
+/* Luke Embrey's Hamburger Menu CSS Media Query end */
 
+/* Media Query - min-width: 280px */
 @media screen and (min-width: 280px) {
 
     .header {
@@ -451,6 +444,7 @@ footer {
 
 }
 
+/* Media Query - min-width: 375px */
 @media screen and (min-width: 375px) {
 
     .header h1 {
@@ -467,6 +461,7 @@ footer {
 
 }
 
+/* Media Query - min-width: 550px */
 @media screen and (min-width: 550px) {
 
     .section-content {
@@ -483,6 +478,7 @@ footer {
 
 }
 
+/* Media Query - min-width: 768px */
 @media screen and (min-width: 768px) {
 
     .header {
@@ -530,6 +526,7 @@ footer {
 
 }
 
+/* Media Query - min-width: 1050px */
 @media screen and (min-width: 1050px) {
 
     .menu {
@@ -556,6 +553,7 @@ footer {
 
 }
 
+/* Media Query - min-width: 1280px */
 @media screen and (min-width: 1280px) {
 
     .menu {
@@ -648,6 +646,7 @@ footer {
 
 }
 
+/* Media Query - min-width: 1600px */
 @media screen and (min-width: 1600px) {
 
     .header {
