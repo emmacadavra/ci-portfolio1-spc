@@ -41,7 +41,7 @@ The site's functionality has been tested and confirmed as fully responsive acros
 
 ### **Bugs**
 
-(Bugs, including the lighthouse scores and images in need of compression, border-box sizing, horizontal scroll on form-submission, grey bottom of section-three, page not found due to incorrect file paths on form-submission page, etc)
+(Bugs, including the lighthouse scores and images in need of compression, border-box sizing, horizontal scroll on form-submission, grey bottom of section-three, page not found due to incorrect file paths on form-submission page, w3c issue with hamburger html, etc)
 
 ### **Accessibility**
 
@@ -55,9 +55,17 @@ In order to validate this website in terms of its HTML code, CSS code, and gener
 
 #### HTML Validation
 
+The HTML for both index.html and form-submission.html was entered into the [**W3C Markup Validation Service**](https://validator.w3.org/), and both pages passed with no errors being detected.
+
+![W3C Markup Validation Service - no errors found](docs/images/w3c-html-pass.PNG)
 
 #### CSS Validation
 
+The CSS code for this website was entered into the [**W3C CSS Validation Service ('Jigsaw')**](https://jigsaw.w3.org/css-validator/), and passed with no errors found.
+
+![W3C CSS Validation Service - no errors found](docs/images/w3c-jigsaw-css-pass.PNG)
+
+![W3C CSS Validation Icon - Valid CSS!](http://jigsaw.w3.org/css-validator/images/vcss)
 
 #### Lighthouse Scores
 
