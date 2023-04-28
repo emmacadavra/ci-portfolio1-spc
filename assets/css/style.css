@@ -424,6 +424,10 @@ footer {
         padding-top: 3.125rem;
     }
 
+    .section-three {
+        flex-direction: column-reverse;
+    }
+
     .signup-form {
         width: 90%;
         max-width: 28.125rem;
