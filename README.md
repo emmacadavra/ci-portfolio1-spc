@@ -262,29 +262,29 @@ The form is responsive, with the fieldsets and additional text being set to disp
 
 ![Sign-Up Form on mobile](docs/images/section-three-form-mobile.png)
 
-![Sign-Up Form on screens at least 768pc wide](docs/images/section-three-1050px.png)
+![Sign-Up Form on screens at least 768px wide](docs/images/section-three-1050px.png)
 
 ### **Form Submission Page**
 
-The form submission page was created to emulate the experience of submitting a form. In this particular instance, because this website is for education purposes and is not designed to collect data, no form method has been defined. However, in order to create a professional looking website, the form-submission page acts as a confirmation of form validation that the user can understand. It includes the same header and footer as the main site page, so that the user can quickly and easily navigate back to the homepage and other sections at their convenience.
+The form submission page was created to emulate the experience of submitting a form. In this particular instance, because this website is for education purposes and is not designed to collect data, no form method has been defined. However, in order to create a professional looking website, the form-submission page acts as a confirmation of form validation that the user can understand. It includes the same header and footer as the main site page, so that the user can quickly and easily navigate back to the homepage and other sections at their convenience. For the background, I used the same image of the sheet music book as the one used in Section Three, again for familiarity and thematic suitability.
 
 #### **Form Submission Confirmation**
 
 The Form Submission Confirmation box is a simple text field that utilises the same colour scheme as the Header and Footer. It serves as confirmation to the user that they have correctly filled in the form, and that someone will be in touch with them soon.
 
-(screenshot)
+![Form Submission Confirmation text](docs/images/form-submission-thankyou.png)
 
 #### **Form Submission Images**
 
 As an additional feature to this page, I added four photographs taken from a recent rehearsal to make the page more interesting to the user, and to give the user who has signed up a further idea of the fun they will have singing with the choir. My vision for this section is best displayed at a minimum screen width of 1050px, where all four images form a band across the screen in a way that is reminiscent of photographic film.
 
-(screenshot of these images at a wider screen width)
+![Form Submission Images on screens at least 1050px wide](docs/images/form-submission-rehearsal-photos-nowrap.png)
 
 This format does not suit smaller screens, however, so I added two levels of responsive design depending on the width of the user's screen - when on a narrow mobile device, the images appear in a column below the box of confirmation text, while on a tablet screen between 550px and 1050px, the photos appear as a 2x2 grid.
 
-(screenshot of grid)
+![Form Submission Images on screens below 550px wide](docs/images/form-submission-rehearsal-photos-wrap-mobile.png)
 
-(screenshot of column)
+![Form Submission Images on screens between 550px and 1050px wide](docs/images/form-submission-rehearsal-photos-wrap-tablet.png)
 
 ### **Footer**
 
