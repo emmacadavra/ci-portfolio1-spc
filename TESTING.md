@@ -157,6 +157,12 @@ While this was enough to significantly raise the Performance score on Lighthouse
 
 #### **WAVE Web Access Accessibility Evaluation Error**
 
+When passing index.html and form-submission.html through the [**WAVE Web Accessibility Evaluation Tool**](https://wave.webaim.org/), one error appeared for both pages:
+
+![WAVE Accessibility label error](docs/images/wave-accessibility-label-error.png)
+
+The empty label that it refers to is part of the HTML code I used for the hamburger menu, and from what I understand it needs to remain blank. This obviously is not ideal and I would liked to have caught this earlier in the development cycle so that I could learn how to negate this negative impact on the website's accessibility.
+
 #### **WCAG Colour Contrast Checker Failure**
 
 When testing the website pages with the WCAG Colour Contrast Checker, I found that there were failures on my Form Submission page around the images. Although I understand that this is due to the background colour of the image containers, and the contaning div element - and that they do not actually contain any text - I would still consider this an issue that I would like to spend more time working out how to avoid.
