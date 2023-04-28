@@ -165,10 +165,6 @@ On larger screens, the images appear next to the content of the section. Shown n
 
 Section One's main content serves as a welcome to site visitors, and gives a brief history and overview of the choir. The background is an antique white colour, with dark grey text, so that it is clear and easy to read. The opening sentence has different styling to the rest of the text, to make it stand out. It includes a link to Classical Sheffield, of which the SPC is a member, which has been made obvious to the viewer by making the text bold and underlined. When the user hovers over the text, it becomes italicised, indicating it is interactable.
 
-Section One main content:
-
-![Section One main content](docs/images/section-one-content-desktop.png)
-
 Section One content with 'Classical Sheffield' link hovered over (cursor not included in screenshot due to its automatic removal from screenshots):
 
 ![Section One content with 'Classical Sheffield' link hovered over](docs/images/section-one-hover-style.png)
@@ -204,10 +200,6 @@ Shown next to the content at 1600px wide (with the placement being reversed to t
 #### **Section Two Content**
 
 Section Two provides the user with information about the time, location and frequency of the choir's rehearsals, as well as information about the Music Director, Accompanist and Vocal Coach which any user wishing to sign up can make use of. It uses the same antique white background colour, and same fonts seen in Section One, for consistency and familiarity.
-
-Section Two main content:
-
-![Section Two main content](docs/images/section-two-content-desktop.png)
 
 ### **Section Three**
 
