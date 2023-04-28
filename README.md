@@ -280,13 +280,21 @@ This format does not suit smaller screens, however, so I added two levels of res
 
 ### **Footer**
 
+The Footer sits at the bottom of the webpage, with the same colour styling rules as the Header, and its height is consistent across all devices.
+
 #### **Footer Links**
 
-The footer sits at the bottom of the webpage and includes four social media links, all of which are indicated by a logo from Font Awesome. As they are logos only, they also include an aria-label so that screen readers can easily understand the purpose of each icon. All links are set to open in a new tab, so that they do not disrupt the user experience.
+The four social media links within the Footer are indicated by logos from Font Awesome. As they are logos only, they also include an aria-label so that screen readers can easily understand the purpose of each icon. All links are set to open in a new tab, so that they do not disrupt the user experience. They also have the same hover styling rules as the Navigation Bar, so that users can clearly see that they are interactable.
 
-(screenshot of footer)
+(screenshot of social media links)
+
+(screenshot of hover styling)
 
 #### **Footer Disclaimer**
+
+A Disclaimer has been added to the very bottom of the Footer, explaining that this website is for educational purposes only.
+
+(screenshot of disclaimer)
 
 ## **Accessibility**
 
