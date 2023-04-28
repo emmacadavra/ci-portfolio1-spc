@@ -275,13 +275,19 @@ The Footer sits at the bottom of the webpage, with the same colour styling rules
 
 The four social media links within the Footer are indicated by logos from Font Awesome. As they are logos only, they also include an aria-label so that screen readers can easily understand the purpose of each icon. All links are set to open in a new tab, so that they do not disrupt the user experience. They also have the same hover styling rules as the Navigation Bar, so that users can clearly see that they are interactable.
 
-(screenshot of social media links)
+Full Footer - mobile view:
 
-(screenshot of hover styling)
+![Full Footer - mobile view](docs/images/footer-full-mobile.png)
+
+Full Footer - desktop view:
+
+![Full Footer - desktop view](docs/images/footer-full-1280px.png)
+
+Footer with the 'Twitter' icon hovered over (cursor not included in screenshot due to its automatic removal from screenshots), displaying the correct linked address at the very bottom of the screen:
+
+![Footer with 'Twitter' icon hovered over](docs/images/footer-hover-link.png)
 
 A Disclaimer has been added to the very bottom of the Footer, explaining that this website is for educational purposes only.
-
-(screenshot of disclaimer)
 
 ## **Accessibility**
 

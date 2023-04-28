@@ -10,3 +10,29 @@
         * [*CSS Validation*](#css-validation)
         * [*Lighthouse Scores*](#lighthouse-scores)
     * [***Unresolved Bugs***](#unresolved-bugs)
+
+## **Testing Throughout Development**
+
+
+### **Bugs**
+
+
+### **Accessibility**
+
+
+## **Testing Post-Development**
+
+
+### Validation
+
+
+#### HTML Validation
+
+
+#### CSS Validation
+
+
+#### Lighthouse Scores
+
+
+### Unresolved Bugs
