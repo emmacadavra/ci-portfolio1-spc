@@ -203,7 +203,7 @@ Section Two provides the user with information about the time, location and freq
 
 ### **Section Three**
 
-Section Three appears visually different from Sections One and Two, again to keep the user visually engaged. It features a fixed background image of a sheet music booklet, which is relevant to the choir's activities, and also subtle enough not to interfere with the foreground. The decision to keep the image in a fixed position was the result of testing the website's responsive design, particularly on mobile, which is mentioned in the Testing section of this README.
+Section Three appears visually different from Sections One and Two, again to keep the user visually engaged. It features a fixed background image of a sheet music booklet, which is relevant to the choir's activities, and also subtle enough not to interfere with the foreground. The decision to keep the image in a fixed position was the result of testing the website's responsive design, particularly on mobile.
 
 #### **SPC Logo**
 

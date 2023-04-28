@@ -11,7 +11,7 @@
     * [***Validation***](#validation)
         * [*HTML Validation*](#html-validation)
         * [*CSS Validation*](#css-validation)
-        * [*Lighthouse Scores*](#lighthouse-scores)
+        * [*Lighthouse Scores and PageSpeed Insights*](#lighthouse-scores-and-pagespeed-insights)
     * [***Unresolved Bugs***](#unresolved-bugs)
 
 ## **Testing Throughout Development**
@@ -51,7 +51,7 @@ The site's functionality has been tested and confirmed as fully responsive acros
 
 ### Validation
 
-In order to validate this website in terms of its HTML code, CSS code, and general overall quality, I used the [**W3C Markup Validation Service**](https://validator.w3.org/), [**W3C CSS Validation Service ('Jigsaw')**](https://jigsaw.w3.org/css-validator/), and [**Google Chrome Lighthouse Tool**](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en).
+In order to validate this website in terms of its HTML code, CSS code, and general overall quality, I used the [**W3C Markup Validation Service**](https://validator.w3.org/), [**W3C CSS Validation Service ('Jigsaw')**](https://jigsaw.w3.org/css-validator/), [**Google Chrome Lighthouse Tool**](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) and [**PageSpeed Insights**](https://pagespeed.web.dev/).
 
 #### HTML Validation
 
@@ -67,27 +67,27 @@ The CSS code for this website was entered into the [**W3C CSS Validation Service
 
 ![W3C CSS Validation Icon - Valid CSS!](http://jigsaw.w3.org/css-validator/images/vcss)
 
-#### Lighthouse Scores
+#### Lighthouse Scores and PageSpeed Insights
 
 When using Lighthouse, I made sure that tests were run in Incognito windows so that there could be no interferance from browser extensions..
 
-Below are screenshots of the results for both the mobile and desktop tests for index.html and form-submission.html:
-
-Desktop Lighthouse test - form-submission.html:
-
-
+Below are screenshots of the results for both the mobile and desktop tests for index.html and form-submission.html, conducted on a high-performance PC:
 
 Desktop Lighthouse test - index.html:
 
+![Desktop Lighthouse test - index.html](docs/images/index-desktop-lighthouse.png)
 
+Desktop Lighthouse test - form-submission.html:
 
-Mobile Lighthouse test - form-submission.html:
-
-
+![Desktop Lighthouse test - form-submission.html](docs/images/form-submission-desktop-lighthouse.png)
 
 Mobile Lighthouse test - index.html:
 
+![Mobile Lighthouse test - index.html](docs/images/index-mobile-lighthouse-hp-pc.png)
 
+Mobile Lighthouse test - form-submission.html:
+
+![Mobile Lighthouse test - form-submission.html](docs/images/form-submission-mobile-lighthouse.png)
 
 ### Unresolved Bugs
 
