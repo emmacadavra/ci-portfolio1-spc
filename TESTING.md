@@ -17,6 +17,7 @@
         * [*Lighthouse Scores and PageSpeed Insights*](#lighthouse-scores-and-pagespeed-insights)
     * [***Unresolved Bugs***](#unresolved-bugs)
         * [*PageSpeed Insights Performance Scores on Mobile*](#pagespeed-insights-performance-scores-on-mobile)
+        * [*WAVE Web Access Accessibility Evaluation Error*](#wave-web-access-accessibility-evaluation-error)
         * [*WCAG Colour Contrast Checker Failure*](#wcag-colour-contrast-checker-failure)
 
 ## **Testing Throughout Development**
@@ -72,11 +73,15 @@ The Lighthouse scores for index.html and form-submission.html were coming back a
 
 When looking into the results, it was clear that the main reason for these particularly low scores was that the images used on both pages were very high resolution, and as such taking much longer than necessary to load. The first step I took to improve this was to compress the images through [**Optimizilla**](https://imagecompressor.com/), but this did not make a significant enough change. I then realised that one of the images I was using - 'choir-rehearsing.jpg' - had the enormous dimensions of 5,312 x 2,988px, so I resized the image to match the dimensions of 'choir-orchestra-church.jpg'. I also resized all four images of the choir used on form-submission.html to be smaller, and compressed those as well.
 
-While this did have a positive impact on the Lighthouse and PageSpeed Insights desktop scores, and the form-submission.html mobile score, it still did not do enough to significantly improve the index.html mobile score. It was at that point that I uploaded a smaller resized version of the images - 'choir-rehearsing-mobile.jpg' and 'choir-orchestra-church-mobile.jpg' and introduced a picture element containing srcset HTML rules. This increased the mobile scores greatly, as the browser was no longer having to spend so much time loading a much higher resolution image than it would ever need on smaller devices.
+While this did have a positive impact on the Lighthouse and PageSpeed Insights desktop scores, and the form-submission.html mobile score, it still did not do enough to significantly improve the index.html mobile score. It was at that point that I uploaded a smaller resized version of the images - 'choir-rehearsing-mobile.jpg' and 'choir-orchestra-church-mobile.jpg' - and introduced a picture element containing srcset HTML rules. This increased the mobile scores greatly, as the browser was no longer having to spend so much time loading a much higher resolution image than it would ever need on smaller devices.
 
 ### **Accessibility**
 
-(Testing of accessibility features - including changing from px to rem, testing using broswer default size, etc)
+Both during development and post-development, I ran additional tests on this website to make sure that it had high levels of accessibility.
+
+Initially, I had also set most of the heights, widths and dimensions within the website in pixel values. However, when discussing this with my mentor and other developers mentioned in the **'Honourable Mentions'** section of the [**README.md file**](README.md), I learned that it was best practise to use rem measurements. This contributes to good practise in accessibility considerations, as it means that if a user who is partially sighted increases the default text size of their browser, the website scales appropriately and removes any barriers they might otherwise have if the font sizes were fixed by pixels.
+
+Following on from this, I had set rules for the height of each page section, so that it would always appear as 100vh minus the height of the header (and footer in the case of Section Three and the Form Submission page). The reason I did this was to create the effect of each section appearing as though it was a separate page when on desktop, to clearly separate the sections in the mind of the user. However, when testing the website's responsiveness to the increased default font-size accessibility tool in Google Chrome, I realised that the fixed viewport height became another barrier to people who need to use this tool. I therefore amended the desktop viewport height rules to be min-height rules, to allow the page to fit the content when larger font-sizes are applied.
 
 ## **Testing Post-Development**
 
@@ -147,6 +152,8 @@ There are two main noteworthy things about this website that I would consider un
 The biggest and most important unresolved bug is that, when testing the mobile versions of index.html and form-submission.html on PageSpeed Insights, the Performance score often fluctuates. As mentioned in the **'Validation Issues'** section under **'Bugs'**, initially I found that the website scored much lower than desired in its Performance scores due to the high resolutions of the images used on the website (particularly for index.html), and a lack of explicit image widths and heights due to the responsive design model. I was able to improve this score by fixed by compressing the images as well as introducing a srcset rule to the HTML, so that the browser would load a lower resolution version of the image for screens under 1280px wide.
 
 While this was enough to significantly raise the Performance score on Lighthouse to above 90, it was not enough to see the same consistency in PageSpeed Insights. As shown above in the final screenshots, the average high score I could get is 88, however the tests would vary, with one tester seeing average scores of around 85, but even in my own testing I sometimes received scores of 70 - 80. I do believe that a potential solution for this would be to resize the images again and add an additional srcset rule for small mobile screens, however I did find that a consistent issue I came across was due to the efficiency of GitHub's cache policy - which is beyond my control. Regardless, this is something I will keep in mind for the future, as well as learning how to use programs like GIMP that would allow me to resize, compress, and save images in next-gen formats such as WEBP.
+
+#### **WAVE Web Access Accessibility Evaluation Error**
 
 #### **WCAG Colour Contrast Checker Failure**
 
