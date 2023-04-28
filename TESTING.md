@@ -44,6 +44,10 @@ The site's functionality has been tested and confirmed as fully responsive acros
 
 (Bugs, including border-box sizing, horizontal scroll on form-submission, grey bottom of section-three, page not found due to incorrect file paths on form-submission page, w3c issue with hamburger html, etc)
 
+#### **Validation Issues**
+
+(issues with performance)
+
 ### **Accessibility**
 
 (Testing of accessibility features - including changing from px to rem, testing using broswer default size, etc)
@@ -72,7 +76,7 @@ The CSS code for this website was entered into the [**W3C CSS Validation Service
 
 When using Lighthouse, I made sure that tests were run in Incognito windows so that there could be no interferance from browser extensions.
 
-Below are screenshots of the final, post-development results for both the mobile and desktop Lighthouse tests for index.html and form-submission.html:
+Below are screenshots of the final, post-development results for both the mobile and desktop Lighthouse tests for index.html and form-submission.html. They were very consistent across multiple browsers and devices, with some tests coming back with perfect 100 scored in all categories, however these screenshots are ones I've taken from my own PC:
 
 Desktop Lighthouse test - index.html:
 
@@ -90,7 +94,7 @@ Mobile Lighthouse test - form-submission.html:
 
 ![Mobile Lighthouse test - form-submission.html](docs/images/form-submission-mobile-lighthouse.png)
 
-Below are screenshots of the final, post-development results for both the mobile and desktop PageSpeed Insights tests for index.html and form-submission.html:
+Below are screenshots of the final, post-development results for both the mobile and desktop PageSpeed Insights tests for index.html and form-submission.html. The desktop scores were consistent across multiple browsers and devices, but the mobile versions fluctuated fairly significantly, which I mention in the **'Unresolved Bugs'** section below these screenshots:
 
 Desktop PageSpeed Insights test - index.html:
 
@@ -110,4 +114,14 @@ Mobile PageSpeed Insights test - form-submission.html:
 
 ### Unresolved Bugs
 
-(Fluctuating performance on mobile due to responsive design/GitHub cache issues beyond my control, that one technical issue with WCAG)
+There are two main noteworthy things about this website that I would consider unresolved bugs:
+
+**PageSpeed Insights Performance Scores on Mobile**
+
+The biggest and most important unresolved bug is that, when testing the mobile versions of index.html and form-submission.html on PageSpeed Insights, the Performance score often fluctuates. As mentioned in the **'Validation Issues'** section under **'Bugs'**, initially I found that the website scored much lower than desired in its Performance scores due to the high resolutions of the images used on the website (particularly for index.html), and a lack of explicit image widths and heights due to the responsive design model. I was able to improve this score by fixed by compressing the images as well as introducing a srcset rule to the HTML, so that the browser would load a lower resolution version of the image for screens under 1280px wide.
+
+While this was enough to significantly raise the Performance score on Lighthouse to above 90, it was not enough to see the same consistency in PageSpeed Insights. As shown above in the final screenshots, the average high score I could get is 88, however the tests would vary, with one tester seeing average scores of around 85, but even in my own testing I sometimes received scores of 70 - 80. I do believe that a potential solution for this would be to resize the images again and add an additional srcset rule for small mobile screens, however I did find that a consistent issue I came across was due to the efficiency of GitHub's cache policy - which is beyond my control. Regardless, this is something I will keep in mind for the future, as well as learning how to use programs like GIMP that would allow me to resize, compress, and save images in next-gen formats such as WEBP.
+
+**WCAG Colour Contrast Checker Failure**
+
+When testing the website pages with the WCAG Colour Contrast Checker, I found that there were failures on my Form Submission page around the images. Although I understand that this is due to the background colour of the image containers, and the contaning div element - and that they do not actually contain any text - I would still consider this an issue that I would like to spend more time working out how to avoid.
