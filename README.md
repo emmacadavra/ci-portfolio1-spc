@@ -168,9 +168,7 @@ Section One image at 550px wide:
 
 ![Section One image at 550px wide](docs/images/section-one-image-550px.png)
 
-On larger screens, the images appear next to the content of the section, with section two’s order having been reversed for an engaging visual effect.
-
-Shown next to the content at 1600px wide:
+On larger screens, the images appear next to the content of the section. Shown next to the content at 1600px wide:
 
 ![Section One image at 1600px wide](docs/images/section-one-image-content-1600px.png)
 
@@ -206,15 +204,21 @@ Section Two’s image is more casual by comparison to the image used in Section 
 
 The image is responsive, and will adapt to the screen size and position without stretching or shrinking.
 
-(mobile screenshot)
+Section Two image at 550px wide:
 
-(desktop screenshot)
+![Section Two image at 550px wide](docs/images/section-two-image-550px.png)
+
+Shown next to the content at 1600px wide (with the placement being reversed to that of Section One):
+
+![Section Two image at 1600px wide](docs/images/section-two-image-content-1600px.png)
 
 #### **Section Two Content**
 
 Section Two provides the user with information about the time, location and frequency of the choir's rehearsals, as well as information about the Music Director, Accompanist and Vocal Coach which any user wishing to sign up can make use of. It uses the same antique white background colour, and same fonts seen in Section One, for consistency and familiarity.
 
-(screenshot)
+Section Two main content:
+
+![Section Two main content](docs/images/section-two-content-desktop.png)
 
 ### **Section Three**
 
@@ -226,13 +230,15 @@ The Sheffield Philharmonic Chorus logo is displayed in Section Three, wrapped in
 
 On smaller screens, the logo appears at the very bottom of the page, above the footer.
 
-(screenshot of logo on smaller screen)
+SPC Logo at 375px wide:
 
-On larger screens, the logo appears on the left-hand side of the screen, before the sign-up form.
+![SPC Logo at 375px wide](docs/images/spc-logo-375px.png)
 
-(screenshot of logo on larger screen)
+On larger screens, the logo appears on the left-hand side of the screen, before the sign-up form. The logo image is responsive, though less so than the other images used on the webpage due to its lower maximum resolution. A maximum width has been set so that it does not distort or stretch above the image’s maximum dimensions.
 
-The logo image is responsive, though less so than the other images used on the webpage due to its lower maximum resolution. A maximum width has been set so that it does not distort or stretch above the image’s maximum dimensions.
+SPC Logo alongside form at 1600px wide:
+
+![SPC Logo alongside form at 1600px wide](docs/images/section-three-1600px.png)
 
 #### **Sign-Up Form**
 
@@ -240,21 +246,23 @@ Section Three of the site also contains a Sign-Up Form, which is a crucial eleme
 
 The form features two fieldsets which clearly define the information that is required from the user. The first fieldset asks for personal details and includes three input fields - two text fields (clearly labelled 'First Name' and 'Last Name') and an email field (clearly labelled 'Email Address') - all three of which are marked as 'required'.
 
-(screenshot of fieldset one)
+![Sign-Up Form fieldset one](docs/images/section-three-form-fieldset-1.png)
 
 The second fieldset uses radio button input so that the user can select which voice part they would sing in the choir. The first radio button input is marked as required so that one of the eight options must be selected in order to validate the form. Each option is clearly labelled and separated into four separate voice parts, with 1st and 2nd options for each. Some additional text has been included alongside this fieldset, which reassures any users who may not know that the SPC is split into SSAATTBB rather than SATB, and therefore may not be sure which voicepart they sing, that they can just select whichever one they think is closest, and this can be properly determined at a later date.
 
-(screenshot of fieldset two + if-unsure)
+![Sign-Up Form fieldset two](docs/images/section-three-form-fieldset-2.png)
 
-The Submit button is made distinct from the rest of the form by using the inverse of the form's colours - rather than dark grey text on yellow, the button itself is dark grey with yellow text that is larger than the form's text.
+![Sign-Up Form "if unsure" text](docs/images/section-three-if-unsure-text.png)
 
-(screenshot of submit)
+The 'Submit' button is made distinct from the rest of the form by using the inverse of the form's colours - rather than dark grey text on yellow, the button itself is dark grey with yellow text that is larger than the form's text.
+
+![Sign-Up Form 'Submit' button](docs/images/section-three-form-submit-button.png)
 
 The form is responsive, with the fieldsets and additional text being set to display as columns on smaller screens, and rows on larger screens. This is achieved using Flexbox.
 
-(screenshot of form on mobile)
+![Sign-Up Form on mobile](docs/images/section-three-form-mobile.png)
 
-(screenshot of form on desktop)
+![Sign-Up Form on screens at least 768pc wide](docs/images/section-three-1050px.png)
 
 ### **Form Submission Page**
 
