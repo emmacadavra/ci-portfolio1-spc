@@ -8,7 +8,7 @@
     * [***Bugs***](#bugs)
     * [***Validation Issues***](#validation-issues)
         * [*W3C HTML Error*](#w3c-html-error)
-        * [*Lighthouse and PageSpeed Insight Issues*](#lighthouse-and-pagespeed-insight-issues)
+        * [*Lighthouse and PageSpeed Insights Issues*](#lighthouse-and-pagespeed-insights-issues)
     * [***Accessibility***](#accessibility)
 1. [**Testing Post-Development**](#testing-post-development)
     * [***Validation***](#validation)
@@ -64,8 +64,15 @@ When running my HTML through the [**W3C Markup Validation Service**](https://val
 
 I was able to rectify this by replacing the div element with a span element, as in this context it was important for the child element of the label to be an in-line element, not a block element.
 
-#### **Lighthouse and PageSpeed Insight Issues**
+#### **Lighthouse and PageSpeed Insights Issues**
 
+A major issue I came up against quite late in development was that the website was performing poorly on Lighthouse and PageSpeed Insights when it was run through their mobile tests.
+
+The Lighthouse scores for index.html and form-submission.html were coming back as between 70 and 85, and the PageSpeed Insights scores were coming back much lower, sometimes even below 60.
+
+When looking into the results, it was clear that the main reason for these particularly low scores was that the images used on both pages were very high resolution, and as such taking much longer than necessary to load. The first step I took to improve this was to compress the images through [**Optimizilla**](https://imagecompressor.com/), but this did not make a significant enough change. I then realised that one of the images I was using - 'choir-rehearsing.jpg' - had the enormous dimensions of 5,312 x 2,988px, so I resized the image to match the dimensions of 'choir-orchestra-church.jpg'. I also resized all four images of the choir used on form-submission.html to be smaller, and compressed those as well.
+
+While this did have a positive impact on the Lighthouse and PageSpeed Insights desktop scores, and the form-submission.html mobile score, it still did not do enough to significantly improve the index.html mobile score. It was at that point that I uploaded a smaller resized version of the images - 'choir-rehearsing-mobile.jpg' and 'choir-orchestra-church-mobile.jpg' and introduced a picture element containing srcset HTML rules. This increased the mobile scores greatly, as the browser was no longer having to spend so much time loading a much higher resolution image than it would ever need on smaller devices.
 
 ### **Accessibility**
 
