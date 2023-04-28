@@ -6,6 +6,7 @@
     * [***Responsive Design and Functionality***](#responsive-design-and-functionality)
     * [***Testing of Site Features***](#testing-of-site-features)
     * [***Bugs***](#bugs)
+        * [*Validation Issues*](#validation-issues)
     * [***Accessibility***](#accessibility)
 1. [**Testing Post-Development**](#testing-post-development)
     * [***Validation***](#validation)
@@ -16,7 +17,7 @@
 
 ## **Testing Throughout Development**
 
-### Overview
+### **Overview**
 
 During development, I manually tested the website as I went along by using the 'python3 -m http.server' command in GitPod's VSCode workspace. This created a live version of the website, and every time I saved my work on GitPod I could refresh the page to see whether my code was working as intended. Google Chrome is my default browser, so I was predominantly using Chrome's DevTools to allow me to test the content across different screen sizes, as well as using it as a first point of call for bug fixes, as it enabled me to tweak the code, disable certain elements and add to them without directly impacting the website itself. 
 
@@ -24,7 +25,7 @@ At various stages throughout development, before deploying the website to GitHub
 
 Once I was happy with the overall design of the website, I deployed it to GitHub Pages so that I could share the link with more people, and begin making necessary tweaks and debugging more efficiently.
 
-### Responsive Design and Functionality
+### **Responsive Design and Functionality**
 
 (How I tested responsive design)
 
@@ -35,7 +36,7 @@ The site's functionality has been tested and confirmed as fully responsive acros
 * Microsoft Edge
 * Safari
 
-### Testing of Site Features
+### **Testing of Site Features**
 
 (How I tested the features of the website - ie, forms, links, layout)
 
@@ -49,17 +50,17 @@ The site's functionality has been tested and confirmed as fully responsive acros
 
 ## **Testing Post-Development**
 
-### Validation
+### **Validation**
 
 In order to validate this website in terms of its HTML code, CSS code, and general overall quality, I used the [**W3C Markup Validation Service**](https://validator.w3.org/), [**W3C CSS Validation Service ('Jigsaw')**](https://jigsaw.w3.org/css-validator/), [**Google Chrome Lighthouse Tool**](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) and [**PageSpeed Insights**](https://pagespeed.web.dev/).
 
-#### HTML Validation
+#### **HTML Validation**
 
 The HTML for both index.html and form-submission.html was entered into the [**W3C Markup Validation Service**](https://validator.w3.org/), and both pages passed with no errors being detected.
 
 ![W3C Markup Validation Service - no errors found](docs/images/w3c-html-pass.PNG)
 
-#### CSS Validation
+#### **CSS Validation**
 
 The CSS code for this website was entered into the [**W3C CSS Validation Service ('Jigsaw')**](https://jigsaw.w3.org/css-validator/), and passed with no errors found.
 
@@ -67,11 +68,11 @@ The CSS code for this website was entered into the [**W3C CSS Validation Service
 
 ![W3C CSS Validation Icon - Valid CSS!](http://jigsaw.w3.org/css-validator/images/vcss)
 
-#### Lighthouse Scores and PageSpeed Insights
+#### **Lighthouse Scores and PageSpeed Insights**
 
-When using Lighthouse, I made sure that tests were run in Incognito windows so that there could be no interferance from browser extensions..
+When using Lighthouse, I made sure that tests were run in Incognito windows so that there could be no interferance from browser extensions.
 
-Below are screenshots of the results for both the mobile and desktop tests for index.html and form-submission.html, conducted on a high-performance PC:
+Below are screenshots of the final, post-development results for both the mobile and desktop Lighthouse tests for index.html and form-submission.html:
 
 Desktop Lighthouse test - index.html:
 
@@ -83,12 +84,30 @@ Desktop Lighthouse test - form-submission.html:
 
 Mobile Lighthouse test - index.html:
 
-![Mobile Lighthouse test - index.html](docs/images/index-mobile-lighthouse-hp-pc.png)
+![Mobile Lighthouse test - index.html](docs/images/index-mobile-lighthouse.png)
 
 Mobile Lighthouse test - form-submission.html:
 
 ![Mobile Lighthouse test - form-submission.html](docs/images/form-submission-mobile-lighthouse.png)
 
+Below are screenshots of the final, post-development results for both the mobile and desktop PageSpeed Insights tests for index.html and form-submission.html:
+
+Desktop PageSpeed Insights test - index.html:
+
+![Desktop PageSpeed Insights test - index.html](docs/images/index-pagespeed-insight-desktop.png)
+
+Desktop PageSpeed Insights test - form-submission.html:
+
+![Desktop PageSpeed Insights test - form-submission.html](docs/images/form-submission-pagespeed-insight-desktop.png)
+
+Mobile PageSpeed Insights test - index.html:
+
+![Mobile PageSpeed Insights test - index.html](docs/images/index-pagespeed-insight-mobile.png)
+
+Mobile PageSpeed Insights test - form-submission.html:
+
+![Mobile PageSpeed Insights test - form-submission.html](docs/images/form-submission-pagespeed-insight-mobile.png)
+
 ### Unresolved Bugs
 
-(Performance on mobile due to responsive design, that one technical issue with WCAG)
+(Fluctuating performance on mobile due to responsive design/GitHub cache issues beyond my control, that one technical issue with WCAG)
