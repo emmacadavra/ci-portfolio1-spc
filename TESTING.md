@@ -6,7 +6,9 @@
     * [***Responsive Design and Functionality***](#responsive-design-and-functionality)
     * [***Testing of Site Features***](#testing-of-site-features)
     * [***Bugs***](#bugs)
-        * [*Validation Issues*](#validation-issues)
+    * [***Validation Issues***](#validation-issues)
+        * [*W3C HTML Error*](#w3c-html-error)
+        * [*Lighthouse and PageSpeed Insight Issues*](#lighthouse-and-pagespeed-insight-issues)
     * [***Accessibility***](#accessibility)
 1. [**Testing Post-Development**](#testing-post-development)
     * [***Validation***](#validation)
@@ -14,6 +16,8 @@
         * [*CSS Validation*](#css-validation)
         * [*Lighthouse Scores and PageSpeed Insights*](#lighthouse-scores-and-pagespeed-insights)
     * [***Unresolved Bugs***](#unresolved-bugs)
+        * [*PageSpeed Insights Performance Scores on Mobile*](#pagespeed-insights-performance-scores-on-mobile)
+        * [*WCAG Colour Contrast Checker Failure*](#wcag-colour-contrast-checker-failure)
 
 ## **Testing Throughout Development**
 
@@ -44,9 +48,24 @@ The site's functionality has been tested and confirmed as fully responsive acros
 
 (Bugs, including border-box sizing, horizontal scroll on form-submission, grey bottom of section-three, page not found due to incorrect file paths on form-submission page, w3c issue with hamburger html, etc)
 
-#### **Validation Issues**
+### **Validation Issues**
 
-(issues with performance)
+During the development process, I came across some validation issues with both my HTML and Lighthouse/PageSpeed Insight scores.
+
+#### **W3C HTML Error**
+
+This website utilises code from [Luke Embrey's 10+ Hamburger Menu Examples CSS Only](https://alvarotrigo.com/blog/hamburger-menu-css/), as detailed in the **'Credits'** section of the [**README.md file**](README.md). In the original HTML code that I used, a div element was placed inside a label element, like so:
+
+![div element incorrectly placed within label element](docs/images/w3c-error-code.png)
+
+When running my HTML through the [**W3C Markup Validation Service**](https://validator.w3.org/), I was met with the following error:
+
+![W3C HTML Validation error - div not allowed as a child of label element](docs/images/w3c-index-html-error.png)
+
+I was able to rectify this by replacing the div element with a span element, as in this context it was important for the child element of the label to be an in-line element, not a block element.
+
+#### **Lighthouse and PageSpeed Insight Issues**
+
 
 ### **Accessibility**
 
@@ -116,12 +135,12 @@ Mobile PageSpeed Insights test - form-submission.html:
 
 There are two main noteworthy things about this website that I would consider unresolved bugs:
 
-**PageSpeed Insights Performance Scores on Mobile**
+#### **PageSpeed Insights Performance Scores on Mobile**
 
 The biggest and most important unresolved bug is that, when testing the mobile versions of index.html and form-submission.html on PageSpeed Insights, the Performance score often fluctuates. As mentioned in the **'Validation Issues'** section under **'Bugs'**, initially I found that the website scored much lower than desired in its Performance scores due to the high resolutions of the images used on the website (particularly for index.html), and a lack of explicit image widths and heights due to the responsive design model. I was able to improve this score by fixed by compressing the images as well as introducing a srcset rule to the HTML, so that the browser would load a lower resolution version of the image for screens under 1280px wide.
 
 While this was enough to significantly raise the Performance score on Lighthouse to above 90, it was not enough to see the same consistency in PageSpeed Insights. As shown above in the final screenshots, the average high score I could get is 88, however the tests would vary, with one tester seeing average scores of around 85, but even in my own testing I sometimes received scores of 70 - 80. I do believe that a potential solution for this would be to resize the images again and add an additional srcset rule for small mobile screens, however I did find that a consistent issue I came across was due to the efficiency of GitHub's cache policy - which is beyond my control. Regardless, this is something I will keep in mind for the future, as well as learning how to use programs like GIMP that would allow me to resize, compress, and save images in next-gen formats such as WEBP.
 
-**WCAG Colour Contrast Checker Failure**
+#### **WCAG Colour Contrast Checker Failure**
 
 When testing the website pages with the WCAG Colour Contrast Checker, I found that there were failures on my Form Submission page around the images. Although I understand that this is due to the background colour of the image containers, and the contaning div element - and that they do not actually contain any text - I would still consider this an issue that I would like to spend more time working out how to avoid.
