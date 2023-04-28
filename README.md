@@ -307,7 +307,7 @@ This website was deployed on GitHub Pages. To do this, the following procedure w
 * In **'Settings'**, select **'Pages'** from the navigation menu on the left-hand side of the screen
 * In **'GitHub Pages'**, find **'Source'** under **'Build and deployment'**
 * Select the **'Main'** branch from the drop down menu and click **'Save'**
-* A message is then displayed to indicate a successful deployment to GitHub pages, and provides a live link once it has fully deployed
+* A message is then displayed to indicate a successful deployment to GitHub pages, and provides a live link once it has finished fully deploying
 
 The live link to the fully deployed website can be found here: [***https://emmacadavra.github.io/ci-portfolio1-spc/***](https://emmacadavra.github.io/ci-portfolio1-spc/)
 
