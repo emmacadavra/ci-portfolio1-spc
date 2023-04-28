@@ -206,9 +206,15 @@ Section Two’s image is more casual by comparison to the image used in Section 
 
 The image is responsive, and will adapt to the screen size and position without stretching or shrinking.
 
+(mobile screenshot)
+
+(desktop screenshot)
+
 #### **Section Two Content**
 
 Section Two provides the user with information about the time, location and frequency of the choir's rehearsals, as well as information about the Music Director, Accompanist and Vocal Coach which any user wishing to sign up can make use of. It uses the same antique white background colour, and same fonts seen in Section One, for consistency and familiarity.
+
+(screenshot)
 
 ### **Section Three**
 
@@ -230,7 +236,7 @@ The logo image is responsive, though less so than the other images used on the w
 
 #### **Sign-Up Form**
 
-Section Three of the site also contains a Sign-Up Form, which is a crucial element to this website as it provides users with a quick, easy way to register to join the choir. To further prevent the background image from interfering with the content, a background colour has been set that matches the Site Title and Navigation Bar font, and the SPC Logo image background. It has been given a slightly transparent value so that the image is still partially visible.
+Section Three of the site also contains a Sign-Up Form, which is a crucial element to this website as it provides users with a quick, easy way to register to join the choir. To further prevent the background image from interfering with the content, a background colour has been set that matches the Site Title, Navigation Bar and Footer text, and the SPC Logo image background. It has been given a slightly transparent value so that the image is still partially visible.
 
 The form features two fieldsets which clearly define the information that is required from the user. The first fieldset asks for personal details and includes three input fields - two text fields (clearly labelled 'First Name' and 'Last Name') and an email field (clearly labelled 'Email Address') - all three of which are marked as 'required'.
 
@@ -240,13 +246,15 @@ The second fieldset uses radio button input so that the user can select which vo
 
 (screenshot of fieldset two + if-unsure)
 
+The Submit button is made distinct from the rest of the form by using the inverse of the form's colours - rather than dark grey text on yellow, the button itself is dark grey with yellow text that is larger than the form's text.
+
+(screenshot of submit)
+
+The form is responsive, with the fieldsets and additional text being set to display as columns on smaller screens, and rows on larger screens. This is achieved using Flexbox.
+
 (screenshot of form on mobile)
 
 (screenshot of form on desktop)
-
-The form is responsive, with the fieldsets and additional text being set to display as columns on smaller screens, and rows on larger screens. This is achieved using Flexbox CSS rules.
-
-The Submit button is made distinct from the rest of the form by using the inverse of the form's colours - rather than dark grey text on yellow, the button itself is dark grey with yellow text that is larger than the form's text.
 
 ### **Form Submission Page**
 
@@ -254,7 +262,9 @@ The form submission page was created to emulate the experience of submitting a f
 
 #### **Form Submission Confirmation**
 
+The Form Submission Confirmation box is a simple text field that utilises the same colour scheme as the Header and Footer. It serves as confirmation to the user that they have correctly filled in the form, and that someone will be in touch with them soon.
 
+(screenshot)
 
 #### **Form Submission Images**
 
@@ -264,7 +274,9 @@ As an additional feature to this page, I added four photographs taken from a rec
 
 This format does not suit smaller screens, however, so I added two levels of responsive design depending on the width of the user's screen - when on a narrow mobile device, the images appear in a column below the box of confirmation text, while on a tablet screen between 550px and 1050px, the photos appear as a 2x2 grid.
 
-(screenshots of grid + mobile columns)
+(screenshot of grid)
+
+(screenshot of column)
 
 ### **Footer**
 
