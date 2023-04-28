@@ -32,7 +32,7 @@ Once I was happy with the overall design of the website, I deployed it to GitHub
 
 ### **Responsive Design and Functionality**
 
-The site's functionality has been tested and confirmed as fully responsive across different breakpoints on the following browsers:
+The site's functionality has been tested and confirmed as fully responsive across different breakpoints on the following browsers for both desktop and mobile:
 
 * Google Chrome
 * Mozilla Firefox
@@ -41,6 +41,8 @@ The site's functionality has been tested and confirmed as fully responsive acros
 * Safari
 
 It has also been tested across different browsers on a variety of virtual operating systems such as Mac, iOS, Android and Windows through the use of [**BrowserStack**](https://www.browserstack.com/live).
+
+I tested the responsiveness of the site on these browsers and virtual devices by dynamically changing and shifting the dimensions of the browser to mimic a variety of mobile, tablet and laptop/desktop screen sizes. I also tested the website on my own personal mobile phone, and asked friends and family to open it on their mobile phones which included the iPhone 11, Samsung Galaxy S10, Huawei P30 Pro, and Xiaomi Poco X3, so that I could get a broader view of how the website displays across different screens.
 
 ### **Testing of Site Features**
 
@@ -146,7 +148,7 @@ Mobile PageSpeed Insights test - form-submission.html:
 
 ![Mobile PageSpeed Insights test - form-submission.html](docs/images/form-submission-pagespeed-insight-mobile.png)
 
-### Unresolved Bugs
+### **Unresolved Bugs**
 
 There are three noteworthy things about this website that I would consider unresolved bugs:
 
