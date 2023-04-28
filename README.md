@@ -212,33 +212,33 @@ Section Two provides the user with information about the time, location and freq
 
 ### **Section Three**
 
-JOIN US
+Section Three appears visually different from Sections One and Two, again to keep the user visually engaged. It features a fixed background image of a sheet music booklet, which is relevant to the choir's activities, and also subtle enough not to interfere with the foreground. The decision to keep the image in a fixed position was the result of testing the website's responsive design, particularly on mobile, which is mentioned in the Testing section of this README.
 
 #### **SPC Logo**
 
-Section three contains the Sheffield Philharmonic Chorus logo, in reverse colours to that of the header. This contrast is visually pleasing, and helps to establish the brand in the eyes of the users. It appears circular so as to stand out from the other images on the page.
-
-(screenshot of logo on smaller screen)
+The Sheffield Philharmonic Chorus logo is displayed in Section Three, wrapped in a circular container which makes it stand out from the other images on the website. Its colours are the reverse of the header, which provides the user with a visually pleasing contrast, and helps to establish the brand in the eyes of the users.
 
 On smaller screens, the logo appears at the very bottom of the page, above the footer.
 
-(screenshot of logo on larger screen)
+(screenshot of logo on smaller screen)
 
 On larger screens, the logo appears on the left-hand side of the screen, before the sign-up form.
 
-The logo image is responsive, and a maximum width has been set so that it does not distort or stretch above the image’s maximum dimensions.
+(screenshot of logo on larger screen)
+
+The logo image is responsive, though less so than the other images used on the webpage due to its lower maximum resolution. A maximum width has been set so that it does not distort or stretch above the image’s maximum dimensions.
 
 #### **Sign-Up Form**
 
-Section three of the site also contains a sign-up form, which is a crucial element to this website as its aim is to provide people with a way of joining the choir. The form features two fieldsets which clearly define which information is required from the user.
+Section Three of the site also contains a Sign-Up Form, which is a crucial element to this website as it provides users with a quick, easy way to register to join the choir. To further prevent the background image from interfering with the content, a background colour has been set that matches the Site Title and Navigation Bar font, and the SPC Logo image background. It has been given a slightly transparent value so that the image is still partially visible.
+
+The form features two fieldsets which clearly define the information that is required from the user. The first fieldset asks for personal details and includes three input fields - two text fields (clearly labelled 'First Name' and 'Last Name') and an email field (clearly labelled 'Email Address') - all three of which are marked as 'required'.
 
 (screenshot of fieldset one)
 
-The first fieldset asks for personal details and includes three input fields - two text fields (clearly labelled 'First Name' and 'Last Name') and an email field (clearly labelled 'Email Address') - all three of which are marked as 'required'.
+The second fieldset uses radio button input so that the user can select which voice part they would sing in the choir. The first radio button input is marked as required so that one of the eight options must be selected in order to validate the form. Each option is clearly labelled and separated into four separate voice parts, with 1st and 2nd options for each. Some additional text has been included alongside this fieldset, which reassures any users who may not know that the SPC is split into SSAATTBB rather than SATB, and therefore may not be sure which voicepart they sing, that they can just select whichever one they think is closest, and this can be properly determined at a later date.
 
-(screenshot of fieldset two)
-
-The second fieldset uses radio button input so that the user can select which voice part they would sing in the choir. The first radio button input is marked as required so that one of the eight options must be selected in order to validate the form. Each option is clearly labelled and separated into four separate voice parts.
+(screenshot of fieldset two + if-unsure)
 
 (screenshot of form on mobile)
 
@@ -250,11 +250,11 @@ The Submit button is made distinct from the rest of the form by using the invers
 
 ### **Form Submission Page**
 
-#### **Form Submission Confirmation**
-
 The form submission page was created to emulate the experience of submitting a form. In this particular instance, because this website is for education purposes and is not designed to collect data, no form method has been defined. However, in order to create a professional looking website, the form-submission page acts as a confirmation of form validation that the user can understand. It includes the same header and footer as the main site page, so that the user can quickly and easily navigate back to the homepage and other sections at their convenience.
 
-(screenshot of form submission page)
+#### **Form Submission Confirmation**
+
+
 
 #### **Form Submission Images**
 
