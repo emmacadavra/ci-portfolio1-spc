@@ -5,6 +5,10 @@
     * [***Overview***](#overview)
     * [***Responsive Design and Functionality***](#responsive-design-and-functionality)
     * [***Testing of Site Features***](#testing-of-site-features)
+        * [*Header Links - Navigation Bar and Hamburger Menu*](#header-links---navigation-bar-and-hamburger-menu)
+        * [*Links in Section Content*](#links-in-section-content)
+        * [*Sign-Up Form Input Fields*](#sign-up-form-input-fields)
+        * [*Footer Links*](#footer-links)
     * [***Bugs***](#bugs)
     * [***Validation Issues***](#validation-issues)
         * [*W3C HTML Error*](#w3c-html-error)
@@ -48,9 +52,27 @@ I tested the responsiveness of the site on these browsers and virtual devices by
 
 When testing the website across the different browsers, I made sure to test not only that there was consistency in the website's overall design and layout, and that the page elements reacted appropriately without causing any breaks in the design, but also that every element that can be interacted with was working as intended.
 
+#### **Header Links - Navigation Bar and Hamburger Menu**
+
 The Site Title links to index.html, so I tested this on all browsers by clicking it to make sure the page refreshed, and that no text-decoration appeared on the link itself. Similarly, I tested the links in the Navigation Bar to make sure the hover styling was working, that the links navigated to the correct section, with the smooth scroll animation and the correct scroll-margin-top value so that the Header doesn't obscure any of the section content. I performed these tests on index.html and form-submission.html to ensure they both worked identically for a smooth user experience.
 
-When testing the functionality of the Hamburger Menu, I used different devices to check that the animation was consistent, and that the menu sat just below the Header/Site Title for a pleasing user interface.
+When testing the functionality of the Hamburger Menu, I used different devices to check that the animation was consistent, and that the menu sat just below the Header/Site Title for a pleasing user interface. The screenshots in the [**README.md file**](README.md) were taken in Google Chrome.
+
+Below are screenshots of the menu on Safari at 768px wide and iOS on the iPhone 11:
+
+![Hamburger Menu open on Safari at 768px wide](docs/images/hamburger-menu-safari-768px.png)
+
+![Hamburger Menu open on iOS on the iPhone 11](docs/images/hamburger-menu-iphone11.PNG)
+
+#### **Links in Section Content**
+
+As with the Navigation Bar links, I tested the links within Section One's content to ensure they navigated to the correct location. I tested the 'Classical Sheffield' link in Section One by clicking it to make sure it opened in a new tab so as not to interrupt the user experience. I also tested the links in Section One's Call To Action by clicking them to make sure they navigated to the correct area of the page, in the same way that the Navigation Bar links do. I also tested to make sure the hover effect was applied when using a device with a cursor.
+
+#### **Sign-Up Form Input Fields**
+
+
+
+#### **Footer Links**
 
 
 
