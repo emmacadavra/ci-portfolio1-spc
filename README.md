@@ -89,7 +89,9 @@ For this website I chose an elegant colour scheme comprised of three shades of g
 ## **Current Website Features**
 ### **Header**
 
-The header sits atop the page in a fixed position, for a simple and pleasant user experience. Within the header, the site title is clearly visible, and there is a navigation bar, which appears in two separate forms depending on the screen size of the user. The contrast between the background colour and text colour is AAA rated, as seen on the above Colour Contrast Grid, and responsive CSS design rules have been applied to the header height, depending on screen size.
+The header sits atop the page in a fixed position and a z-index of 1, so that it is always visible for a simple and pleasant user experience. The header height is responsive, and the web page has specific scroll-margin-top styling (or padding for Section One and the Form Submission page) to match this height, so that the Header can remain fixed and visible without obscuring any content.
+
+Within the header, the site title is clearly visible, and there is a navigation bar, which appears in two separate forms depending on the screen size of the user. The contrast between the background colour and text colour is AAA rated, as seen on the above Colour Contrast Grid, and responsive CSS design rules have been applied to the header height, depending on screen size.
 
 Full header at 375px wide:
 
@@ -105,15 +107,15 @@ Full header at 1280px wide:
 
 #### **Site Title**
 
-The fixed position of the header means that the site title is clear and visible - regardless of what device the user is viewing from, and where they are on the website. It starts on the left-hand side of the header, making it intuitive as the website is in English, which is read left-to-right. CSS media queries have been used across multiple breakpoints, so that the text is always appropriately large and easy to read. It is the only h1 element on the website, so that its purpose as the main website title is made obvious not only by its location and styling, but also by its semantic placement within the header for the benefit of assistive technology such as screen readers.
+The fixed position of the header means that the Site Title is clear and visible - regardless of what device the user is viewing from, and where they are on the website. It starts on the left-hand side of the header, making it intuitive as the website is in English, which is read left-to-right. CSS media queries have been used across multiple breakpoints, so that the text is always appropriately large and easy to read. It is the only h1 element on the website, so that its purpose as the main website title is made obvious not only by its location and styling, but also by its semantic placement within the header for the benefit of assistive technology such as screen readers.
 
-The site title also serves as a link to take the user back to the homepage, which is a simple function that users have come to expect on all webpages. There are no special CSS rules applied to the site title (such as the hover rule), to give the illusion that it is an image logo, which is also something users would expect.
+The Site Title also serves as a link to take the user back to the homepage, which is a simple function that users have come to expect on all webpages. There are no special CSS rules applied to the site title (such as the hover rule), to give the illusion that it is an image logo, which is also something users would expect.
 
 ![Site Title on Desktop view](docs/images/header-site-title-desktop.png)
 
 #### **Navigation Bar**
 
-The navigation bar is comprised of three unordered list items that are wrapped within a nav element for semantic purposes. Each list item uses an anchor tag to link it to its corresponding section on the website. The three links are 'Home' (Section One), 'Rehearsals' (Section Two) and 'Join Us' (Section Three). These links make it so that the user can navigate to the different sections of the website with ease, and without the need to use the browser's 'back' button.
+The navigation bar is comprised of three unordered list items that are wrapped within a nav element for semantic purposes. Each list item uses an anchor tag to link it to its corresponding section on the website. The three links are 'Home' (Section One), 'Rehearsals' (Section Two) and 'Join Us' (Section Three). These links make it so that the user can navigate to the different sections of the website with ease, and without the need to use the browser's 'back' button. A smooth scroll animation has been applied to the Navigation Links to each section so that the user knows they are being redirected to a section within the same web page they are currently on.
 
 CSS styling rules have been applied for screens that are at least 1050px wide, so that the navigation links appear on the right-hand side of the header, and the links have hover styling that changes the default colour to a brighter shade of gold, so that the user is given interactive confirmation that the text they are hovering over is a clickable link. 
 
