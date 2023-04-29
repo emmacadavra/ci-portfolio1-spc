@@ -106,7 +106,7 @@ I tested the Footer's social media links in the same way I tested the Header's N
 
 ### **Bugs**
 
-Throughout the development process of building this website, I encountered many bugs along the way - many of which involved fixes which then became bugs themselves that needed new fixes - which I have listed below.
+Throughout the development process of building this website, I encountered many noteworthy bugs along the way - many of which involved "fixes" which then became bugs themselves that needed fixing - which I have listed below.
 
 * Giving the Header a fixed position meant that the Sections were not displaying properly when navigated to through the Navigation Bar, as the top was obscured by the Header. This was "fixed" by adding placeholder div elements with the same height as the Header to the bottom of Sections One and Two, but entering the navigation link destinations for Sections Two and Three.
 
@@ -155,6 +155,14 @@ At 1920px (which should be the max-width of everything within the section elemen
 ![Rehearsal Photos causing horizontal scroll at 1920px width](docs/images/horizontal-scroll-bug-1920px.png)
 
 It took me a while to work out what was causing this issue, but eventually I realised that I had forgotten to set the 'box-sizing: border-box' CSS rule to the website. This meant that, because the images were trying to take up 25% of the total space with a 'nowrap' rule in place, but the padding around the images was in addition to that 25% rather than part of it. In addition to this (as explained to me in a demonstration by [**Damon Kreft**](https://github.com/damon-kreft), mentioned in the **'Credits'** section of my [**README.md**](README.md)), I was incorrectly using 'width' and 'object-fit: contain' with padding values when I should have been using 'flex-grow' and 'flex-basis' properties alongside the 'gap' property. Once I implemented the correct use of these Flexbox properties, as well as the 'box-sizing: border-box' CSS rule, this bug was fixed.
+
+* Lastly, after setting the 'box-sizing: border-box' CSS rule to the entire website, I found that the calculations I had made for the viewport height of Section One and the Form Submission page on desktop were now incorrect. The calculations I had used previously ('min-height: calc(100vh - [Header height])) were applied when the outer padding and margins had been in addition to the size of the sections, so those calculations now meant that the sections ended with the Header's height left remaining at the bottom of the page (shown below):
+
+![Viewport height calculation bug on desktop]()
+
+To fix this, I simply changed the min-height rule for Section One and the Form Submission page to '100vh', as the padding-top now falls exactly behind the Header.
+
+![Final view of Section One viewport height - fixed]()
 
 ### **Validation Issues**
 
