@@ -352,11 +352,11 @@ I'd like to take this opportunity to express my gratitude to the following peopl
 
 * Both the HTML and CSS code for this project's hamburger menu were taken from [Luke Embrey's 10+ Hamburger Menu Examples CSS Only](https://alvarotrigo.com/blog/hamburger-menu-css/) blog post. I have clearly marked where the HTML and CSS code I have used begins and ends using comments in my code. I'm very grateful for this blog post, as it provided me the opportunity to learn something I wouldn't have thought possible with CSS alone.
 
-* Although I didn't decide to use it in my final commit, some of my testing screenshots show that I used a linear gradient background for the Call To Action used in Section One, which was created using [CSSGradient.io](https://cssgradient.io/).
-
 * My understanding of Flexbox is almost entirely thanks to [Traversy Media's Flexbox Crash Course 2022 YouTube video](https://youtu.be/3YW65K6LcIA), and a follow-up demonstration by [Damon Kreft](https://github.com/damon-kreft) to help me better understand flex-wrap, flex-grow, and flex-basis. Although I wrote the code myself, it is thanks to them that I understood what I needed to do.
 
 * Throughout the project, I often utilised and relied upon [MDN Web Docs](https://developer.mozilla.org/en-US/), [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/) and Code Institute's Programme Content and Slack Channels as references when I was stuck or needed to refresh my knowledge.
+
+* Although I didn't decide to use it in my final commit, at one point during development I used a linear gradient background for the Call To Action in Section One, which was created using [CSSGradient.io](https://cssgradient.io/).
 
 ### **Content**
 
@@ -368,13 +368,13 @@ I'd like to take this opportunity to express my gratitude to the following peopl
 
 ### **Media**
 
-* The photograph used in Section One of this website - [choir-orchestra-church.jpg](https://unsplash.com/photos/yUJVHiYZCGQ) - is by [Andrea Zanenga on unsplash.com](https://unsplash.com/@andreazanenga).
+* The photograph used in Section One of this website - which I named [choir-orchestra-church.jpg](https://unsplash.com/photos/yUJVHiYZCGQ) - is by [Andrea Zanenga on unsplash.com](https://unsplash.com/@andreazanenga).
 
 * The photographs of the Sheffield Philharmonic Chorus rehearsing, used in Section Two and on the Form Submission page - 'choir-rehearsing.jpg', 'rehearsal1.jpg', 'rehearsal2.jpg', 'rehearsal3.jpg' and 'rehearsal4.jpg' - are real photographs of the choir and were shared with me by Anne Adams, the SPC Administrator, along with permission to use them. All rights belong to the choir.
 
 * The Sheffield Philharmonic Chorus logo used in Section Three was taken - with permission - from the [Sheffield Philharmonic Chorus Twitter Account](https://twitter.com/SheffPhilChorus).
 
-* The background image of a sheet music book - [sheet-music-book.jpg](https://unsplash.com/photos/bu-6kNWQj6U) - is by [Michael Maasen on unsplash.com](https://unsplash.com/@mgmaasen).
+* The background image of a sheet music book - which I named [sheet-music-book.jpg](https://unsplash.com/photos/bu-6kNWQj6U) - is by [Michael Maasen on unsplash.com](https://unsplash.com/@mgmaasen).
 
 * The screenshot under the Site Overview section of this README.md, displaying the website at different breakpoints/on different devices, was made on [Am I Responsive](https://ui.dev/amiresponsive).
 
