@@ -88,7 +88,7 @@ The input field for 'Email Address' is an email input field, which is not only r
 
 ![Form - Incorrect Email Address entry - '.co' in incorrect location](docs/images/form-email-address-incorrect-entry-2.png)
 
-Finally, I tested the radio buttons used for the Voice Part section of the Sign-Up Form. I set only the first radio input as required so that the form knows to only accept one of the eight options, so I first tested that the form could not be submitted without selecting one, and then I tested to make sure that only one could be selected at a time. I made sure to test each of the radio button selections when submitting the form to ensure they were all functional.
+I tested the radio buttons used for the Voice Part section of the Sign-Up Form. I set only the first radio input as required so that the form knows to only accept one of the eight options, so I first tested that the form could not be submitted without selecting one, and then I tested to make sure that only one could be selected at a time. I made sure to test each of the radio button selections when submitting the form to ensure they were all functional.
 
 ![Form - Voice Part radio input required](docs/images/form-voice-part-radio-required.png)
 
@@ -96,9 +96,13 @@ Finally, I tested the radio buttons used for the Voice Part section of the Sign-
 
 ![Form - Voice Part single radio button test 2](docs/images/form-complete-2.png)
 
+Finally, I tested the 'Submit' button by clicking/pressing it to make sure it navigates the user to the Form Submission Confirmation page!
+
+Overall, my testing found that the Sign-Up Form is intuitive and easy for the user to interact with and complete by providing them with clear labels and input types that prevent the form from being submitted incorrectly.
+
 #### **Footer Links**
 
-
+I tested the Footer's social media links in the same way I tested the Header's Navigation Bar/Hamburger Menu links and the links in Section One.
 
 ### **Bugs**
 
