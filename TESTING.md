@@ -70,7 +70,13 @@ As with the Navigation Bar links, I tested the links within Section One's conten
 
 #### **Sign-Up Form Input Fields**
 
+Testing the functionality of the Sign-Up Form across all devices and browsers was crucial due to its high level of importance in reaching the website's goals.
 
+I tested each input field individually to ensure that each one is required to be filled in correctly. For example, the 'First Name' and 'Last Name' inputs are text fields so that any text can be entered, but they are required so users cannot accidentally submit the form without including their name.
+
+![Form - First Name required](docs/images/form-first-name-required.png)
+
+![Form - Last Name required](docs/images/form-last-name-required.png)
 
 #### **Footer Links**
 
