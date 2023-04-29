@@ -158,11 +158,23 @@ It took me a while to work out what was causing this issue, but eventually I rea
 
 * Lastly, after setting the 'box-sizing: border-box' CSS rule to the entire website, I found that the calculations I had made for the viewport height of Section One and the Form Submission page on desktop were now incorrect. The calculations I had used previously ('min-height: calc(100vh - [Header height])) were applied when the outer padding and margins had been in addition to the size of the sections, so those calculations now meant that the sections ended with the Header's height left remaining at the bottom of the page (shown below):
 
-![Viewport height calculation bug on desktop]()
+Section One viewport height calculation bug at 1600px x 1080px:
+
+![Section One viewport height calculation bug at 1600x1080px](docs/images/section-one-viewport-height-bug.png)
+
+Form Submission page viewport height calculation bug at 1600px x 1080px:
+
+![Form Submission page viewport height calculation bug at 1600x1080px](docs/images/form-submission-viewport-height-bug.png)
 
 To fix this, I simply changed the min-height rule for Section One and the Form Submission page to '100vh', as the padding-top now falls exactly behind the Header.
 
-![Final view of Section One viewport height - fixed]()
+Final view of Section One viewport height at 1600px x 1080px - fixed:
+
+![Final view of Section One viewport height at 1600x1080px - fixed](docs/images/section-one-viewport-height-fixed.png)
+
+Final view of Form Submission page viewport height at 1600px x 1080px - fixed:
+
+![Final view of Form Submission page viewport height at 1600x1080px - fixed](docs/images/form-submission-viewport-height-fixed.png)
 
 ### **Validation Issues**
 
