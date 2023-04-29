@@ -308,7 +308,7 @@ The technologies used in the making of this website are:
 
 This website was deployed on GitHub Pages. The following procedure was followed on desktop to achieve this:
 
-* Starting at [this project's repository](https://github.com/emmacadavra/ci-portfolio1-spc), navigate to the **'Settings'** tab
+* Starting at [**this project's repository**](https://github.com/emmacadavra/ci-portfolio1-spc), navigate to the **'Settings'** tab
 * In **'Settings'**, select **'Pages'** from the navigation menu on the left-hand side of the screen
 * In **'GitHub Pages'**, find **'Source'** under **'Build and deployment'**
 * Select the **'Main'** branch from the drop down menu and click **'Save'**
@@ -318,7 +318,7 @@ The live link to the fully deployed website can be found here: [***https://emmac
 
 ## **Future-Enhancements**
 
-As this is my first major project as part of [Code Institute's Full Stack Software Development Diploma](https://codeinstitute.net/full-stack-software-development-diploma/), I am limited by the current scope of my knowledge.
+As this is my first major project as part of [**Code Institute's Full Stack Software Development Diploma**](https://codeinstitute.net/full-stack-software-development-diploma/), I am limited by the current scope of my knowledge.
 
 If I had more time to develop my knowledge for the purposes of this project, I would see the following enhancements made:
 
@@ -349,34 +349,34 @@ I'd like to take this opportunity to express my gratitude to the following peopl
 
 ### **Code References**
 
-* As this is my first project as part of [Code Institute's Full Stack Software Development Diploma](https://codeinstitute.net/full-stack-software-development-diploma/), it has been largely influenced by what I have learned up until this point, in particular the 'Love Running' code-along project and the additional learning it inspired me to do (for example, learning Flexbox). I have tried to make this project as unique to me as possible, but there are likely many similarities in the code. Examples of this are the unordered lists used for the header's navigation bar, and social media links in the footer.
+* As this is my first project as part of [**Code Institute's Full Stack Software Development Diploma**](https://codeinstitute.net/full-stack-software-development-diploma/), it has been largely influenced by what I have learned up until this point, in particular the 'Love Running' code-along project and the additional learning it inspired me to do (for example, learning Flexbox). I have tried to make this project as unique to me as possible, but there are likely many similarities in the code. Examples of this are the unordered lists used for the header's navigation bar, and social media links in the footer.
 
-* Both the HTML and CSS code for this project's hamburger menu were taken from [Luke Embrey's 10+ Hamburger Menu Examples CSS Only](https://alvarotrigo.com/blog/hamburger-menu-css/) blog post. I have clearly marked where the HTML and CSS code I have used begins and ends using comments in my code. I'm very grateful for this blog post, as it provided me the opportunity to learn something I wouldn't have thought possible with CSS alone.
+* Both the HTML and CSS code for this project's hamburger menu were taken from [**Luke Embrey's 10+ Hamburger Menu Examples CSS Only**](https://alvarotrigo.com/blog/hamburger-menu-css/) blog post. I have clearly marked where the HTML and CSS code I have used begins and ends using comments in my code. I'm very grateful for this blog post, as it provided me the opportunity to learn something I wouldn't have thought possible with CSS alone.
 
-* My understanding of Flexbox is almost entirely thanks to [Traversy Media's Flexbox Crash Course 2022 YouTube video](https://youtu.be/3YW65K6LcIA), and a follow-up demonstration by [Damon Kreft](https://github.com/damon-kreft) to help me better understand flex-wrap, flex-grow, and flex-basis. Although I wrote the code myself, it is thanks to them that I understood what I needed to do and similarities may occur.
+* My understanding of Flexbox is almost entirely thanks to [**Traversy Media's Flexbox Crash Course 2022 YouTube video**](https://youtu.be/3YW65K6LcIA), and a follow-up demonstration by [**Damon Kreft**](https://github.com/damon-kreft) to help me better understand flex-wrap, flex-grow, and flex-basis. Although I wrote the code myself, it is thanks to them that I understood what I needed to do and similarities may occur.
 
-* Throughout the project, I often utilised and relied upon [MDN Web Docs](https://developer.mozilla.org/en-US/), [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/) and Code Institute's Programme Content and Slack Channels as references when I was stuck or needed to refresh my knowledge.
+* Throughout the project, I often utilised and relied upon [**MDN Web Docs**](https://developer.mozilla.org/en-US/), [**Stack Overflow**](https://stackoverflow.com/), [**W3Schools**](https://www.w3schools.com/) and Code Institute's Programme Content and Slack Channels as references when I was stuck or needed to refresh my knowledge.
 
-* Although I didn't decide to use it in my final commit, at one point during development I used a linear gradient background for the call to action in Section One, which was created using [CSSGradient.io](https://cssgradient.io/).
+* Although I didn't decide to use it in my final commit, at one point during development I used a linear gradient background for the call to action in Section One, which was created using [**CSSGradient.io**](https://cssgradient.io/).
 
 ### **Content**
 
-* The large majority of the written content in Sections One and Two of this website has either been taken directly from or based on the content of the [Sheffield Philharmonic Chorus' official website](https://sheffieldphil.org/). _"South Yorkshire's foremost large mixed-voice choir"_ is a direct quote from the SPC website's title and header that I have also used in this website's description and opening paragraph, and I have rearranged (or in some cases reworded or paraphrased) the select few sentences I chose to include in this website. I am once again very grateful to have been given permission to use this content for the purposes of this project.
+* The large majority of the written content in Sections One and Two of this website has either been taken directly from or based on the content of the [**Sheffield Philharmonic Chorus' official website**](https://sheffieldphil.org/). _"South Yorkshire's foremost large mixed-voice choir"_ is a direct quote from the SPC website's title and header that I have also used in this website's description and opening paragraph, and I have rearranged (or in some cases reworded or paraphrased) the select few sentences I chose to include in this website. I am once again very grateful to have been given permission to use this content for the purposes of this project.
 
-* All icons used are from [Font Awesome](https://fontawesome.com/).
+* All icons used are from [**Font Awesome**](https://fontawesome.com/).
 
-* All fonts have been imported from [Google Fonts](https://fonts.google.com/).
+* All fonts have been imported from [**Google Fonts**](https://fonts.google.com/).
 
 ### **Media**
 
-* The photograph used in Section One of this website - which I named [choir-orchestra-church.jpg](https://unsplash.com/photos/yUJVHiYZCGQ) - is by [Andrea Zanenga on unsplash.com](https://unsplash.com/@andreazanenga).
+* The photograph used in Section One of this website - which I named [choir-orchestra-church.jpg](https://unsplash.com/photos/yUJVHiYZCGQ) - is by [**Andrea Zanenga on unsplash.com**](https://unsplash.com/@andreazanenga).
 
 * The photographs of the Sheffield Philharmonic Chorus rehearsing, used in Section Two and on the Form Submission page - 'choir-rehearsing.jpg', 'rehearsal-1.jpg', 'rehearsal-2.jpg', 'rehearsal-3.jpg' and 'rehearsal-4.jpg' - are real photographs of the choir and were shared with me by Anne Adams, the SPC Administrator, along with permission to use them. All rights belong to the Sheffield Philharmonic Chorus.
 
-* The Sheffield Philharmonic Chorus logo used in Section Three was taken - with permission - from the [Sheffield Philharmonic Chorus Twitter Account](https://twitter.com/SheffPhilChorus).
+* The Sheffield Philharmonic Chorus logo used in Section Three was taken - with permission - from the [**Sheffield Philharmonic Chorus Twitter Account**](https://twitter.com/SheffPhilChorus).
 
-* The background image of a sheet music book - which I named [sheet-music-book.jpg](https://unsplash.com/photos/bu-6kNWQj6U) - is by [Michael Maasen on unsplash.com](https://unsplash.com/@mgmaasen).
+* The background image of a sheet music book - which I named [sheet-music-book.jpg](https://unsplash.com/photos/bu-6kNWQj6U) - is by [**Michael Maasen on unsplash.com**](https://unsplash.com/@mgmaasen).
 
-* The screenshot under the [**Site Overview**](#site-overview) section of this README.md, displaying the website at different breakpoints/on different devices, was made on [Am I Responsive](https://ui.dev/amiresponsive).
+* The screenshot under the [**Site Overview**](#site-overview) section of this README.md, displaying the website at different breakpoints/on different devices, was made on [**Am I Responsive**](https://ui.dev/amiresponsive).
 
-* The [Colour Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23111%2C%0D%0A%23222%2C%0D%0A%23333%2C%0D%0A%23444%2C%0D%0A%23b6a139%2C%0D%0A%23c0aa3c%2C%0D%0A%23faebd7%2C%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) used in the [**Colour Scheme**](#colour-scheme) section of this README.md is courtesy of [Eightshapes](https://eightshapes.com/).
+* The [**Colour Contrast Grid**](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23111%2C%0D%0A%23222%2C%0D%0A%23333%2C%0D%0A%23444%2C%0D%0A%23b6a139%2C%0D%0A%23c0aa3c%2C%0D%0A%23faebd7%2C%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) used in the [**Colour Scheme**](#colour-scheme) section of this README.md is courtesy of [**Eightshapes**](https://eightshapes.com/).

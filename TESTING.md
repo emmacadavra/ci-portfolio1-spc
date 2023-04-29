@@ -56,23 +56,23 @@ When testing the website across the different browsers, I made sure to test not 
 
 #### **Header Links - Navigation Bar and Hamburger Menu**
 
-The Site Title links to index.html, so I tested this on all browsers by clicking it to make sure the page refreshed, and that no text-decoration appeared on the link itself. Similarly, I tested the links in the Navigation Bar to make sure the hover styling was working, that the links navigated to the correct section, with the smooth scroll animation and the correct scroll-margin-top value so that the Header doesn't obscure any of the section content. I performed these tests on index.html and form-submission.html to ensure they both worked identically for a smooth user experience.
+The site title links to index.html, so I tested this on all browsers by clicking it to make sure the page refreshed, and that no text-decoration appeared on the link itself. Similarly, I tested the links in the navigation bar to make sure the hover styling was working, that the links navigated to the correct section, with the smooth scroll animation and the correct scroll-margin-top value so that the Header doesn't obscure any of the section content. I performed these tests on index.html and form-submission.html to ensure they both worked identically for a smooth user experience.
 
-When testing the functionality of the Hamburger Menu, I used different devices to check that the animation was consistent, and that the menu sat just below the Header/Site Title for a pleasing user interface. The screenshots in the [**README.md file**](README.md) were taken in Google Chrome.
+When testing the functionality of the hamburger menu, I used different devices to check that the animation was consistent, and that the menu sat just below the header/site title for a pleasing user interface. The screenshots in the [**README.md file**](README.md) were taken in Google Chrome.
 
 Below are screenshots of the menu on Safari at 768px wide and iOS on the iPhone 11:
 
-![Hamburger Menu open on Safari at 768px wide](docs/images/hamburger-menu-safari-768px.png)
+![Hamburger menu open on Safari at 768px wide](docs/images/hamburger-menu-safari-768px.png)
 
-![Hamburger Menu open on iOS on the iPhone 11](docs/images/hamburger-menu-iphone11.PNG)
+![Hamburger menu open on iOS on the iPhone 11](docs/images/hamburger-menu-iphone11.PNG)
 
 #### **Links in Section Content**
 
-As with the Navigation Bar links, I tested the links within Section One's content to ensure they navigated to the correct location. I tested the 'Classical Sheffield' link in Section One by clicking it to make sure it opened in a new tab so as not to interrupt the user experience. I also tested the links in Section One's Call To Action by clicking them to make sure they navigated to the correct area of the page, in the same way that the Navigation Bar links do. I also tested to make sure the hover effect was applied when using a device with a cursor.
+As with the navigation bar links, I tested the links within Section One's content to ensure they navigated to the correct location. I tested the 'Classical Sheffield' link in Section One by clicking it to make sure it opened in a new tab so as not to interrupt the user experience. I also tested the links in Section One's call to action by clicking them to make sure they navigated to the correct area of the page, in the same way that the navigation bar links do. I also tested to make sure the hover effect was applied when using a device with a cursor.
 
 #### **Sign-Up Form Input Fields**
 
-Testing the functionality of the Sign-Up Form across all devices and browsers was crucial due to its high level of importance in reaching the website's goals.
+Testing the functionality of the sign-up form across all devices and browsers was crucial due to its high level of importance in reaching the website's goals.
 
 I tested each input field individually by attempting to submit the form without entering anything into the fields one by one. This was to ensure that the form cannot be submitted without filling in the required inputs, and also to ensure that the user is given an appropriate error when nothing is entered. For example, the 'First Name' and 'Last Name' inputs are text fields so that any text can be entered, but they are required so users cannot accidentally submit the form without including their name.
 
@@ -84,11 +84,11 @@ The input field for 'Email Address' is an email input field, which is not only r
 
 ![Form - Email Address required](docs/images/form-email-address-required.png)
 
-![Form - Incorrect Email Address entry - '@' sign required](docs/images/form-email-address-incorrect-entry-1.png)
+![Form - incorrect Email Address entry - '@' sign required](docs/images/form-email-address-incorrect-entry-1.png)
 
-![Form - Incorrect Email Address entry - '.co' in incorrect location](docs/images/form-email-address-incorrect-entry-2.png)
+![Form - incorrect Email Address entry - '.co' in incorrect location](docs/images/form-email-address-incorrect-entry-2.png)
 
-I tested the radio buttons used for the Voice Part section of the Sign-Up Form. I set only the first radio input as required so that the form knows to only accept one of the eight options, so I first tested that the form could not be submitted without selecting one, and then I tested to make sure that only one could be selected at a time. I made sure to test each of the radio button selections when submitting the form to ensure they were all functional.
+I tested the radio buttons used for the 'Voice Part' section of the sign-up form. I set only the first radio input as required so that the form knows to only accept one of the eight options, so I first tested that the form could not be submitted without selecting one, and then I tested to make sure that only one could be selected at a time. I made sure to test each of the radio button selections when submitting the form to ensure they were all functional.
 
 ![Form - Voice Part radio input required](docs/images/form-voice-part-radio-required.png)
 
@@ -96,43 +96,43 @@ I tested the radio buttons used for the Voice Part section of the Sign-Up Form. 
 
 ![Form - Voice Part single radio button test 2](docs/images/form-complete-2.png)
 
-Finally, I tested the 'Submit' button by clicking/pressing it to make sure it navigates the user to the Form Submission Confirmation page!
+Finally, I tested the 'submit' button by clicking/pressing it to make sure it navigates the user to the Form Submission page, as it should!
 
-Overall, my testing found that the Sign-Up Form is intuitive and easy for the user to interact with and complete by providing them with clear labels and input types that prevent the form from being submitted incorrectly.
+Overall, my testing found that the sign-up form is intuitive and easy for the user to interact with and complete by providing them with clear labels and input types that prevent the form from being submitted incorrectly.
 
 #### **Footer Links**
 
-I tested the Footer's social media links in the same way I tested the Header's Navigation Bar/Hamburger Menu links and the links in Section One. First, I hovered over each one with a cursor to ensure that the link being hovered over changed colour in line with the styling applied to it. Then, I checked the link that appeared at the bottom of the web page that indicated where the link would direct the user. Finally, I clicked each link to confirm that they opened in a new tab on all browsers so as not to interrupt the user's experience.
+I tested the footer's social media links in the same way I tested the header's navigation bar/hamburger menu links and the links in Section One. First, I hovered over each one with a cursor to ensure that the link being hovered over changed colour in line with the styling applied to it. Then, I checked the link that appeared at the bottom of the web page that indicated where the link would direct the user. Finally, I clicked each link to confirm that they opened in a new tab on all browsers so as not to interrupt the user's experience.
 
 ### **Bugs**
 
 Throughout the development process of building this website, I encountered many noteworthy bugs along the way - many of which involved "fixes" which then became bugs themselves that needed fixing - which I have listed below.
 
-* Giving the Header a fixed position meant that the Sections were not displaying properly when navigated to through the Navigation Bar, as the top was obscured by the Header. This was "fixed" by adding placeholder div elements with the same height as the Header to the bottom of Sections One and Two, but entering the navigation link destinations for Sections Two and Three.
+* Giving the header a fixed position meant that the Sections were not displaying properly when navigated to through the navigation bar, as the top was obscured by the header. This was "fixed" by adding placeholder div elements with the same height as the Header to the bottom of Sections One and Two, but entering the navigation link destinations for Sections Two and Three.
 
 * Due to the placeholder div elements being outside of each section's Flexbox rules, they were appearing near the top of the sections, rather than at the bottom, which caused further navigation issues as (for example) the 'Join Us' link was navigating to Section Two rather than Section Three. This was "fixed" by giving the sections 'position: relative' CSS rules, and giving the div elements 'position: absolute' and 'bottom: 0' CSS rules.
 
-* Soon after the above "fixes", I was made aware that the placeholder div elements were causing issues with the semantics of the HTML, as the links for each section were appearing as part of the previous section. This would create problems in a variety of areas, such as Accessibility scores (due to the confusion it might cause those using screen readers) and SEO scores due to the incorrect semantics. This was fixed by removing the placeholder div elements entirely, and instead adding a 'scroll-margin-top' CSS rule that matched the Header height, and 'padding-top' to Section One and the Form Submission page so that the content began directly beneath the Header.
+* Soon after the above "fixes", I was made aware that the placeholder div elements were causing issues with the semantics of the HTML, as the links for each section were appearing as part of the previous section. This would create problems in a variety of areas, such as accessibility (due to the confusion it might cause those using screen readers) and SEO scores due to incorrect semantics. This was fixed by removing the placeholder div elements entirely, and instead adding a 'scroll-margin-top' CSS rule that matched the header height, and 'padding-top' to Section One and the Form Submission page so that the content began directly beneath the header.
 
-* After setting the 'display: flex' rule for the sections, the Header no longer displayed over the top of the sections. Adding a 'z-index: 1' rule to the Header fixed this issue.
+* After setting the 'display: flex' rule for the sections, the header no longer displayed over the top of the sections. Adding a 'z-index: 1' rule to the header fixed this issue.
 
 * When viewing the website on screens 1280px and wider, a horizontal scroll bar was appearing. This was due to the total width of each section being set to '100vw', which does not take into account vertical scroll bars, and was fixed by amending the CSS rule to 'width: 100%'.
 
-* Originally, I had used a different image in Section One of the website which was a photograph of the SPC on stage at the end of a performance at City Hall, with the Music Director also facing the camera. However, although the image was a high resolution image, the fact that it was taken in low lighting meant that the overall quality of the image was very poor, and it looked overly compressed and unprofessional. This was fixed by removing the image and replacing it with the stock image used in the final design.
+* Originally, I had used a different image in Section One of the website which was a photograph of the SPC on stage at the end of a performance at Sheffield City Hall, with the Music Director also facing the camera. However, although the image was a high resolution image, the fact that it was taken in low lighting meant that the overall quality of the image was very poor, and it looked overly compressed and unprofessional. This was fixed by removing the image and replacing it with the stock image used in the final design.
 
-* The CSS code used for the Hamburger Menu originally had a width of 30px (changed to 1.875rem for Accessibility reasons, explained in the [**'Accessibility'**](#accessibility) section later in this document) but a height of 'auto'. This meant that the clickable area of the Hamburger Menu was extremely small - around only 5px high - creating a barrier to a seamless user experience. By changing the height property to match the width, the entire Hamburger Menu became clickable.
+* The CSS code used for the hamburger menu originally had a width of 30px (changed to 1.875rem for Accessibility reasons, explained in the [**'Accessibility'**](#accessibility) section later in this document) but had a height of 'auto'. This meant that the clickable area of the hamburger menu was extremely small - around only 5px high - creating a barrier to a seamless user experience and potentially causing frustration. By changing the height property to match the width, the entire hamburger menu became clickable.
 
-* The Hamburger Menu has a max-width media query, as opposed to the rest of the website's min-width media queries. The Hamburger Menu's max-width was set to '1050px', but there is also a separate media query for the rest of the website that reduced the Navigation Menu's margin-top to '0' at a screen min-width of '1050px'. This created a bug that was unique to screens that are specifically 1050px wide, whereby clicking the Hamburger Menu would display from the very top of the page, obscuring the Header and preventing the user from closing the Hamburger Menu.
+* The hamburger menu has a max-width media query, as opposed to the rest of the website's min-width media queries. The hamburger menu's max-width was set to '1050px', but there is also a separate media query for the rest of the website that reduced the navigation menu's margin-top to '0' at a screen min-width of '1050px'. This created a bug that was unique to screens that are specifically 1050px wide, whereby clicking the hamburger menu would display from the very top of the page, obscuring the header and preventing the user from closing the hamburger menu.
 
-The Header and Hamburger Menu at 1050px width before opening:
+The header and hamburger menu at 1050px width before opening:
 
-![Hamburger Menu at 1050px width before opening](docs/images/hamburger-menu-bug-1050px-before.png)
+![Hamburger menu at 1050px width before opening](docs/images/hamburger-menu-bug-1050px-before.png)
 
-The Hamburger Menu obscuring the Header when opened at 1050px width:
+The hamburger menu obscuring the header when opened at 1050px width:
 
-![Hamburger Menu at 1050px width bug obscuring Header](docs/images/hamburger-menu-1050px-bug.png)
+![Hamburger menu at 1050px width bug obscuring header](docs/images/hamburger-menu-1050px-bug.png)
 
-I fixed this issue by amending the Hamburger Menu's max-width media query value to 1049px.
+I fixed this issue by amending the hamburger menu's max-width media query value to 1049px.
 
 * After deploying the website to GitHub Pages and sending it to others to test, I received a screenshot of the bottom of Section Three at 640px wide that showed the grey background of the body appearing above the footer due to the background image not being tall enough:
 
@@ -140,23 +140,23 @@ I fixed this issue by amending the Hamburger Menu's max-width media query value 
 
 When testing this further I found that this gap increased even more when reducing to even smaller widths. My solution for this was to set the background image position to 'fixed' which creates an effect similar to parallax scrolling, creating a sense of depth on the page.
 
-* A late addition to the website was the inclusion of the four rehearsal photos on form-submission.html page. Originally, I had given them the 'flex-wrap: nowrap' property, but given the images a small amount of padding and margin, and a width of '25%'. This created a horizontal scroll bar as seen in the screenshots below (screenshots taken in Safari, but confirmed to appear in all other browsers):
+* A late addition to the website was the inclusion of the four rehearsal photos on the Form Submission page. Originally, I had given them the 'flex-wrap: nowrap' property, but given the images a small amount of padding and margin, and a width of '25%'. This created a horizontal scroll bar as seen in the screenshots below (screenshots taken in Safari, but confirmed to appear in all other browsers):
 
 Horizontal scroll at 1050px:
 
-![Rehearsal Photos causing horizontal scroll at 1050px width](docs/images/horizontal-scroll-bug-1050px.png)
+![Rehearsal photos causing horizontal scroll at 1050px width](docs/images/horizontal-scroll-bug-1050px.png)
 
 At 1280px:
 
-![Rehearsal Photos causing horizontal scroll at 1280px width](docs/images/horizontal-scroll-bug-1280px.png)
+![Rehearsal photos causing horizontal scroll at 1280px width](docs/images/horizontal-scroll-bug-1280px.png)
 
 At 1920px (which should be the max-width of everything within the section elements):
 
-![Rehearsal Photos causing horizontal scroll at 1920px width](docs/images/horizontal-scroll-bug-1920px.png)
+![Rehearsal photos causing horizontal scroll at 1920px width](docs/images/horizontal-scroll-bug-1920px.png)
 
-It took me a while to work out what was causing this issue, but eventually I realised that I had forgotten to set the 'box-sizing: border-box' CSS rule to the website. This meant that, because the images were trying to take up 25% of the total space with a 'nowrap' rule in place, but the padding around the images was in addition to that 25% rather than part of it. In addition to this (as explained to me in a demonstration by [**Damon Kreft**](https://github.com/damon-kreft), mentioned in the **'Credits'** section of my [**README.md**](README.md)), I was incorrectly using 'width' and 'object-fit: contain' with padding values when I should have been using 'flex-grow' and 'flex-basis' properties alongside the 'gap' property. Once I implemented the correct use of these Flexbox properties, as well as the 'box-sizing: border-box' CSS rule, this bug was fixed.
+It took me a while to work out what was causing this issue, but eventually I realised that I had forgotten to set the 'box-sizing: border-box' CSS rule to the website. This meant that, because the images were trying to take up 25% of the total space with a 'nowrap' rule in place, the padding around the images was in addition to that 25% rather than part of it. In addition to this (as explained to me in a demonstration by [**Damon Kreft**](https://github.com/damon-kreft), mentioned in the **'Credits'** section of my [**README.md**](README.md)), I was incorrectly using 'width' and 'object-fit: contain' with padding values when I should have been using 'flex-grow' and 'flex-basis' properties alongside the 'gap' property. Once I implemented the correct use of these Flexbox properties, as well as the 'box-sizing: border-box' CSS rule, this bug was fixed.
 
-* Lastly, after setting the 'box-sizing: border-box' CSS rule to the entire website, I found that the calculations I had made for the viewport height of Section One and the Form Submission page on desktop were now incorrect. The calculations I had used previously ('min-height: calc(100vh - [Header height])) were applied when the outer padding and margins had been in addition to the size of the sections, so those calculations now meant that the sections ended with the Header's height left remaining at the bottom of the page (shown below):
+* Lastly, after setting the 'box-sizing: border-box' CSS rule to the entire website, I found that the calculations I had made for the viewport height of Section One and the Form Submission page on desktop were now incorrect. The calculations I had used previously ('min-height: calc(100vh - [header height])) were applied when the outer padding and margins had been in addition to the size of the sections, so those calculations now meant that the sections ended with the header's height left remaining at the bottom of the page (shown below):
 
 Section One viewport height calculation bug at 1600px x 1080px:
 
@@ -166,7 +166,7 @@ Form Submission page viewport height calculation bug at 1600px x 1080px:
 
 ![Form Submission page viewport height calculation bug at 1600x1080px](docs/images/form-submission-viewport-height-bug.png)
 
-To fix this, I simply changed the min-height rule for Section One and the Form Submission page to '100vh', as the padding-top now falls exactly behind the Header.
+To fix this, I simply changed the min-height rule for Section One and the Form Submission page to '100vh', as the padding-top now falls exactly behind the header.
 
 Final view of Section One viewport height at 1600px x 1080px - fixed:
 
@@ -182,7 +182,7 @@ During the development process, I came across some validation issues with both m
 
 #### **W3C HTML Error**
 
-This website utilises code from [Luke Embrey's 10+ Hamburger Menu Examples CSS Only](https://alvarotrigo.com/blog/hamburger-menu-css/), as detailed in the **'Credits'** section of the [**README.md file**](README.md). In the original HTML code that I used, a div element was placed inside a label element, like so:
+This website utilises code from [**Luke Embrey's 10+ Hamburger Menu Examples CSS Only**](https://alvarotrigo.com/blog/hamburger-menu-css/), as detailed in the **'Credits'** section of the [**README.md file**](README.md). In the original HTML code that I used, a div element was placed inside a label element, like so:
 
 ![div element incorrectly placed within label element](docs/images/w3c-error-code.png)
 
@@ -196,9 +196,9 @@ I was able to rectify this by replacing the div element with a span element, as 
 
 A major issue I came up against quite late in development was that the website was performing poorly on Lighthouse and PageSpeed Insights when it was run through their mobile tests.
 
-The Lighthouse scores for index.html and form-submission.html were coming back as between 70 and 85, and the PageSpeed Insights scores were coming back much lower, sometimes even below 60.
+The Lighthouse scores for index.html and form-submission.html were coming back at between 70 and 85, and the PageSpeed Insights scores were coming back much lower, sometimes even below 60.
 
-When looking into the results, it was clear that the main reason for these particularly low scores was that the images used on both pages were very high resolution, and as such taking much longer than necessary to load. The first step I took to improve this was to compress the images through [**Optimizilla**](https://imagecompressor.com/), but this did not make a significant enough change. I then realised that one of the images I was using - 'choir-rehearsing.jpg' - had the enormous dimensions of 5,312 x 2,988px, so I resized the image to match the dimensions of 'choir-orchestra-church.jpg'. I also resized all four images of the choir used on form-submission.html to be smaller, and compressed those as well.
+When looking into the results, it was clear that the main reason for these particularly low scores was that the images used on both pages were very high resolution to allow for the responsive design, and as such taking much longer than necessary to load. The first step I took to improve this was to compress the images through [**Optimizilla**](https://imagecompressor.com/), but this did not make a significant enough change. I then realised that one of the images I was using - 'choir-rehearsing.jpg' - had the enormous dimensions of 5312px x 2988px, so I resized the image to match the dimensions of 'choir-orchestra-church.jpg'. I also resized all four images of the choir used on form-submission.html to be smaller, and compressed those as well.
 
 While this did have a positive impact on the Lighthouse and PageSpeed Insights desktop scores, and the form-submission.html mobile score, it still did not do enough to significantly improve the index.html mobile score. It was at that point that I uploaded a smaller resized version of the images - 'choir-rehearsing-mobile.jpg' and 'choir-orchestra-church-mobile.jpg' - and introduced a picture element containing srcset HTML rules. This increased the mobile scores greatly, as the browser was no longer having to spend so much time loading a much higher resolution image than it would ever need on smaller devices.
 
@@ -206,9 +206,9 @@ While this did have a positive impact on the Lighthouse and PageSpeed Insights d
 
 Both during development and post-development, I ran additional tests on this website to make sure that it had high levels of accessibility.
 
-In addition to the Lighthouse and PageSpeed Insight Accessibility tests, I ran this website through the [**WAVE Web Accessibility Evaluation Tool**](https://wave.webaim.org/). Both index.html and form-submission.html returned one error, which I have detailed in the **'Unresolved Bugs'** section of this document, but passed in all other areas.
+In addition to the Lighthouse and PageSpeed Insights accessibility tests, I ran this website through the [**WAVE Web Accessibility Evaluation Tool**](https://wave.webaim.org/). Both index.html and form-submission.html returned one minor error, which I have detailed in the **'Unresolved Bugs'** section of this document, but it passed in all major areas.
 
-Initially, I had also set most of the heights, widths and dimensions within the website in pixel values. However, when discussing this with my mentor and other developers mentioned in the **'Honourable Mentions'** section of the [**README.md file**](README.md), I learned that it was best practice to use rem measurements. This contributes to good practise in accessibility considerations, as it means that if a user who is partially sighted increases the default text size of their browser, the website scales appropriately and removes any barriers they might otherwise have if the font sizes were fixed by pixels.
+Initially, I had also set most of the heights, widths and dimensions within the website in px values. However, when discussing this with my mentor and the other developers mentioned in the **'Honourable Mentions'** section of the [**README.md**](README.md) file, I learned that it was best practice to use rem measurements instead. This improves website accessibility, as it means that if a user who is partially sighted increases the default text size of their browser, the website scales appropriately and removes any barriers they might otherwise have if the font sizes were fixed by px values.
 
 Following on from this, I had set rules for the height of each page section, so that it would always appear as 100vh minus the height of the header (and footer in the case of Section Three and the Form Submission page). The reason I did this was to create the effect of each section appearing as though it was a separate page when on desktop, to clearly separate the sections in the mind of the user. However, when testing the website's responsiveness to the increased default font-size accessibility tool in Google Chrome, I realised that the fixed viewport height became another barrier to people who need to use this tool. I therefore amended the desktop viewport height rules to be min-height rules, to allow the page to expand to fit the content when larger font-sizes are applied.
 
@@ -236,7 +236,7 @@ The CSS code for this website was entered into the [**W3C CSS Validation Service
 
 When using Lighthouse, I made sure that tests were run in Incognito windows so that there could be no interference from browser extensions.
 
-Below are screenshots of the final, post-development results for both the mobile and desktop Lighthouse tests for index.html and form-submission.html. They were very consistent across multiple browsers and devices, with some tests coming back with perfect 100 scored in all categories, however these screenshots are ones I've taken from my own PC:
+Below are screenshots of the final, post-development results for both the mobile and desktop Lighthouse tests for index.html and form-submission.html. They were very consistent across multiple browsers and devices, with some tests coming back with perfect 100 scored in all categories, however I have chosen to include the screenshots taken from my own PC:
 
 Desktop Lighthouse test - index.html:
 
@@ -254,7 +254,7 @@ Mobile Lighthouse test - form-submission.html:
 
 ![Mobile Lighthouse test - form-submission.html](docs/images/form-submission-mobile-lighthouse.png)
 
-Below are screenshots of the final, post-development results for both the mobile and desktop PageSpeed Insights tests for index.html and form-submission.html. The desktop scores were consistent across multiple browsers and devices, but the mobile versions fluctuated fairly significantly, which I mention in the **'Unresolved Bugs'** section below these screenshots:
+Below are screenshots of the final, post-development results for both the mobile and desktop PageSpeed Insights tests for index.html and form-submission.html. The desktop scores were consistent across multiple browsers and devices, but the mobile versions fluctuated fairly significantly, which I mention in the [**'Unresolved Bugs'**](#unresolved-bugs) section below these screenshots:
 
 Desktop PageSpeed Insights test - index.html:
 
@@ -274,13 +274,13 @@ Mobile PageSpeed Insights test - form-submission.html:
 
 ### **Unresolved Bugs**
 
-There are three noteworthy things about this website that I would consider unresolved bugs:
+There are three particularly noteworthy things about this website that I would consider as being unresolved bugs:
 
 #### **PageSpeed Insights Performance Scores on Mobile**
 
-The biggest and most important unresolved bug is that, when testing the mobile versions of index.html and form-submission.html on PageSpeed Insights, the Performance score often fluctuates. As mentioned in the [**'Validation Issues'**](#validation-issues) section under [**'Bugs'**](#bugs), initially I found that the website scored much lower than desired in its Performance scores due to the high resolutions of the images used on the website (particularly for index.html), and a lack of explicit image widths and heights due to the responsive design model. I was able to improve this score by compressing the images as well as introducing a srcset rule to the HTML, so that the browser would load a lower resolution version of the image for screens under 1280px wide.
+The biggest and most important unresolved bug is that, when testing the mobile versions of index.html and form-submission.html on PageSpeed Insights, the performance score often fluctuates. As mentioned in the [**'Validation Issues'**](#validation-issues) section under [**'Bugs'**](#bugs), initially I found that the website scored much lower than desired in its performance scores due to the high resolutions of the images used on the website (particularly for index.html), and a lack of explicit image widths and heights due to the responsive design model. I was able to improve this score by compressing the images as well as introducing a srcset rule to the HTML, so that the browser would load a lower resolution version of the image for screens under 1280px wide.
 
-While this was enough to significantly raise the Performance score on Lighthouse to above 90, it was not enough to see the same consistency in PageSpeed Insights. As shown above in the final screenshots, the average high score I could get is 88, however the tests would vary, with one tester seeing average scores of around 85, but even in my own testing I sometimes received scores of 70 - 80. I do believe that a potential solution for this would be to resize the images again and add an additional srcset rule for small mobile screens, however I did find that a consistent issue I came across was due to the efficiency of GitHub's cache policy - which is beyond my control. Regardless, this is something I will keep in mind for the future, as well as learning how to use programs like GIMP that would allow me to resize, compress, and save images in next-gen formats such as WEBP.
+While this was enough to significantly raise the performance score on Lighthouse to above 90, it was not enough to see the same consistency in PageSpeed Insights. As shown above in the final screenshots, the average high score I could get is 88, however the tests would vary, with one tester seeing average scores of around 85, another of 83 - 87, but even in my own testing I sometimes received scores as low as 70, and as high as 89. I do believe that a potential solution for this would be to resize the images again and add an additional srcset rule for small mobile screens, however I did find that a consistent issue I came across was due to the efficiency of GitHub's cache policy - which is beyond my control. Regardless, this is something I will keep in mind for the future, as well as learning how to use programs like GIMP that would allow me to resize, compress, and save images in next-gen formats such as WEBP.
 
 #### **Viewport Height Issue on Safari**
 
@@ -296,8 +296,10 @@ After investigating this, it seems that this is a known issue that is usually fi
 
 #### **WAVE Web Access Accessibility Evaluation Error**
 
-When passing index.html and form-submission.html through the [**WAVE Web Accessibility Evaluation Tool**](https://wave.webaim.org/), one error appeared for both pages:
+When passing index.html and form-submission.html through the [**WAVE Web Accessibility Evaluation Tool**](https://wave.webaim.org/), one minor error appeared for both pages:
 
 ![WAVE Accessibility label error](docs/images/wave-accessibility-label-error.png)
 
-The empty label that it refers to is part of the HTML code I used for the hamburger menu, and from what I understand it needs to remain blank. This obviously is not ideal and I would have liked to have caught this earlier in the development cycle so that I could learn how to negate this negative impact on the website's accessibility.
+The empty label that it refers to is part of the HTML code I used for the hamburger menu, and from what I understand it needs to remain blank. This is obviously not ideal and I would have liked to have caught this earlier in the development cycle so that I could learn how to negate this negative impact on the website's accessibility. I hope to be able to learn more about this in the future.
+
+Please click the following link to return to the [**README.md**](README.md) file.
