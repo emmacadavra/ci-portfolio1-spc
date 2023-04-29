@@ -102,7 +102,7 @@ Overall, my testing found that the Sign-Up Form is intuitive and easy for the us
 
 #### **Footer Links**
 
-I tested the Footer's social media links in the same way I tested the Header's Navigation Bar/Hamburger Menu links and the links in Section One.
+I tested the Footer's social media links in the same way I tested the Header's Navigation Bar/Hamburger Menu links and the links in Section One. First, I hovered over each one with a cursor to ensure that the link being hovered over changed colour in line with the styling applied to it. Then, I checked the link that appeared at the bottom of the web page that indicated where the link would direct the user. Finally, I clicked each link to confirm that they opened in a new tab on all browsers so as not to interrupt the user's experience.
 
 ### **Bugs**
 
