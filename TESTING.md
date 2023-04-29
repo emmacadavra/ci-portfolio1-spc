@@ -46,7 +46,9 @@ The site's functionality has been tested and confirmed as fully responsive acros
 
 It has also been tested across different browsers on a variety of virtual operating systems such as Mac, iOS, Android and Windows through the use of [**BrowserStack**](https://www.browserstack.com/live).
 
-I tested the responsiveness of the site on these browsers and virtual devices by dynamically changing and shifting the dimensions of the browser to mimic a variety of mobile, tablet and laptop/desktop screen sizes. I also tested the website on my own personal mobile phone, and asked friends and family to open it on their mobile phones which included the iPhone 11, Samsung Galaxy S10, Huawei P30 Pro, and Xiaomi Poco X3, so that I could get a broader view of how the website displays across different screens.
+This website heavily relies on Flexbox, which I tested on the above mentioned browsers and virtual devices by dynamically changing and shifting the dimensions of the browser to mimic a variety of mobile, tablet and laptop/desktop screen sizes. By dynamically changing the dimensions of the webpage, I was able to test that elements with Flexbox properties were behaving in the way I envisioned them to, for example making sure that there were no instances on form-submission.html where the rehearsal-photos would appear as three images in one row with one in a row beneath it due to flex-wrap, and instead that they followed the rules I had set them to either appear as four in a row, in a two-by-two grid, or in a single column.
+
+I also tested the website on my own personal mobile phone, and asked friends and family to open it on their mobile phones which included the iPhone 11, Samsung Galaxy S10, Huawei P30 Pro, and Xiaomi Poco X3, so that I could get a broader view of how the website displays and responds across different screens. 
 
 ### **Testing of Site Features**
 
@@ -72,7 +74,7 @@ As with the Navigation Bar links, I tested the links within Section One's conten
 
 Testing the functionality of the Sign-Up Form across all devices and browsers was crucial due to its high level of importance in reaching the website's goals.
 
-I tested each input field individually to ensure that each one is required to be filled in correctly. For example, the 'First Name' and 'Last Name' inputs are text fields so that any text can be entered, but they are required so users cannot accidentally submit the form without including their name.
+I tested each input field individually by attempting to submit the form without entering anything into the fields one by one. This was to ensure that the form cannot be submitted without filling in the required inputs, and also to ensure that the user is given an appropriate error when nothing is entered. For example, the 'First Name' and 'Last Name' inputs are text fields so that any text can be entered, but they are required so users cannot accidentally submit the form without including their name.
 
 ![Form - First Name required](docs/images/form-first-name-required.png)
 
@@ -86,7 +88,13 @@ The input field for 'Email Address' is an email input field, which is not only r
 
 ![Form - Incorrect Email Address entry - '.co' in incorrect location](docs/images/form-email-address-incorrect-entry-2.png)
 
-Finally, I tested the radio buttons used for the Voice Part section of the Sign-Up Form.
+Finally, I tested the radio buttons used for the Voice Part section of the Sign-Up Form. I set only the first radio input as required so that the form knows to only accept one of the eight options, so I first tested that the form could not be submitted without selecting one, and then I tested to make sure that only one could be selected at a time. I made sure to test each of the radio button selections when submitting the form to ensure they were all functional.
+
+![Form - Voice Part radio input required](docs/images/form-voice-part-radio-required.png)
+
+![Form - Voice Part single radio button test 1](docs/images/form-complete-1.png)
+
+![Form - Voice Part single radio button test 2](docs/images/form-complete-2.png)
 
 #### **Footer Links**
 
