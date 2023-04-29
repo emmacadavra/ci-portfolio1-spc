@@ -134,7 +134,27 @@ The Hamburger Menu obscuring the Header when opened at 1050px width:
 
 I fixed this issue by amending the Hamburger Menu's max-width media query value to 1049px.
 
-*
+* After deploying the website to GitHub Pages and sending it to others to test, I received a screenshot of the bottom of Section Three at 640px wide that showed the grey background of the body appearing above the footer due to the background image not being tall enough:
+
+![Bottom of Section Three showing grey background beneath background image](docs/images/section-three-bottom-safari-640px.png)
+
+When testing this further I found that this gap increased even more when reducing to even smaller widths. My solution for this was to set the background image position to 'fixed' which creates an effect similar to parallax scrolling, creating a sense of depth on the page.
+
+* A late addition to the website was the inclusion of the four rehearsal photos on form-submission.html page. Originally, I had given them the 'flex-wrap: nowrap' property, but given the images a small amount of padding and margin, and a width of '25%'. This created a horizontal scroll bar as seen in the screenshots below (screenshots taken in Safari, but confirmed to appear in all other browsers):
+
+Horizontal scroll at 1050px:
+
+![Rehearsal Photos causing horizontal scroll at 1050px width](docs/images/horizontal-scroll-bug-1050px.png)
+
+At 1280px:
+
+![Rehearsal Photos causing horizontal scroll at 1280px width](docs/images/horizontal-scroll-bug-1280px.png)
+
+At 1920px (which should be the max-width of everything within the section elements):
+
+![Rehearsal Photos causing horizontal scroll at 1920px width](docs/images/horizontal-scroll-bug-1920px.png)
+
+It took me a while to work out what was causing this issue, but eventually I realised that I had forgotten to set the 'box-sizing: border-box' CSS rule to the website. This meant that, because the images were trying to take up 25% of the total space with a 'nowrap' rule in place, but the padding around the images was in addition to that 25% rather than part of it. In addition to this (as explained to me in a demonstration by [**Damon Kreft**](https://github.com/damon-kreft), mentioned in the **'Credits'** section of my [**README.md**](README.md)), I was incorrectly using 'width' and 'object-fit: contain' with padding values when I should have been using 'flex-grow' and 'flex-basis' properties alongside the 'gap' property. Once I implemented the correct use of these Flexbox properties, as well as the 'box-sizing: border-box' CSS rule, this bug was fixed.
 
 ### **Validation Issues**
 
