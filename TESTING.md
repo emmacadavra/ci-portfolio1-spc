@@ -78,6 +78,16 @@ I tested each input field individually to ensure that each one is required to be
 
 ![Form - Last Name required](docs/images/form-last-name-required.png)
 
+The input field for 'Email Address' is an email input field, which is not only required but also will not let the user accidentally submit something that is not in an email address format.
+
+![Form - Email Address required](docs/images/form-email-address-required.png)
+
+![Form - Incorrect Email Address entry - '@' sign required](docs/images/form-email-address-incorrect-entry-1.png)
+
+![Form - Incorrect Email Address entry - '.co' in incorrect location](docs/images/form-email-address-incorrect-entry-2.png)
+
+Finally, I tested the radio buttons used for the Voice Part section of the Sign-Up Form.
+
 #### **Footer Links**
 
 
