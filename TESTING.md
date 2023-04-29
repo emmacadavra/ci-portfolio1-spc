@@ -106,6 +106,14 @@ I tested the Footer's social media links in the same way I tested the Header's N
 
 ### **Bugs**
 
+Throughout the development process of building this website, I encountered many bugs along the way - many of which involved fixes which then became bugs themselves that needed new fixes - which I have listed below.
+
+* Giving the Header a fixed position meant that the Sections were not displaying properly when navigated to through the Navigation Bar, as the top was obscured by the Header. This was "fixed" by adding placeholder div elements with the same height as the Header to the bottom of Sections One and Two, but entering the navigation link destinations for Sections Two and Three.
+
+* Due to the placeholder div elements being outside of each section's Flexbox rules, they were appearing near the top of the sections, rather than at the bottom, which caused further navigation issues. This was "fixed" by giving the sections 'position: relative' CSS rules, and giving the div elements 'position: absolute' and 'bottom: 0' CSS rules.
+
+* Soon after the above "fix", I was made aware that the placeholder div elements were causing issues with the semantics of the HTML, as the links for each section were appearing as part of the previous section. This would create problems in a variety of areas, such as Accessibility scores (due to the confusion it might cause those using screen readers) and SEO scores due to the incorrect semantics. This was fixed by removing the placeholder div elements entirely, and instead adding a 'scroll-margin-top' CSS rule that matched the Header height, and 'padding-top' to Section One and the Form Submission page.
+
 (Bugs, including border-box sizing, burger menu clickable area being tiny, max-width 1050px burger menu issue, horizontal scroll on form-submission, grey bottom of section-three, page not found due to incorrect file paths on form-submission page, w3c issue with hamburger html, etc)
 
 ### **Validation Issues**
