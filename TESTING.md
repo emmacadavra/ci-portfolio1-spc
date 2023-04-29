@@ -122,6 +122,20 @@ Throughout the development process of building this website, I encountered many 
 
 * The CSS code used for the Hamburger Menu originally had a width of 30px (changed to 1.875rem for Accessibility reasons, explained in the [**'Accessibility'**](#accessibility) section later in this document) but a height of 'auto'. This meant that the clickable area of the Hamburger Menu was extremely small - around only 5px high - creating a barrier to a seamless user experience. By changing the height property to match the width, the entire Hamburger Menu became clickable.
 
+* The Hamburger Menu has a max-width media query, as opposed to the rest of the website's min-width media queries. The Hamburger Menu's max-width was set to '1050px', but there is also a separate media query for the rest of the website that reduced the Navigation Menu's margin-top to '0' at a screen min-width of '1050px'. This created a bug that was unique to screens that are specifically 1050px wide, whereby clicking the Hamburger Menu would display from the very top of the page, obscuring the Header and preventing the user from closing the Hamburger Menu.
+
+The Header and Hamburger Menu at 1050px width before opening:
+
+![Hamburger Menu at 1050px width before opening](docs/images/hamburger-menu-bug-1050px-before.png)
+
+The Hamburger Menu obscuring the Header when opened at 1050px width:
+
+![Hamburger Menu at 1050px width bug obscuring Header](docs/images/hamburger-menu-1050px-bug.png)
+
+I fixed this issue by amending the Hamburger Menu's max-width media query value to 1049px.
+
+*
+
 ### **Validation Issues**
 
 During the development process, I came across some validation issues with both my HTML and Lighthouse/PageSpeed Insight scores.
