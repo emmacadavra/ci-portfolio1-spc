@@ -46,11 +46,13 @@ I tested the responsiveness of the site on these browsers and virtual devices by
 
 ### **Testing of Site Features**
 
-(How I tested the features of the website - ie, forms, links, layout)
+When testing the website across the different browsers, I made sure to test not only that there was consistency in the website's overall design and layout, and that the page elements reacted appropriately without causing any breaks in the design, but also that every element that can be interacted with was working as intended.
+
+As the Site Title also doubles as a link to index.html, I tested this on all browsers by clicking it to make sure the page refreshed, and that no text-decoration appeared on the link itself. Similarly, I tested the links in the Navigation Bar to make sure the hover styling was working, that the links navigated to the correct section, with a smooth scroll animation so that the user knows they are being redirected to a section within the same web page they are currently on. 
 
 ### **Bugs**
 
-(Bugs, including border-box sizing, horizontal scroll on form-submission, grey bottom of section-three, page not found due to incorrect file paths on form-submission page, w3c issue with hamburger html, etc)
+(Bugs, including border-box sizing, burger menu clickable area being tiny, horizontal scroll on form-submission, grey bottom of section-three, page not found due to incorrect file paths on form-submission page, w3c issue with hamburger html, etc)
 
 ### **Validation Issues**
 
